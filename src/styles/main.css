@@ -4590,3 +4590,402 @@ body .about-story-container .about-story-content h2 span {
 .contact-closing {
   background: var(--maroon) !important;
 }
+
+
+/* =========================================================
+   FINAL MOBILE RESPONSIVE FIX
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  /* ---------- GLOBAL ---------- */
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  *,
+  *::before,
+  *::after {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ---------- COMMON CONTAINERS ---------- */
+
+  .hero-container,
+  .home-intro-container,
+  .home-impact-container,
+
+  .about-page-hero-container,
+  .about-story-container,
+  .about-mission-container,
+  .about-values-container,
+  .about-approach-container,
+
+  .services-page-hero-container,
+  .services-list-container,
+  .services-capacity-container,
+  .services-sdg-container,
+  .services-credentials-container,
+  .services-compliance-container,
+  .services-cta-container,
+
+  .projects-page-hero-container,
+  .projects-main-container,
+  .projects-approach-container,
+  .projects-cta-container,
+
+  .team-page-hero-container,
+  .team-main-container,
+  .team-network-container,
+
+  .news-page-hero-container,
+  .news-main-container,
+  .news-cta-container,
+
+  .contact-page-hero-container,
+  .contact-main-container,
+  .contact-closing-container {
+    width: min(100% - 30px, var(--max-width));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ---------- HERO SECTIONS ---------- */
+
+  .hero,
+  .about-page-hero,
+  .services-page-hero,
+  .projects-page-hero,
+  .team-page-hero,
+  .news-page-hero,
+  .contact-page-hero {
+    padding: 65px 0 !important;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr !important;
+    gap: 45px !important;
+  }
+
+  .hero-content,
+  .hero-visual {
+    width: 100%;
+  }
+
+  .hero-content h1,
+  .about-page-hero h1,
+  .services-page-hero h1,
+  .projects-page-hero h1,
+  .team-page-hero h1,
+  .news-page-hero h1,
+  .contact-page-hero h1 {
+    max-width: 100%;
+    font-size: 42px !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.8px !important;
+  }
+
+  .hero-description,
+  .about-page-hero-container > p:last-child,
+  .services-page-hero-container > p:last-child,
+  .projects-page-hero-container > p:last-child,
+  .team-page-hero-container > p:last-child,
+  .news-page-hero-container > p:last-child,
+  .contact-page-hero-container > p:last-child {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  /* ---------- HERO BUTTONS ---------- */
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .hero-primary-button,
+  .hero-secondary-button {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* ---------- HOME INTRO ---------- */
+
+  .home-intro-container {
+    display: block !important;
+  }
+
+  .home-intro h2,
+  .home-impact-content h2,
+  .home-cta h2 {
+    font-size: 38px !important;
+    line-height: 1.08 !important;
+  }
+
+  .home-intro-text {
+    margin-top: 35px;
+  }
+
+  /* ---------- HOME IMPACT ---------- */
+
+  .home-impact-container {
+    display: block !important;
+  }
+
+  .home-impact-content {
+    margin-top: 30px;
+  }
+
+  /* ---------- EXPERT GRIDS ---------- */
+
+  .international-team-grid,
+  .team-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .expert-card {
+    width: 100%;
+  }
+
+  .expert-photo img {
+    width: 100%;
+    display: block;
+  }
+
+  .international-team-grid .expert-experience {
+    height: auto;
+  }
+
+  .international-team-grid .expert-content h3,
+  .team-grid .expert-content h3 {
+    min-height: auto;
+  }
+
+  .international-team-grid .expert-role,
+  .team-grid .expert-role {
+    min-height: auto;
+  }
+
+  /* ---------- SERVICES ---------- */
+
+  .services-expertise-grid,
+  .services-sdg-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .services-capacity-container {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+
+  .services-expertise-card {
+    min-height: auto !important;
+  }
+
+  /* ---------- PROJECTS ---------- */
+
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .project-card {
+    grid-template-columns: 45px 1fr;
+    padding: 24px;
+  }
+
+  .projects-intro h2 {
+    padding-left: 0 !important;
+  }
+
+  .projects-intro h2 span {
+    margin-left: 0 !important;
+  }
+
+  /* ---------- TEAM ---------- */
+
+  .team-main-heading h2,
+  .team-network-heading h2 {
+    font-size: 38px !important;
+  }
+
+  .team-network-container {
+    grid-template-columns: 1fr !important;
+    gap: 35px !important;
+  }
+
+  .team-network {
+    padding: 70px 0 !important;
+  }
+
+  /* ---------- NEWS ---------- */
+
+  .news-empty {
+    grid-template-columns: 1fr !important;
+    gap: 18px;
+    padding: 25px;
+  }
+
+  .news-empty h3 {
+    font-size: 24px;
+  }
+
+  /* ---------- CONTACT ---------- */
+
+  .contact-main-container {
+    grid-template-columns: 1fr !important;
+    gap: 45px !important;
+  }
+
+  .contact-closing {
+    padding: 70px 0 !important;
+  }
+
+  /* ---------- CTA SECTIONS ---------- */
+
+  .home-cta-container,
+  .about-cta-container,
+  .services-cta-container,
+  .projects-cta-container,
+  .news-cta-container,
+  .contact-closing-container {
+    width: min(100% - 30px, var(--max-width));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ---------- SECTION SPACING ---------- */
+
+  .home-intro,
+  .home-impact,
+  .about-story,
+  .about-mission,
+  .about-values,
+  .about-approach,
+  .services-expertise,
+  .services-capacity,
+  .services-sdg,
+  .services-credentials,
+  .services-compliance,
+  .projects-main,
+  .projects-approach,
+  .team-main,
+  .news-main {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+  }
+}
+
+/* =========================================================
+   MOBILE NAVIGATION MENU
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .mobile-menu-button {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    width: 44px;
+    height: 44px;
+    margin-left: auto;
+
+    border: 1px solid var(--border);
+    border-radius: 4px;
+
+    background: #ffffff;
+    color: var(--navy);
+
+    cursor: pointer;
+    z-index: 1002;
+  }
+
+  .mobile-menu-button span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--navy);
+  }
+
+  .mobile-navbar {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 15px;
+    left: 15px;
+
+    display: none;
+    flex-direction: column;
+
+    padding: 20px;
+
+    background: #ffffff;
+    border: 1px solid var(--border);
+    box-shadow: 0 15px 35px rgba(16, 42, 67, 0.15);
+
+    z-index: 1001;
+  }
+
+  .mobile-navbar.mobile-navbar-open {
+    display: flex !important;
+  }
+
+  .mobile-navbar > a {
+    display: block;
+    padding: 14px 8px;
+
+    color: var(--navy);
+    font-size: 15px;
+    font-weight: 600;
+
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .mobile-navbar > a:last-of-type {
+    border-bottom: none;
+  }
+
+  .mobile-navbar > a:hover {
+    color: var(--maroon);
+  }
+
+  .mobile-language-selector {
+    display: flex;
+    gap: 8px;
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+  }
+
+  .mobile-language-selector button {
+    flex: 1;
+    padding: 10px 6px;
+
+    border: 1px solid var(--border);
+    background: #ffffff;
+    color: var(--navy);
+
+    cursor: pointer;
+  }
+
+  .mobile-language-selector button.active {
+    background: var(--maroon);
+    color: #ffffff;
+    border-color: var(--maroon);
+  }
+}
