@@ -1,0 +1,387 @@
+/* =========================================================
+   1. CONTACT PAGE
+   ========================================================= */
+
+.contact-page {
+  background: #ffffff;
+  color: #222222;
+}
+
+
+/* =========================================================
+   2. CONTACT HERO
+   ========================================================= */
+
+.contact-page-hero {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 24px;
+  background: #172b45;
+}
+
+.contact-page-hero-container {
+  width: min(900px, 100%);
+  margin: 0 auto;
+}
+
+.contact-page-hero .section-label {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #d4af37;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.contact-page-hero h1 {
+  margin: 0 0 20px;
+  color: #ffffff;
+  font-size: clamp(42px, 6vw, 64px);
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.contact-page-hero h1 span {
+  display: inline;
+  margin-left: 0.25em;
+}
+
+.contact-page-hero > .contact-page-hero-container > p:last-child {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #e8edf2;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   3. MAIN CONTACT SECTION
+   ========================================================= */
+
+.contact-main {
+  padding: 100px 24px;
+  background: #ffffff;
+}
+
+.contact-main-container {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+
+/* =========================================================
+   4. CONTACT INFORMATION
+   ========================================================= */
+
+.contact-information {
+  padding-top: 10px;
+}
+
+.contact-information .section-label {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #b08d20;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+
+.contact-information h2 {
+  margin: 0 0 22px;
+  color: #172b45;
+  font-size: clamp(34px, 4vw, 48px);
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.contact-information h2 span {
+  display: inline;
+  margin-left: 0.25em;
+}
+
+.contact-information > p {
+  max-width: 520px;
+  margin-bottom: 45px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   5. CONTACT DETAILS
+   ========================================================= */
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-detail {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 28px;
+  align-items: flex-start;
+}
+
+.contact-detail > span {
+  width: 42px;
+  flex-shrink: 0;
+  color: #b08d20;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contact-detail h3 {
+  margin: 0 0 6px;
+  color: #172b45;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contact-detail p {
+  margin: 0;
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   6. CONTACT FORM
+   ========================================================= */
+
+.contact-form-wrapper {
+  padding: 48px;
+  border: 1px solid #e7e7e7;
+  background: #fafafa;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.06);
+}
+
+.contact-form-label {
+  margin-bottom: 30px;
+  color: #b08d20;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.contact-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-field label {
+  color: #283b52;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contact-field input,
+.contact-field textarea {
+  width: 100%;
+  padding: 15px 16px;
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  outline: none;
+  background: #ffffff;
+  color: #222222;
+  font-family: inherit;
+  font-size: 15px;
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.contact-field input {
+  height: 50px;
+}
+
+.contact-field textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-field input::placeholder,
+.contact-field textarea::placeholder {
+  color: #9a9a9a;
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  border-color: #b08d20;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.12);
+}
+
+
+/* =========================================================
+   7. SUBMIT BUTTON
+   ========================================================= */
+
+.contact-submit-button {
+  width: fit-content;
+  min-width: 170px;
+  padding: 15px 28px;
+  border: 1px solid #172b45;
+  background: #172b45;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.contact-submit-button:hover {
+  background: #d4af37;
+  border-color: #d4af37;
+  color: #172b45;
+}
+
+
+/* =========================================================
+   8. DEMO FORM NOTE
+   ========================================================= */
+
+.contact-form-note {
+  margin: -4px 0 0;
+  color: #8a8a8a;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   9. CONTACT CLOSING
+   ========================================================= */
+
+.contact-closing {
+  padding: 85px 24px;
+  background: #172b45;
+  text-align: center;
+}
+
+.contact-closing-container {
+  width: min(800px, 100%);
+  margin: 0 auto;
+}
+
+.contact-closing .section-label {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #d4af37;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.contact-closing h2 {
+  margin: 0 0 18px;
+  color: #ffffff;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.contact-closing h2 span {
+  display: inline;
+  margin-left: 0.25em;
+}
+
+.contact-closing p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #dce3ea;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   10. TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .contact-main-container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .contact-information {
+    max-width: 700px;
+  }
+
+  .contact-form-wrapper {
+    max-width: 700px;
+  }
+}
+
+
+/* =========================================================
+   11. MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .contact-page-hero {
+    min-height: 360px;
+    padding: 80px 20px;
+  }
+
+  .contact-page-hero h1 {
+    font-size: 40px;
+  }
+
+  .contact-page-hero > .contact-page-hero-container > p:last-child {
+    font-size: 16px;
+  }
+
+  .contact-main {
+    padding: 70px 20px;
+  }
+
+  .contact-information h2 {
+    font-size: 34px;
+  }
+
+  .contact-form-wrapper {
+    padding: 28px 22px;
+  }
+
+  .contact-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-submit-button {
+    width: 100%;
+  }
+
+  .contact-closing {
+    padding: 65px 20px;
+  }
+}
