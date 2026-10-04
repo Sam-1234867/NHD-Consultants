@@ -1712,14 +1712,9 @@ h2 span {
    ========================================================= */
 
 .services-capacity {
-  padding: 90px 0;
-
-  background: var(--off-white);
-
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
+  padding: 110px 0;
+  background: #f8f9fb;
 }
-
 .services-capacity-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -3510,7 +3505,7 @@ h2 span {
 
 .services-expertise {
   padding: 110px 0;
-  background: #f8f9fb;
+background: #ffffff;
 }
 
 .services-expertise-container {
@@ -3655,7 +3650,7 @@ h2 span {
 
 .services-capacity {
   padding: 110px 0;
-  background: #ffffff;
+ background: #f8f9fb;
 }
 
 .services-capacity-container {
@@ -4568,4 +4563,30 @@ body .about-story-container .about-story-content h2 span {
   font-size: 16px;
   line-height: 1.85;
   text-align: left;
+}
+
+
+
+/* SERVICES — BACKGROUND FIX */
+
+.services-capacity {
+  background: var(--off-white) !important;
+}
+
+
+/* =========================================================
+   EXPERTS PAGE — BOTTOM SECTION
+   ========================================================= */
+
+.team-network {
+  background: var(--maroon) !important;
+}
+
+
+/* =========================================================
+   CONTACT PAGE — BOTTOM SECTION
+   ========================================================= */
+
+.contact-closing {
+  background: var(--maroon) !important;
 }

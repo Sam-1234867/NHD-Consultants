@@ -357,20 +357,20 @@ const internationalExperts = [
     </div>
 
     <div className="expert-content">
-      <span className="expert-number">
-        {expert.number}
-      </span>
+  <span className="expert-number">
+    {expert.number}
+  </span>
 
-      <p className="expert-experience">
-        {expert.experience}
-      </p>
+  <h3>{expert.name}</h3>
 
-      <h3>{expert.name}</h3>
+  <p className="expert-role">
+    {expert.position}
+  </p>
 
-      <p className="expert-role">
-        {expert.position}
-      </p>
-    </div>
+  <p className="expert-experience">
+    {expert.experience}
+  </p>
+</div>
   </article>
 ))}
           </div>
