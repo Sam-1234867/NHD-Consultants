@@ -9,6 +9,8 @@ import Contact from "./pages/Contact";
 import News from "./pages/News";
 import Team from "./pages/Team";
 
+
+
 function App() {
   const path = window.location.pathname;
 
@@ -26,7 +28,7 @@ function App() {
   page = <Contact />;
 } else if (path === "/news") {
   page = <News />;
-} else {
+}  else {
   page = <Home />;
 }
 

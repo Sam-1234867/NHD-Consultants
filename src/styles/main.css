@@ -326,6 +326,14 @@ h2 span {
   flex-shrink: 0;
 }
 
+.navbar-logo {
+  width: 65px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+
 .brand-main {
   color: var(--navy);
 
@@ -830,6 +838,7 @@ h2 span {
 
   font-size: 13px;
   line-height: 1.8;
+   text-align: justify;
 }
 
 .home-service-content a {
@@ -935,6 +944,7 @@ h2 span {
 
   font-size: 13px;
   line-height: 1.75;
+  text-align: justify;
 }
 
 .home-approach-card:hover h3,
@@ -983,9 +993,9 @@ h2 span {
 
 .international-team-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 
-  gap: 24px;
+  gap: 16px;
 }
 
 .international-team-grid .expert-card {
@@ -2841,6 +2851,12 @@ h2 span {
   font-size: 27px;
   font-weight: 800;
   letter-spacing: -1px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  text-transform: uppercase;
 }
 
 .footer-tagline {
@@ -4989,3 +5005,18 @@ body .about-story-container .about-story-content h2 span {
     border-color: var(--maroon);
   }
 }
+
+
+
+
+.navbar-logo {
+  width: 65px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+
+
+
+

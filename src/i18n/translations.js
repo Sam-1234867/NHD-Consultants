@@ -2,11 +2,14 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
 const resources = {
+  /* =========================================================
+     ENGLISH
+     ========================================================= */
   en: {
     translation: {
-      /* =========================================================
+      /* =====================================================
          NAVIGATION
-         ========================================================= */
+         ===================================================== */
       nav: {
         home: "Home",
         about: "About Us",
@@ -18,249 +21,443 @@ const resources = {
         start: "Start a Conversation",
       },
 
-      /* =========================================================
+      /* =====================================================
          HOME
-         ========================================================= */
+         ===================================================== */
       home: {
-        heroLabel: "NHD CONSULTANTS",
-        heroTitle1: "Strategic Thinking.",
-        heroTitle2: "Practical Results.",
+        heroLabel: "NHD Consultants",
+        heroTitle1: "Continuing a proven legacy",
+        heroTitle2: "of success in Tajikistan.",
         heroDescription:
-          "Professional consulting solutions supporting sustainable development, stronger institutions, and lasting impact.",
-
+          "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
         primaryButton: "Explore Our Services",
         secondaryButton: "Contact Us",
 
-        approachLabel: "OUR APPROACH",
-        approachTitle1: "Experience that",
-        approachTitle2: "creates impact.",
+        localExpertise: "Local Expertise",
+        socialImpact: "Social Impact",
+        sustainableSolutions: "Sustainable Solutions",
+        companyLabel: "ABOUT THE COMPANY",
+
+heroCardTitle1: "Practical, Sustainable",
+heroCardTitle2: "Solutions",
+
+heroCardTitle3: "Institutionally Embedded",
+heroCardTitle4: "Development",
+
+heroCardDescription:
+  "New Horizons of Dushanbe LLC is a newly established, legally independent consulting firm built on a proven track record of leadership and operational excellence.",
+        aboutLabel: "ABOUT THE COMPANY",
+        introTitle1: "Continuing a proven legacy",
+introTitle2: "of success in Tajikistan.",
+
+introParagraph1:
+  "New Horizons of Dushanbe LLC is a newly established, legally independent consulting firm built on a proven track record of leadership and operational excellence. Our management team previously led, managed, and successfully delivered a broad portfolio of high-impact projects during their tenure at BAZIS, GMES and BDO. We bring this extensive execution capability and rigorous project management approach directly to our new firm.",
+
+introParagraph2:
+  "Led by former managing directors who successfully drove these complex initiatives alongside a former senior cabinet official with over 25 years of municipal utility experience our leadership combines deep local knowledge with international best practices.",
+
+introParagraph3:
+  "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
+        aboutTitle1: "Continuing a proven legacy",
+        aboutTitle2: "of success in Tajikistan.",
+        aboutDescription1:
+          "New Horizons of Dushanbe LLC is a newly established, legally independent consulting firm built on a proven track record of leadership and operational excellence. Our management team previously led, managed, and successfully delivered a broad portfolio of high-impact projects during their tenure at BAZIS, GMES and BDO. We bring this extensive execution capability and rigorous project management approach directly to our new firm.",
+        aboutDescription2:
+          "Led by former managing directors who successfully drove these complex initiatives alongside a former senior cabinet official with over 25 years of municipal utility experience our leadership combines deep local knowledge with international best practices.",
+        aboutDescription3:
+          "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
+        discoverMore: "Discover More",
+
+        sectorsLabel: "CORE SECTORS OF INTERVENTION",
+        sectorsTitle1: "Core Sectors",
+        sectorsTitle2: "of Intervention",
+        allExpertise: "View All Expertise",
+        exploreSector: "Explore Sector",
+
+        sector1Title: "Water, Sanitation, and Hygiene (WASH)",
+        sector1Description:
+          "Developing sustainable tariff structures, comprehensive economic feasibility studies, and effective legal and institutional frameworks to ensure reliable, efficient, resilient, and financially sustainable regional clean water services. Our approach combines sound economic analysis, regulatory alignment, and strategic planning to strengthen service delivery, improve operational efficiency, and support the long-term sustainability of water infrastructure systems.",
+
+        sector2Title: "Wastewater Treatment and Sustainable Management",
+        sector2Description:
+          "Delivering innovative and sustainable wastewater treatment solutions through advanced technologies, efficient system design, and environmentally responsible management practices. We support the development of reliable wastewater infrastructure that enhances public health, protects natural resources, and promotes long-term operational sustainability for communities and institutions.",
+
+        sector3Title: "Integrated Water Conveyance and Channel Management",
+        sector3Description:
+          "Providing sustainable water conveyance solutions and effective channel management approaches to support efficient water distribution, system reliability, and long-term resource sustainability. We focus on practical planning, optimized infrastructure performance, and environmentally responsible practices to enhance water management outcomes for communities and regional development.",
+
+        sector4Title: "Advanced Irrigation and Water Resource Management",
+        sector4Description:
+          "Delivering innovative irrigation solutions and integrated water resource management approaches to improve water efficiency, optimize agricultural productivity, and promote sustainable use of available resources. We support resilient water systems through strategic planning, modern technologies, and environmentally responsible practices that benefit communities and future generations.",
+
+        approachLabel: "OUR STRATEGIC APPROACH",
+        approachTitle1: "A practical approach",
+        approachTitle2: "to lasting impact.",
         approachDescription:
-          "NHD Consultants combines international experience, local expertise, and practical advisory support to help organizations achieve meaningful and sustainable results.",
+          "We prioritize actions over theories. Our teams execute practical, evidence-based, and institutionally embedded measures that survive past the end of the project cycle.",
 
-        whyLabel: "WHY NHD",
-        whyTitle1: "Professional expertise.",
-        whyTitle2: "Local understanding.",
-        whyDescription:
-          "We bring together multidisciplinary expertise and practical knowledge to support complex development and advisory needs.",
+        approach1Title: "Client Orientation",
+        approach1Description:
+          "We completely reject one-size-fits-all options. Every advisory program is specifically custom-tailored to resolve the unique, highly practical challenges of our respective clients.",
 
-        servicesLabel: "OUR SERVICES",
-        servicesTitle1: "Solutions designed",
-        servicesTitle2: "for real challenges.",
-        servicesDescription:
-          "Our consulting services support infrastructure, institutions, communities, and organizations working toward sustainable development.",
+        approach2Title: "Strategic Partnership",
+        approach2Description:
+          "Our operations are deeply collaborative. We build lasting bridges linking regional governments, international financial donors, and local community leaders together.",
+
+        approach3Title: "Proven Effectiveness",
+        approach3Description:
+          "We prioritize actions over theories. Our teams execute practical, evidence-based, and institutionally embedded measures that survive past the end of the project cycle.",
+
+        approach4Title: "Continuous Development",
+        approach4Description:
+          "We consistently build local capacities. We proactively adapt modern management systems to meet newly evolving macroeconomic and environmental challenges.",
 
         teamLabel: "OUR INTERNATIONAL TEAM",
         teamTitle1: "Experts with",
-        teamTitle2: "global experience.",
+        teamTitle2: "Global Experience.",
         teamDescription:
-          "Our international team brings diverse professional backgrounds and extensive experience across development, infrastructure, institutional reform, and advisory services.",
+          "Our international team brings extensive professional experience across development, infrastructure, institutional reform, and advisory services.",
 
-        teamButton: "Meet Our Experts",
+        impactLabel: "SDG & SOCIAL IMPACT",
+        impactTitle1: "Building Resilient Communities",
+        impactTitle2: "Through Responsible Development",
+        impactDescription:
+          "NHD Consultants embed sustainability, social responsibility, and measurable impact into our projects, aligning our advisory services with the United Nations Sustainable Development Goals (SDGs). Through inclusive approaches and responsible practices, we support initiatives that improve communities, strengthen resilience, and create long-term value for society. Our commitment extends beyond project delivery, focusing on positive transformation, equitable opportunities, and sustainable outcomes for future generations. By integrating environmental, social, and governance principles, we help partners achieve meaningful impact and lasting development benefits.",
+        exploreImpact: "Explore Our Impact",
+
+        impactSectionLabel: "SDG / SOCIAL IMPACT",
+impactSectionTitle1: "Sustainable Solutions for",
+impactSectionTitle2: "Lasting Impact.",
+impactSectionDescription:
+  "NHD Consultants supports sustainable development through practical solutions that strengthen infrastructure, improve services, and create lasting social and economic impact.",
+impactSectionButton: "Explore Our Services",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Let's build",
-        ctaTitle2: "lasting solutions.",
+        ctaTitle1: "Building Resilient Communities",
+        ctaTitle2: "Through Responsible Development",
         ctaDescription:
-          "Connect with our team to discuss your development, infrastructure, or advisory needs.",
-        ctaButton: "Start a Conversation",
+          "We embed sustainability, social responsibility, and measurable impact into our projects, aligning our advisory services with the United Nations Sustainable Development Goals (SDGs).",
+        ctaButton: "Contact Us",
+
+        ctaSectionLabel: "NHD CONSULTANTS",
+ctaSectionTitle1: "Ready to Create",
+ctaSectionTitle2: "Practical Impact?",
+ctaSectionDescription:
+  "Let’s work together to develop practical, sustainable solutions that create lasting value for your organization and the communities you serve.",
+ctaSectionButton: "Contact Us",
       },
 
-      /* =========================================================
+      /* =====================================================
          ABOUT
-         ========================================================= */
+         ===================================================== */
       about: {
-        heroLabel: "ABOUT NHD CONSULTANTS",
-        heroTitle1: "Experience.",
-        heroTitle2: "Perspective.",
+        heroLabel: "ABOUT THE COMPANY",
+        heroTitle1: "Continuing a proven legacy",
+        heroTitle2: "of success in Tajikistan.",
         heroDescription:
-          "New Horizons of Dushanbe LLC provides professional consulting and advisory services supporting sustainable development and institutional growth.",
+          "New Horizons of Dushanbe LLC is a newly established, legally independent consulting firm built on a proven track record of leadership and operational excellence. Our management team previously led, managed, and successfully delivered a broad portfolio of high-impact projects during their tenure at BAZIS, GMES and BDO. We bring this extensive execution capability and rigorous project management approach directly to our new firm.",
 
         storyLabel: "OUR STORY",
-        storyTitle1: "Building better",
-        storyTitle2: "horizons.",
+        storyTitle1: "Local Expertise",
+        storyTitle2: "International Best Practices",
         storyDescription1:
-          "NHD Consultants works with organizations and development partners to address complex challenges through practical and responsible advisory services.",
+          "Led by former managing directors who successfully drove these complex initiatives alongside a former senior cabinet official with over 25 years of municipal utility experience our leadership combines deep local knowledge with international best practices.",
         storyDescription2:
-          "Our approach combines international experience with an understanding of local realities, helping clients develop solutions that are practical, sustainable, and responsive to their needs.",
+          "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
 
         missionLabel: "OUR MISSION",
-        missionTitle1: "Practical solutions.",
-        missionTitle2: "Meaningful impact.",
+        missionTitle: "Empower local communities",
         missionDescription:
-          "Our mission is to provide professional advisory support that strengthens institutions, communities, and development initiatives.",
+          "Empower local communities, ensure equal opportunities, and embed international standards into everyday practices. We align every action with the Sustainable Development Goals (SDGs) and key donor priorities in institutional reform and social inclusion.",
 
         visionLabel: "OUR VISION",
-        visionTitle1: "A stronger",
-        visionTitle2: "future.",
+        visionTitle: "The most reliable and trusted partner",
         visionDescription:
-          "We envision a future where informed decisions, responsible development, and effective institutions contribute to resilient and sustainable communities.",
+          "To be the most reliable and trusted partner for governments, international donor organizations, and local communities, helping them achieve sustainable growth, strengthen governance institutions, and ensure highly inclusive development in line with the UN SDGs.",
 
-        valuesLabel: "OUR VALUES",
+        valuesLabel: "OUR CORE VALUES",
         valuesTitle1: "What guides",
         valuesTitle2: "our work.",
 
         value1Title: "Professionalism",
         value1Description:
-          "We maintain high professional standards and responsible working practices.",
+          "We maintain the highest standards of technical quality, precision, and execution excellence in every municipal utility and infrastructure assignment we undertake. Our commitment to innovation, safety, and quality ensures reliable, efficient, and sustainable solutions for every project.",
 
         value2Title: "Integrity",
         value2Description:
-          "We approach every engagement with transparency, accountability, and respect.",
+          "Transparency, uncompromising ethics, and absolute accountability are the foundation of everything we do. We foster trusted advisory partnerships with international financial institutions by delivering objective guidance, responsible project management, and the highest standards of professional integrity.",
 
-        value3Title: "Local Understanding",
+        value3Title: "Excellence",
         value3Description:
-          "We recognize the importance of local context when developing practical solutions.",
+          "We focus on delivering practical, measurable outcomes that enhance community well-being, strengthen local infrastructure, and create lasting social impact across Tajikistan. Through innovative engineering, sustainable solutions, and collaborative partnerships.",
 
-        value4Title: "Sustainability",
+        value4Title: "Innovation",
         value4Description:
-          "We focus on solutions that create lasting value for institutions and communities.",
+          "We champion continuous learning and the adoption of modern solutions to drive innovation and operational excellence. By integrating advanced digital tools and technologies, we streamline local operational processes, enhance efficiency, improve decision-making, and deliver greater value to our clients.",
 
-        ctaLabel: "WORK WITH NHD",
-        ctaTitle1: "Experience meets",
-        ctaTitle2: "local insight.",
+        approachLabel: "OUR STRATEGIC APPROACH",
+        approachHeading1: "A practical approach",
+        approachHeading2: "to lasting impact.",
+        approachDescription:
+          "We prioritize actions over theories. Our teams execute practical, evidence-based, and institutionally embedded measures that survive past the end of the project cycle.",
+
+        approach1Title: "Client Orientation",
+        approach1Description:
+          "We completely reject one-size-fits-all options. Every advisory program is specifically custom-tailored to resolve the unique, highly practical challenges of our respective clients.",
+
+        approach2Title: "Strategic Partnership",
+        approach2Description:
+          "Our operations are deeply collaborative. We build lasting bridges linking regional governments, international financial donors, and local community leaders together.",
+
+        approach3Title: "Proven Effectiveness",
+        approach3Description:
+          "We prioritize actions over theories. Our teams execute practical, evidence-based, and institutionally embedded measures that survive past the end of the project cycle.",
+
+        approach4Title: "Continuous Development",
+        approach4Description:
+          "We consistently build local capacities. We proactively adapt modern management systems to meet newly evolving macroeconomic and environmental challenges.",
+
+        ctaLabel: "NHD CONSULTANTS",
+        ctaTitle1: "Building Resilient Communities",
+        ctaTitle2: "Through Responsible Development",
         ctaDescription:
-          "Our multidisciplinary perspective allows us to support clients across a range of development and advisory challenges.",
-        ctaButton: "Explore Our Services",
+          "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
+        ctaButton: "Contact Us",
       },
 
-      /* =========================================================
+      /* =====================================================
          SERVICES
-         ========================================================= */
+         ===================================================== */
       services: {
         heroLabel: "OUR SERVICES",
-        heroTitle1: "Expertise for",
-        heroTitle2: "complex challenges.",
+        heroTitle1: "Practical, Sustainable",
+        heroTitle2: "Solutions",
         heroDescription:
-          "NHD Consultants provides practical advisory and consulting services across key areas of development and institutional support.",
+          "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
 
-        listLabel: "OUR CORE EXPERTISE",
-        listTitle1: "Practical knowledge.",
-        listTitle2: "Professional solutions.",
-        listDescription:
-          "Our services bring together international experience, technical expertise, and local understanding to support sustainable results.",
+        expertiseLabel: "CORE SECTORS OF INTERVENTION",
+        expertiseTitle1: "Our Areas",
+        expertiseTitle2: "of Expertise",
 
-        service1Title: "Water & Sanitation",
+        service1Title: "Water, Sanitation, and Hygiene (WASH)",
         service1Description:
-          "Advisory support for water, sanitation, and related development initiatives.",
+          "Developing sustainable tariff structures, comprehensive economic feasibility studies, and effective legal and institutional frameworks to ensure reliable, efficient, resilient, and financially sustainable regional clean water services. Our approach combines sound economic analysis, regulatory alignment, and strategic planning to strengthen service delivery, improve operational efficiency, and support the long-term sustainability of water infrastructure systems.",
 
-        service2Title: "Infrastructure & Utilities",
+        service2Title: "Wastewater Treatment and Sustainable Management",
         service2Description:
-          "Consulting support for infrastructure, utilities, and essential public services.",
+          "Delivering innovative and sustainable wastewater treatment solutions through advanced technologies, efficient system design, and environmentally responsible management practices. We support the development of reliable wastewater infrastructure that enhances public health, protects natural resources, and promotes long-term operational sustainability for communities and institutions.",
 
-        service3Title: "Social Development",
+        service3Title: "Integrated Water Conveyance and Channel Management",
         service3Description:
-          "Advisory services supporting communities, institutions, and inclusive development.",
+          "Providing sustainable water conveyance solutions and effective channel management approaches to support efficient water distribution, system reliability, and long-term resource sustainability. We focus on practical planning, optimized infrastructure performance, and environmentally responsible practices to enhance water management outcomes for communities and regional development.",
 
-        service4Title: "Digital Transformation",
+        service4Title: "Advanced Irrigation and Water Resource Management",
         service4Description:
-          "Practical support for digital solutions, institutional modernization, and transformation.",
+          "Delivering innovative irrigation solutions and integrated water resource management approaches to improve water efficiency, optimize agricultural productivity, and promote sustainable use of available resources. We support resilient water systems through strategic planning, modern technologies, and environmentally responsible practices that benefit communities and future generations.",
 
-        capacityLabel: "OUR CAPACITY",
-        capacityTitle1: "International experience.",
-        capacityTitle2: "Local perspective.",
+        service5Title: "Solid Waste Management",
+        service5Description:
+          "Providing integrated solid waste management solutions covering efficient collection systems, waste treatment, recycling initiatives, and environmentally responsible landfill management. We support cleaner and healthier communities through sustainable waste practices, optimized disposal methods, resource recovery, and modern landfill solutions that protect the environment and promote long-term sustainability.",
 
+        service6Title: "Environmental Safeguards",
+        service6Description:
+          "Ensuring responsible project implementation through comprehensive environmental safeguard practices, regulatory compliance, and sustainable development approaches. We apply environmental assessments, risk management strategies, monitoring programs, and mitigation measures to protect natural resources, minimize impacts, and support environmentally resilient infrastructure development.",
+
+        service7Title: "Waste-to-Resource Economic Feasibility",
+        service7Description:
+          "Advancing sustainable resource recovery through comprehensive economic feasibility assessments, market analysis, and investment planning for waste-to-resource initiatives. Our approach evaluates technical viability, financial sustainability, and environmental benefits to support informed decision-making and the development of circular economy solutions.",
+
+        service8Title:
+          "Community Stakeholder Participation & Public Awareness Programs",
+        service8Description:
+          "Strengthening community engagement through inclusive stakeholder participation, awareness initiatives, and effective communication strategies. Our approach promotes transparency, builds public understanding, and encourages collaboration among communities, institutions, and project stakeholders to support sustainable development outcomes.",
+
+        service9Title: "Institutional Planning and Development",
+        service9Description:
+          "Strengthening organizational capacity through strategic planning, institutional development frameworks, and effective governance approaches. We support institutions in improving operational efficiency, enhancing decision-making processes, and building sustainable systems that enable long-term growth, resilience, and effective service delivery.",
+
+        service10Title: "Gender Equity and Inclusion",
+        service10Description:
+          "Promoting inclusive development through gender-responsive approaches, equitable participation, and social inclusion strategies. We support organizations and communities in creating opportunities for all stakeholders, strengthening accessibility, empowering diverse voices, and fostering sustainable outcomes through fair and inclusive practices.",
+
+        capacityLabel: "CAPACITY BUILDING",
+        capacityTitle1: "Knowledge &",
+        capacityTitle2: "Skill Integration",
         capacityDescription1:
-          "Our team combines diverse professional backgrounds with experience working across development and advisory environments.",
-
+          "We deliver tailored vocational programs, hands-on digital workshops, and organizational training specifically designed for public utility personnel.",
         capacityDescription2:
-          "We understand that successful projects require more than technical knowledge. They require clear communication, local understanding, and practical implementation.",
-
+          "Sustainable transformation requires more than modern infrastructure—it demands local capability. Through structured knowledge transfer, NHD Consultants bridges the gap between technology deployment and long-term utility management.",
         capacityDescription3:
-          "NHD Consultants brings these perspectives together to help clients move from strategy to meaningful results.",
+          "We empower regional administrators and municipal teams to independently operate newly implemented billing databases, cutting-edge metering technologies, and robust Environmental, Health, and Safety (EHS) safeguards.",
+        capacityDescription4:
+          "By transforming technical execution into lasting institutional expertise, we ensure local teams drive efficiency, compliance, and growth with complete confidence.",
+
+        sdgLabel: "SDG & SOCIAL IMPACT",
+        sdgTitle1: "Building Resilient Communities",
+        sdgTitle2: "Through Responsible Development",
+
+        sdg6Title: "Clean Water",
+        sdg6Description: "Broadening structural utility accessibility.",
+
+        sdg5Title: "Gender Equality",
+        sdg5Description: "Formulating equitable recruitment strategies.",
+
+        sdg11Title: "Sustainable Cities",
+        sdg11Description: "Driving localized green policy reform.",
+
+        credentialsLabel: "PROJECT CREDENTIALS",
+        credentialsTitle1: "Proven Experience",
+        credentialsTitle2: "Delivered Results",
+
+        credential1Sector: "Water Supply & Sanitation",
+        credential1Client: "ADB / EBRD",
+        credential1Scope:
+          "Restructuring tariff systems, developing cost-recovery business models, and establishing compliance protocols.",
+
+        credential2Sector: "Solid Waste Management",
+        credential2Client: "EBRD",
+        credential2Scope:
+          "Implementing ESAP requirements, designing community engagement plans, and optimizing local billing processes.",
+
+        credential3Sector: "Public Utility Digitalization",
+        credential3Client: "World Bank",
+        credential3Scope:
+          "Deploying modern MIS billing, custom database architectures, and digital client relationship systems.",
+
+        credential4Sector: "Social & Gender Policies",
+        credential4Client: "Donor-Supported Initiatives",
+        credential4Scope:
+          "Formulating equal opportunity guidelines, leading stakeholder public hearings, and establishing corporate HR structures.",
+
+        complianceLabel: "PROCUREMENT & COMPLIANCE",
+        complianceTitle1: "Anti-Corruption",
+        complianceTitle2: "& Ethics",
+
+        complianceDescription:
+          "We uphold the highest standards of integrity through a strict zero-tolerance policy toward fraud, corruption, and collusive practices. All advisory services and bid support activities are conducted in full compliance with the integrity standards and procurement guidelines of ADB, EBRD, and the World Bank. We are committed to transparency, accountability, and ethical excellence in every engagement with clients, partners, and stakeholders.",
+
+        conflictTitle: "Conflict of Interest",
+        conflictDescription:
+          "Our corporate advisory framework is built on independence, transparency, and neutrality, ensuring objective support throughout all engagements. We proactively manage conflicts of interest and uphold the highest standards of integrity, accountability, and stakeholder confidence. Our governance approach promotes fair evaluation, ethical decision-making, and reliable outcomes for every project. We remain committed to delivering trusted advisory services aligned with international best practices.",
+
+        biddingTitle: "Fair Bidding Alignment",
+        biddingDescription:
+          "We guarantee full compliance with international bidding regulations, ensuring transparent accounting practices, fair competition, and robust administrative procedures across all regions. Our approach promotes accountability, efficiency, and adherence to global best practices throughout every stage of the procurement and project delivery process.",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Let's discuss",
-        ctaTitle2: "your needs.",
+        ctaTitle1: "Building Resilient Communities",
+        ctaTitle2: "Through Responsible Development",
         ctaDescription:
-          "Contact us to explore how our expertise can support your next project or initiative.",
+          "We embed sustainability, social responsibility, and measurable impact into our projects, aligning our advisory services with the United Nations Sustainable Development Goals (SDGs). Through inclusive approaches and responsible practices, we support initiatives that improve communities, strengthen resilience, and create long-term value for society. Our commitment extends beyond project delivery, focusing on positive transformation, equitable opportunities, and sustainable outcomes for future generations. By integrating environmental, social, and governance principles, we help partners achieve meaningful impact and lasting development benefits.",
         ctaButton: "Contact Us",
       },
 
-      /* =========================================================
+      /* =====================================================
          PROJECTS
-         ========================================================= */
+         ===================================================== */
       projects: {
-        heroLabel: "OUR PROJECTS",
-        heroTitle1: "Experience in",
-        heroTitle2: "action.",
+        heroLabel: "PROJECT CREDENTIALS",
+        heroTitle1: "Proven Experience",
+        heroTitle2: "Delivered Results",
         heroDescription:
+          "Water Supply & Sanitation, Solid Waste Management, Public Utility Digitalization, and Social & Gender Policies.",
+
+        mainLabel: "PROJECT CREDENTIALS",
+        mainTitle1: "Proven Experience",
+        mainTitle2: "Delivered Results",
+        mainDescription:
           "Our project experience reflects practical engagement across development, infrastructure, institutional, and advisory initiatives.",
 
-        portfolioLabel: "PROJECT PORTFOLIO",
-        portfolioTitle1: "Selected areas of",
-        portfolioTitle2: "experience.",
-        portfolioDescription:
-          "Our multidisciplinary experience supports projects that require technical knowledge, strategic thinking, and practical implementation.",
-
-        project1Title: "Water & Sanitation",
+        project1Category: "ADB / EBRD",
+        project1Title: "Water Supply & Sanitation",
         project1Description:
-          "Experience supporting water, sanitation, and related infrastructure initiatives.",
+          "Restructuring tariff systems, developing cost-recovery business models, and establishing compliance protocols.",
 
-        project2Title: "Infrastructure & Utilities",
+        project2Category: "EBRD",
+        project2Title: "Solid Waste Management",
         project2Description:
-          "Professional experience supporting infrastructure and essential utility services.",
+          "Implementing ESAP requirements, designing community engagement plans, and optimizing local billing processes.",
 
-        project3Title: "Social Development",
+        project3Category: "World Bank",
+        project3Title: "Public Utility Digitalization",
         project3Description:
-          "Experience contributing to social development and community-focused initiatives.",
+          "Deploying modern MIS billing, custom database architectures, and digital client relationship systems.",
 
-        project4Title: "Institutional Development",
+        project4Category: "Donor-Supported Initiatives",
+        project4Title: "Social & Gender Policies",
         project4Description:
-          "Advisory experience supporting stronger institutions and organizational development.",
+          "Formulating equal opportunity guidelines, leading stakeholder public hearings, and establishing corporate HR structures.",
+
+        approachLabel: "OUR STRATEGIC APPROACH",
+        approachTitle1: "A practical approach",
+        approachTitle2: "to lasting impact.",
+        approachDescription:
+          "We prioritize actions over theories. Our teams execute practical, evidence-based, and institutionally embedded measures that survive past the end of the project cycle.",
+
+        approachButton: "Contact Us",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Practical experience.",
-        ctaTitle2: "Sustainable results.",
+        ctaTitle1: "Practical, Sustainable",
+        ctaTitle2: "Solutions",
         ctaDescription:
-          "Explore how our professional experience can support your next initiative.",
+          "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
         ctaButton: "Contact Us",
       },
 
-      /* =========================================================
-         TEAM / EXPERTS
-         ========================================================= */
+      /* =====================================================
+         TEAM
+         ===================================================== */
       team: {
         heroLabel: "OUR INTERNATIONAL TEAM",
         heroTitle1: "Experts with",
-        heroTitle2: "global experience.",
+        heroTitle2: "Global Experience.",
         heroDescription:
           "Our international team brings extensive professional experience across development, infrastructure, institutional reform, and advisory services.",
 
-        expertsLabel: "OUR EXPERTS",
-        expertsTitle1: "International experience.",
-        expertsTitle2: "Practical expertise.",
-        expertsDescription:
+        mainLabel: "OUR EXPERTS",
+        mainTitle1: "International Experience.",
+        mainTitle2: "Practical Expertise.",
+        mainDescription:
           "Our experts bring diverse professional backgrounds and international experience to support complex development and advisory challenges.",
 
-        expert1Position: "Senior Development & Advisory Expert",
-        expert1Experience: "International Experience",
-        expert1Description:
-          "Experienced professional providing strategic and advisory support across development and institutional initiatives.",
+        expert1Name: "Mohd Masood Seediqyar",
+        expert1Position:
+          "Electrical Engineer and Utility Management Specialist",
+        expert1Experience:
+          "Specialist in utility management, power sector engineering, strategic planning, utility financial modeling, and cost-effective tariff design. Nearly 25 years of experience in utility management, Financial planning corporate management consulting. Proven expertise in developing sustainable and enhancing utility performance.",
+        expert1Description: "",
 
-        expert2Position: "Infrastructure & Development Expert",
-        expert2Experience: "Technical Expertise",
-        expert2Description:
-          "Professional experience across infrastructure, development, and technical advisory assignments.",
+        expert2Name: "Dr. Kelkar Padmakar Waman",
+        expert2Position: "Water Resources and Automation Specialist",
+        expert2Experience:
+          "Specialist in instrumentation, canal engineering, automation systems, and water resources management. Expert in monitoring and control systems for canal networks, irrigation infrastructure, and water distribution. Experienced in applying automation solutions to enhance water sector efficiency and sustainability.",
+        expert2Description: "",
 
-        expert3Position: "Development & Advisory Specialist",
-        expert3Experience: "International Experience",
-        expert3Description:
-          "Experienced advisor supporting development initiatives and organizations through practical professional expertise.",
+        expert3Name: "Thomas Bedour, B.A.",
+        expert3Position: "Senior Water and Wastewater Specialist",
+        expert3Experience:
+          "Thomas is a senior Water and Wastewater Specialist with over 10 years of experience in municipal and industrial utility operations, treatment systems, infrastructure management, regulatory compliance, and operational optimization. He has successfully managed and supported a wide range of water utility projects across Canada.",
+        expert3Description: "",
 
-        expert4Position: "Development & Institutional Expert",
-        expert4Experience: "International Experience",
-        expert4Description:
-          "Professional experience supporting institutional development and complex advisory assignments.",
+        expert4Name: "Dr. Sanjay Bhattacharya",
+        expert4Position: "Senior Strategy & Transformation Advisor",
+        expert4Experience:
+          "Professor of Practice and an expert in strategic management and project management, with over 30 years of combined academic and industry experience. His expertise is backed by extensive research, publications, and executive leadership across strategy, innovation, and organizational competitiveness.",
+        expert4Description: "",
 
-        expert5Position: "Development & Infrastructure Specialist",
-        expert5Experience: "Regional Experience",
-        expert5Description:
-          "Experienced professional with expertise supporting development and infrastructure-related initiatives.",
+        expert5Name: "Ilkhom Tashtemirov",
+        expert5Position:
+          "Senior IFI Procurement & Dev. Projects Specialist",
+        expert5Experience:
+          "Senior IFI Procurement & Project Management Specialist with 20+ years of experience delivering World Bank and ADB-funded projects across Central Asia. Dual Master’s in Engineering and Economics, with expertise in leadership, government advisory, healthcare, digital, and water infrastructure.",
+        expert5Description: "",
 
-        expert6Position: "International Development Expert",
-        expert6Experience: "International Experience",
-        expert6Description:
-          "Professional experience contributing to development, advisory, and institutional initiatives.",
+        expert6Name: "Mher Kelian",
+        expert6Position:
+          "Senior Water Infrastructure & Systems Engineer",
+        expert6Experience:
+          "Experienced Water and Mechanical Engineer with 12+ years of expertise delivering over 300 infrastructure, treatment plant, and conveyance projects across the Middle East and Africa. Member of the Order of Engineers and Architects with proven success in process optimization, system design, and large-scale project execution.",
+        expert6Description: "",
 
         networkLabel: "OUR NETWORK",
         networkTitle1: "A broader network.",
@@ -270,42 +467,45 @@ const resources = {
         networkButton: "Work With Our Team",
       },
 
-      /* =========================================================
+      /* =====================================================
          NEWS
-         ========================================================= */
+         ===================================================== */
       news: {
         heroLabel: "NEWS & UPDATES",
-        heroTitle1: "News &",
-        heroTitle2: "Updates.",
+        heroTitle1: "News",
+        heroTitle2: "& Updates.",
         heroDescription:
           "Company announcements, project milestones, professional insights, and updates from NHD Consultants.",
 
-        latestLabel: "LATEST UPDATES",
-        latestTitle1: "What is happening",
-        latestTitle2: "at NHD Consultants.",
-        latestDescription:
-          "This section will feature official company announcements, project updates, professional insights, and other relevant developments.",
+        mainLabel: "SDG & SOCIAL IMPACT",
+        mainTitle1: "Building Resilient Communities",
+        mainTitle2: "Through Responsible Development",
+        mainDescription:
+          "We embed sustainability, social responsibility, and measurable impact into our projects, aligning our advisory services with the United Nations Sustainable Development Goals (SDGs).",
 
-        comingSoonLabel: "COMING SOON",
-        comingSoonTitle: "News and updates will appear here.",
-        comingSoonDescription:
-          "NHD Consultants will publish company news, project milestones, professional insights, and development-related updates as they become available.",
+        updateCategory: "SDG & SOCIAL IMPACT",
+        updateTitle:
+          "Building Resilient Communities Through Responsible Development",
+        updateDescription:
+          "Through inclusive approaches and responsible practices, we support initiatives that improve communities, strengthen resilience, and create long-term value for society. Our commitment extends beyond project delivery, focusing on positive transformation, equitable opportunities, and sustainable outcomes for future generations.",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Practical expertise.",
-        ctaTitle2: "Sustainable solutions.",
+        ctaTitle1: "Building Resilient Communities",
+        ctaTitle2: "Through Responsible Development",
+        ctaDescription:
+          "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
         ctaButton: "Contact Us",
       },
 
-      /* =========================================================
+      /* =====================================================
          CONTACT
-         ========================================================= */
+         ===================================================== */
       contact: {
         heroLabel: "CONTACT NHD CONSULTANTS",
-        heroTitle1: "Let's discuss",
-        heroTitle2: "your next project.",
+        heroTitle1: "Practical, Sustainable",
+        heroTitle2: "Solutions",
         heroDescription:
-          "Connect with NHD Consultants to discuss development, infrastructure, public policy, institutional reform, or advisory needs.",
+          "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
 
         getInTouchLabel: "GET IN TOUCH",
         getInTouchTitle1: "Start a",
@@ -325,60 +525,57 @@ const resources = {
 
         formLabel: "SEND AN INQUIRY",
         fullName: "Full Name",
+        fullNamePlaceholder: "Your full name",
         email: "Email Address",
+        emailPlaceholder: "Your email address",
         subject: "Subject",
+        subjectPlaceholder: "How can we help?",
         message: "Message",
-        sendInquiry: "Send Inquiry",
+        messagePlaceholder: "Tell us about your project or inquiry...",
+        sendInquiry: "Send Inquiry →",
         formNote:
           "Contact form submission will be connected after the website content and design are approved.",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Practical expertise.",
-        ctaTitle2: "Sustainable solutions.",
+        ctaTitle1: "Practical, Sustainable",
+        ctaTitle2: "Solutions",
         ctaDescription:
-          "Supporting stronger institutions, resilient communities, and sustainable development through responsible advisory services.",
-        ctaButton: "Contact Us",
+          "We provide practical, sustainable, and institutionally embedded solutions for community development, infrastructure, and public policy reform.",
       },
 
-      /* =========================================================
+      /* =====================================================
          FOOTER
-         ========================================================= */
+         ===================================================== */
       footer: {
         description:
           "Professional consulting solutions for sustainable development and lasting impact.",
-
         localExpertise: "Local Expertise",
         socialImpact: "Social Impact",
         sustainableSolutions: "Sustainable Solutions",
-
         company: "Company",
         home: "Home",
         about: "About Us",
         services: "Services",
         news: "News",
         contact: "Contact Us",
-
         expertise: "Expertise",
         waterSanitation: "Water & Sanitation",
         infrastructureUtilities: "Infrastructure & Utilities",
         socialDevelopment: "Social Development",
         digitalTransformation: "Digital Transformation",
-
         connect: "Connect",
         companyName: "New Horizons of Dushanbe LLC",
         country: "Tajikistan",
         contactNhd: "Contact NHD Consultants",
-
         follow: "Follow Us",
-
         copyright: "© 2026 NHD Consultants. All rights reserved.",
       },
     },
   },
 
-  /* ===========================================================
+  /* =========================================================
      RUSSIAN
-     =========================================================== */
+     ========================================================= */
   ru: {
     translation: {
       nav: {
@@ -393,236 +590,437 @@ const resources = {
       },
 
       home: {
-        heroLabel: "NHD CONSULTANTS",
-        heroTitle1: "Стратегическое мышление.",
-        heroTitle2: "Практические результаты.",
+        heroLabel: "NHD Consultants",
+        heroTitle1: "Продолжая проверенное наследие",
+        heroTitle2: "успеха в Таджикистане.",
         heroDescription:
-          "Профессиональные консультационные решения для устойчивого развития, укрепления институтов и долгосрочного результата.",
-
+          "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
         primaryButton: "Наши услуги",
         secondaryButton: "Связаться с нами",
 
-        approachLabel: "НАШ ПОДХОД",
-        approachTitle1: "Опыт, который",
-        approachTitle2: "создает результат.",
+        localExpertise: "Местная экспертиза",
+        socialImpact: "Социальное воздействие",
+        sustainableSolutions: "Устойчивые решения",
+        companyLabel: "О КОМПАНИИ",
+
+heroCardTitle1: "Практичные, устойчивые",
+heroCardTitle2: "решения",
+
+heroCardTitle3: "Институционально интегрированное",
+heroCardTitle4: "развитие",
+
+heroCardDescription:
+  "New Horizons of Dushanbe LLC — недавно созданная, юридически независимая консалтинговая компания, основанная на проверенном опыте руководства и операционного совершенства.",
+
+        aboutLabel: "О КОМПАНИИ",
+        introTitle1: "Продолжая проверенное наследие",
+introTitle2: "успеха в Таджикистане.",
+
+introParagraph1:
+  "New Horizons of Dushanbe LLC — недавно созданная, юридически независимая консалтинговая компания, основанная на проверенном опыте руководства и операционного совершенства. Наша управленческая команда ранее руководила, управляла и успешно реализовывала широкий портфель значимых проектов во время работы в BAZIS, GMES и BDO. Мы непосредственно переносим этот обширный опыт реализации и строгий подход к управлению проектами в нашу новую компанию.",
+
+introParagraph2:
+  "Наше руководство, состоящее из бывших управляющих директоров, успешно реализовавших эти сложные инициативы совместно с бывшим высокопоставленным государственным чиновником, имеющим более 25 лет опыта работы в сфере муниципальных коммунальных услуг, сочетает глубокое местное понимание с международными лучшими практиками.",
+
+introParagraph3:
+  "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
+        aboutTitle1: "Продолжая проверенное наследие",
+        aboutTitle2: "успеха в Таджикистане.",
+        aboutDescription1:
+          "New Horizons of Dushanbe LLC — недавно созданная, юридически независимая консалтинговая компания, основанная на проверенном опыте руководства и операционного совершенства. Наша управленческая команда ранее руководила, управляла и успешно реализовывала широкий портфель значимых проектов во время работы в BAZIS, GMES и BDO. Мы непосредственно переносим этот обширный опыт реализации и строгий подход к управлению проектами в нашу новую компанию.",
+        aboutDescription2:
+          "Наше руководство, состоящее из бывших управляющих директоров, успешно реализовавших эти сложные инициативы совместно с бывшим высокопоставленным государственным чиновником, имеющим более 25 лет опыта работы в сфере муниципальных коммунальных услуг, сочетает глубокое местное понимание с международными лучшими практиками.",
+        aboutDescription3:
+          "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
+        discoverMore: "Узнать больше",
+
+        sectorsLabel: "ОСНОВНЫЕ НАПРАВЛЕНИЯ",
+        sectorsTitle1: "Основные направления",
+        sectorsTitle2: "деятельности",
+        allExpertise: "Все направления",
+        exploreSector: "Подробнее",
+
+        sector1Title: "Водоснабжение, санитария и гигиена (WASH)",
+        sector1Description:
+          "Разработка устойчивых тарифных структур, комплексных исследований экономической целесообразности и эффективных правовых и институциональных механизмов для обеспечения надежных, эффективных, устойчивых и финансово жизнеспособных региональных услуг чистого водоснабжения. Наш подход объединяет экономический анализ, нормативное соответствие и стратегическое планирование для укрепления качества услуг, повышения операционной эффективности и долгосрочной устойчивости водной инфраструктуры.",
+
+        sector2Title:
+          "Очистка сточных вод и устойчивое управление",
+        sector2Description:
+          "Предоставление инновационных и устойчивых решений по очистке сточных вод с использованием современных технологий, эффективного проектирования систем и экологически ответственных методов управления. Мы поддерживаем развитие надежной инфраструктуры сточных вод, улучшающей общественное здоровье, защищающей природные ресурсы и обеспечивающей долгосрочную эксплуатационную устойчивость.",
+
+        sector3Title:
+          "Интегрированная транспортировка воды и управление каналами",
+        sector3Description:
+          "Предоставление устойчивых решений по транспортировке воды и эффективных подходов к управлению каналами для поддержки эффективного распределения воды, надежности систем и долгосрочной устойчивости ресурсов. Мы уделяем внимание практическому планированию, оптимизации инфраструктуры и экологически ответственным методам управления.",
+
+        sector4Title:
+          "Современное орошение и управление водными ресурсами",
+        sector4Description:
+          "Предоставление инновационных решений в области орошения и интегрированного управления водными ресурсами для повышения эффективности использования воды, оптимизации сельскохозяйственной продуктивности и устойчивого использования доступных ресурсов. Мы поддерживаем устойчивые водные системы посредством стратегического планирования, современных технологий и экологически ответственных практик.",
+
+        approachLabel: "НАШ СТРАТЕГИЧЕСКИЙ ПОДХОД",
+        approachTitle1: "Практический подход",
+        approachTitle2: "к долгосрочному результату.",
         approachDescription:
-          "NHD Consultants объединяет международный опыт, местную экспертизу и практическую консультативную поддержку для достижения значимых и устойчивых результатов.",
+          "Мы ставим действия выше теории. Наши команды реализуют практические, основанные на фактах и институционально интегрированные меры, которые сохраняют свою эффективность после завершения проектного цикла.",
 
-        whyLabel: "ПОЧЕМУ NHD",
-        whyTitle1: "Профессиональная экспертиза.",
-        whyTitle2: "Местное понимание.",
-        whyDescription:
-          "Мы объединяем многопрофильную экспертизу и практические знания для решения сложных задач развития и консультирования.",
+        approach1Title: "Ориентация на клиента",
+        approach1Description:
+          "Мы полностью отвергаем универсальные решения. Каждая консультационная программа специально адаптируется для решения уникальных и практически значимых задач конкретного клиента.",
 
-        servicesLabel: "НАШИ УСЛУГИ",
-        servicesTitle1: "Решения для",
-        servicesTitle2: "реальных задач.",
-        servicesDescription:
-          "Наши консультационные услуги поддерживают инфраструктуру, институты, сообщества и организации, работающие в сфере устойчивого развития.",
+        approach2Title: "Стратегическое партнерство",
+        approach2Description:
+          "Наша работа основана на глубоком сотрудничестве. Мы создаем долгосрочные связи между региональными правительствами, международными финансовыми донорами и местными лидерами сообществ.",
+
+        approach3Title: "Доказанная эффективность",
+        approach3Description:
+          "Мы ставим действия выше теории. Наши команды реализуют практические, основанные на фактах и институционально интегрированные меры, которые сохраняют свою эффективность после завершения проектного цикла.",
+
+        approach4Title: "Непрерывное развитие",
+        approach4Description:
+          "Мы постоянно развиваем местный потенциал. Мы активно адаптируем современные системы управления к новым макроэкономическим и экологическим вызовам.",
 
         teamLabel: "НАША МЕЖДУНАРОДНАЯ КОМАНДА",
         teamTitle1: "Эксперты с",
-        teamTitle2: "международным опытом.",
+        teamTitle2: "глобальным опытом.",
         teamDescription:
-          "Наша международная команда объединяет различные профессиональные направления и значительный опыт в сфере развития, инфраструктуры, институциональных реформ и консультирования.",
+          "Наша международная команда обладает значительным профессиональным опытом в сфере развития, инфраструктуры, институциональных реформ и консультационных услуг.",
 
-        teamButton: "Наши эксперты",
+        impactLabel: "ЦУР И СОЦИАЛЬНОЕ ВОЗДЕЙСТВИЕ",
+        impactTitle1: "Создание устойчивых сообществ",
+        impactTitle2: "посредством ответственного развития",
+        impactDescription:
+          "NHD Consultants интегрирует устойчивость, социальную ответственность и измеримое воздействие в наши проекты, согласовывая консультационные услуги с Целями устойчивого развития ООН (ЦУР). Благодаря инклюзивным и ответственным подходам мы поддерживаем инициативы, улучшающие жизнь сообществ, укрепляющие устойчивость и создающие долгосрочную ценность для общества. Наша приверженность выходит за рамки реализации проектов и направлена на позитивные преобразования, равные возможности и устойчивые результаты для будущих поколений. Интегрируя экологические, социальные и управленческие принципы, мы помогаем партнерам достигать значимого воздействия и долгосрочных результатов развития.",
+        exploreImpact: "Наше воздействие",
+
+        impactSectionLabel: "ЦУР И СОЦИАЛЬНОЕ ВОЗДЕЙСТВИЕ",
+impactSectionTitle1: "Устойчивые решения для",
+impactSectionTitle2: "долгосрочного воздействия.",
+impactSectionDescription:
+  "NHD Consultants поддерживает устойчивое развитие посредством практических решений, которые укрепляют инфраструктуру, улучшают услуги и создают долгосрочный социальный и экономический эффект.",
+impactSectionButton: "Наши услуги",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Создаем",
-        ctaTitle2: "устойчивые решения.",
+        ctaTitle1: "Создание устойчивых сообществ",
+        ctaTitle2: "посредством ответственного развития",
         ctaDescription:
-          "Свяжитесь с нашей командой, чтобы обсудить ваши задачи в сфере развития, инфраструктуры или консультирования.",
-        ctaButton: "Начать разговор",
+          "Мы интегрируем устойчивость, социальную ответственность и измеримое воздействие в наши проекты, согласовывая консультационные услуги с Целями устойчивого развития ООН (ЦУР).",
+        ctaButton: "Связаться с нами",
+
+        ctaSectionLabel: "NHD CONSULTANTS",
+ctaSectionTitle1: "Готовы создать",
+ctaSectionTitle2: "практический результат?",
+ctaSectionDescription:
+  "Давайте вместе разработаем практичные и устойчивые решения, которые создадут долгосрочную ценность для вашей организации и сообществ, которым вы служите.",
+ctaSectionButton: "Связаться с нами",
       },
 
       about: {
-        heroLabel: "О NHD CONSULTANTS",
-        heroTitle1: "Опыт.",
-        heroTitle2: "Перспектива.",
+        heroLabel: "О КОМПАНИИ",
+        heroTitle1: "Продолжая проверенное наследие",
+        heroTitle2: "успеха в Таджикистане.",
         heroDescription:
-          "New Horizons of Dushanbe LLC предоставляет профессиональные консультационные услуги, поддерживающие устойчивое развитие и институциональный рост.",
+          "New Horizons of Dushanbe LLC — недавно созданная, юридически независимая консалтинговая компания, основанная на проверенном опыте руководства и операционного совершенства. Наша управленческая команда ранее руководила, управляла и успешно реализовывала широкий портфель значимых проектов во время работы в BAZIS, GMES и BDO. Мы непосредственно переносим этот обширный опыт реализации и строгий подход к управлению проектами в нашу новую компанию.",
 
         storyLabel: "НАША ИСТОРИЯ",
-        storyTitle1: "Создавая лучшие",
-        storyTitle2: "горизонты.",
+        storyTitle1: "Местная экспертиза",
+        storyTitle2: "Международные лучшие практики",
         storyDescription1:
-          "NHD Consultants работает с организациями и партнерами по развитию, помогая решать сложные задачи посредством практических и ответственных консультационных услуг.",
+          "Наше руководство, состоящее из бывших управляющих директоров, успешно реализовавших эти сложные инициативы совместно с бывшим высокопоставленным государственным чиновником, имеющим более 25 лет опыта работы в сфере муниципальных коммунальных услуг, сочетает глубокое местное понимание с международными лучшими практиками.",
         storyDescription2:
-          "Наш подход объединяет международный опыт с пониманием местных реалий, помогая клиентам разрабатывать практичные, устойчивые и отвечающие их потребностям решения.",
+          "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
 
         missionLabel: "НАША МИССИЯ",
-        missionTitle1: "Практические решения.",
-        missionTitle2: "Значимый результат.",
+        missionTitle: "Расширять возможности местных сообществ",
         missionDescription:
-          "Наша миссия — предоставлять профессиональную консультативную поддержку, укрепляющую институты, сообщества и инициативы в сфере развития.",
+          "Расширять возможности местных сообществ, обеспечивать равные возможности и внедрять международные стандарты в повседневную практику. Мы согласовываем каждое действие с Целями устойчивого развития (ЦУР) и приоритетами доноров в области институциональных реформ и социальной интеграции.",
 
         visionLabel: "НАШЕ ВИДЕНИЕ",
-        visionTitle1: "Более сильное",
-        visionTitle2: "будущее.",
+        visionTitle: "Самый надежный и заслуживающий доверия партнер",
         visionDescription:
-          "Мы стремимся к будущему, в котором обоснованные решения, ответственное развитие и эффективные институты способствуют устойчивости сообществ.",
+          "Стать самым надежным и заслуживающим доверия партнером для правительств, международных донорских организаций и местных сообществ, помогая им достигать устойчивого роста, укреплять институты управления и обеспечивать максимально инклюзивное развитие в соответствии с ЦУР ООН.",
 
-        valuesLabel: "НАШИ ЦЕННОСТИ",
+        valuesLabel: "НАШИ ОСНОВНЫЕ ЦЕННОСТИ",
         valuesTitle1: "Что определяет",
         valuesTitle2: "нашу работу.",
 
         value1Title: "Профессионализм",
         value1Description:
-          "Мы придерживаемся высоких профессиональных стандартов и ответственных принципов работы.",
+          "Мы поддерживаем высочайшие стандарты технического качества, точности и профессионального исполнения в каждом задании в сфере коммунальных услуг и инфраструктуры. Наша приверженность инновациям, безопасности и качеству обеспечивает надежные, эффективные и устойчивые решения для каждого проекта.",
 
         value2Title: "Честность",
         value2Description:
-          "Мы подходим к каждому проекту с прозрачностью, ответственностью и уважением.",
+          "Прозрачность, безусловная этика и абсолютная ответственность являются основой всего, что мы делаем. Мы строим доверительные консультационные партнерства с международными финансовыми учреждениями, предоставляя объективные рекомендации, ответственное управление проектами и высочайшие стандарты профессиональной честности.",
 
-        value3Title: "Местное понимание",
+        value3Title: "Совершенство",
         value3Description:
-          "Мы учитываем местный контекст при разработке практических решений.",
+          "Мы стремимся к практическим и измеримым результатам, которые улучшают благосостояние сообществ, укрепляют местную инфраструктуру и создают долгосрочное социальное воздействие по всему Таджикистану. Благодаря инновационной инженерии, устойчивым решениям и партнерскому сотрудничеству.",
 
-        value4Title: "Устойчивость",
+        value4Title: "Инновации",
         value4Description:
-          "Мы ориентируемся на решения, создающие долгосрочную ценность для институтов и сообществ.",
+          "Мы поддерживаем непрерывное обучение и внедрение современных решений для развития инноваций и операционного совершенства. Интегрируя современные цифровые инструменты и технологии, мы оптимизируем местные операционные процессы, повышаем эффективность, улучшаем принятие решений и создаем большую ценность для наших клиентов.",
 
-        ctaLabel: "РАБОТА С NHD",
-        ctaTitle1: "Опыт и",
-        ctaTitle2: "местное понимание.",
+        approachLabel: "НАШ СТРАТЕГИЧЕСКИЙ ПОДХОД",
+        approachHeading1: "Практический подход",
+        approachHeading2: "к долгосрочному результату.",
+        approachDescription:
+          "Мы ставим действия выше теории. Наши команды реализуют практические, основанные на фактах и институционально интегрированные меры, которые сохраняют свою эффективность после завершения проектного цикла.",
+
+        approach1Title: "Ориентация на клиента",
+        approach1Description:
+          "Мы полностью отвергаем универсальные решения. Каждая консультационная программа специально адаптируется для решения уникальных и практически значимых задач конкретного клиента.",
+
+        approach2Title: "Стратегическое партнерство",
+        approach2Description:
+          "Наша работа основана на глубоком сотрудничестве. Мы создаем долгосрочные связи между региональными правительствами, международными финансовыми донорами и местными лидерами сообществ.",
+
+        approach3Title: "Доказанная эффективность",
+        approach3Description:
+          "Мы ставим действия выше теории. Наши команды реализуют практические, основанные на фактах и институционально интегрированные меры, которые сохраняют свою эффективность после завершения проектного цикла.",
+
+        approach4Title: "Непрерывное развитие",
+        approach4Description:
+          "Мы постоянно развиваем местный потенциал. Мы активно адаптируем современные системы управления к новым макроэкономическим и экологическим вызовам.",
+
+        ctaLabel: "NHD CONSULTANTS",
+        ctaTitle1: "Создание устойчивых сообществ",
+        ctaTitle2: "посредством ответственного развития",
         ctaDescription:
-          "Наш многопрофильный подход позволяет поддерживать клиентов в широком спектре задач развития и консультирования.",
-        ctaButton: "Наши услуги",
+          "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
+        ctaButton: "Связаться с нами",
       },
 
       services: {
         heroLabel: "НАШИ УСЛУГИ",
-        heroTitle1: "Экспертиза для",
-        heroTitle2: "сложных задач.",
+        heroTitle1: "Практические, устойчивые",
+        heroTitle2: "решения",
         heroDescription:
-          "NHD Consultants предоставляет практические консультационные услуги в ключевых областях развития и институциональной поддержки.",
+          "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
 
-        listLabel: "НАША ОСНОВНАЯ ЭКСПЕРТИЗА",
-        listTitle1: "Практические знания.",
-        listTitle2: "Профессиональные решения.",
-        listDescription:
-          "Наши услуги объединяют международный опыт, техническую экспертизу и местное понимание для достижения устойчивых результатов.",
+        expertiseLabel: "ОСНОВНЫЕ НАПРАВЛЕНИЯ",
+        expertiseTitle1: "Наши направления",
+        expertiseTitle2: "экспертизы",
 
-        service1Title: "Водоснабжение и санитария",
+        service1Title: "Водоснабжение, санитария и гигиена (WASH)",
         service1Description:
-          "Консультационная поддержка проектов в сфере водоснабжения, санитарии и соответствующего развития.",
+          "Разработка устойчивых тарифных структур, комплексных исследований экономической целесообразности и эффективных правовых и институциональных механизмов для обеспечения надежных, эффективных, устойчивых и финансово жизнеспособных региональных услуг чистого водоснабжения. Наш подход объединяет экономический анализ, нормативное соответствие и стратегическое планирование для укрепления качества услуг, повышения операционной эффективности и долгосрочной устойчивости водной инфраструктуры.",
 
-        service2Title: "Инфраструктура и коммунальные услуги",
+        service2Title:
+          "Очистка сточных вод и устойчивое управление",
         service2Description:
-          "Консультационная поддержка инфраструктуры, коммунальных услуг и основных общественных сервисов.",
+          "Предоставление инновационных и устойчивых решений по очистке сточных вод с использованием современных технологий, эффективного проектирования систем и экологически ответственных методов управления. Мы поддерживаем развитие надежной инфраструктуры сточных вод, улучшающей общественное здоровье, защищающей природные ресурсы и обеспечивающей долгосрочную эксплуатационную устойчивость.",
 
-        service3Title: "Социальное развитие",
+        service3Title:
+          "Интегрированная транспортировка воды и управление каналами",
         service3Description:
-          "Консультационные услуги в поддержку сообществ, институтов и инклюзивного развития.",
+          "Предоставление устойчивых решений по транспортировке воды и эффективных подходов к управлению каналами для поддержки эффективного распределения воды, надежности систем и долгосрочной устойчивости ресурсов. Мы уделяем внимание практическому планированию, оптимизации инфраструктуры и экологически ответственным методам управления.",
 
-        service4Title: "Цифровая трансформация",
+        service4Title:
+          "Современное орошение и управление водными ресурсами",
         service4Description:
-          "Практическая поддержка цифровых решений, модернизации институтов и трансформации.",
+          "Предоставление инновационных решений в области орошения и интегрированного управления водными ресурсами для повышения эффективности использования воды, оптимизации сельскохозяйственной продуктивности и устойчивого использования доступных ресурсов.",
 
-        capacityLabel: "НАШИ ВОЗМОЖНОСТИ",
-        capacityTitle1: "Международный опыт.",
-        capacityTitle2: "Местная перспектива.",
+        service5Title: "Управление твердыми отходами",
+        service5Description:
+          "Предоставление интегрированных решений по управлению твердыми отходами, включая эффективные системы сбора, обработку отходов, переработку и экологически ответственное управление полигонами. Мы поддерживаем более чистые и здоровые сообщества посредством устойчивых методов обращения с отходами, оптимизации утилизации, восстановления ресурсов и современных решений для полигонов.",
 
+        service6Title: "Экологические гарантии",
+        service6Description:
+          "Обеспечение ответственной реализации проектов посредством комплексных экологических мер, соблюдения нормативных требований и подходов устойчивого развития. Мы применяем экологические оценки, стратегии управления рисками, программы мониторинга и меры по снижению воздействия для защиты природных ресурсов.",
+
+        service7Title:
+          "Экономическая целесообразность преобразования отходов в ресурсы",
+        service7Description:
+          "Развитие устойчивого восстановления ресурсов посредством комплексных оценок экономической целесообразности, анализа рынка и инвестиционного планирования инициатив по преобразованию отходов в ресурсы. Наш подход оценивает техническую жизнеспособность, финансовую устойчивость и экологические преимущества.",
+
+        service8Title:
+          "Участие заинтересованных сторон и программы общественной осведомленности",
+        service8Description:
+          "Укрепление взаимодействия с сообществами посредством инклюзивного участия заинтересованных сторон, информационных инициатив и эффективных коммуникационных стратегий. Наш подход способствует прозрачности, пониманию общественности и сотрудничеству между сообществами, институтами и участниками проектов.",
+
+        service9Title: "Институциональное планирование и развитие",
+        service9Description:
+          "Укрепление организационного потенциала посредством стратегического планирования, институциональных рамок развития и эффективных подходов к управлению. Мы поддерживаем учреждения в повышении операционной эффективности, улучшении процессов принятия решений и создании устойчивых систем.",
+
+        service10Title: "Гендерное равенство и инклюзия",
+        service10Description:
+          "Содействие инклюзивному развитию посредством гендерно ориентированных подходов, равноправного участия и стратегий социальной интеграции. Мы поддерживаем организации и сообщества в создании возможностей для всех заинтересованных сторон, укреплении доступности и расширении возможностей различных голосов.",
+
+        capacityLabel: "РАЗВИТИЕ ПОТЕНЦИАЛА",
+        capacityTitle1: "Интеграция знаний и",
+        capacityTitle2: "навыков",
         capacityDescription1:
-          "Наша команда объединяет различные профессиональные направления и опыт работы в сфере развития и консультирования.",
-
+          "Мы предоставляем специализированные профессиональные программы, практические цифровые семинары и организационное обучение, разработанные специально для сотрудников коммунальных служб.",
         capacityDescription2:
-          "Мы понимаем, что успешные проекты требуют не только технических знаний, но и эффективной коммуникации, местного понимания и практической реализации.",
-
+          "Устойчивые преобразования требуют большего, чем современная инфраструктура — они требуют местного потенциала. Благодаря структурированной передаче знаний NHD Consultants соединяет внедрение технологий с долгосрочным управлением коммунальными услугами.",
         capacityDescription3:
-          "NHD Consultants объединяет эти перспективы, помогая клиентам переходить от стратегии к реальным результатам.",
+          "Мы предоставляем региональным администраторам и муниципальным командам возможность самостоятельно работать с новыми базами данных биллинга, современными технологиями учета и надежными мерами экологической, медицинской безопасности и охраны труда (EHS).",
+        capacityDescription4:
+          "Преобразуя техническое исполнение в устойчивую институциональную экспертизу, мы обеспечиваем возможность местных команд самостоятельно повышать эффективность, соблюдать требования и обеспечивать рост.",
+
+        sdgLabel: "ЦУР И СОЦИАЛЬНОЕ ВОЗДЕЙСТВИЕ",
+        sdgTitle1: "Создание устойчивых сообществ",
+        sdgTitle2: "посредством ответственного развития",
+        sdg6Title: "Чистая вода",
+        sdg6Description: "Расширение доступности коммунальных услуг.",
+        sdg5Title: "Гендерное равенство",
+        sdg5Description: "Разработка справедливых стратегий найма.",
+        sdg11Title: "Устойчивые города",
+        sdg11Description: "Продвижение локальной экологической политики.",
+
+        credentialsLabel: "ПРОЕКТНЫЙ ОПЫТ",
+        credentialsTitle1: "Доказанный опыт",
+        credentialsTitle2: "Достигнутые результаты",
+
+        credential1Sector: "Водоснабжение и санитария",
+        credential1Client: "ADB / EBRD",
+        credential1Scope:
+          "Реструктуризация тарифных систем, разработка бизнес-моделей возврата затрат и установление протоколов соответствия.",
+
+        credential2Sector: "Управление твердыми отходами",
+        credential2Client: "EBRD",
+        credential2Scope:
+          "Выполнение требований ESAP, разработка планов взаимодействия с сообществами и оптимизация местных процессов биллинга.",
+
+        credential3Sector: "Цифровизация коммунальных услуг",
+        credential3Client: "World Bank",
+        credential3Scope:
+          "Внедрение современных систем MIS-биллинга, индивидуальных архитектур баз данных и цифровых систем взаимоотношений с клиентами.",
+
+        credential4Sector: "Социальная и гендерная политика",
+        credential4Client: "Инициативы, поддержанные донорами",
+        credential4Scope:
+          "Разработка руководящих принципов равных возможностей, проведение общественных слушаний с заинтересованными сторонами и создание корпоративных HR-структур.",
+
+        complianceLabel: "ЗАКУПКИ И СООТВЕТСТВИЕ",
+        complianceTitle1: "Борьба с коррупцией",
+        complianceTitle2: "и этика",
+
+        complianceDescription:
+          "Мы придерживаемся высочайших стандартов честности благодаря строгой политике нулевой терпимости к мошенничеству, коррупции и сговору. Все консультационные услуги и мероприятия по поддержке тендеров осуществляются в полном соответствии со стандартами добросовестности и руководящими принципами закупок ADB, EBRD и Всемирного банка. Мы привержены прозрачности, ответственности и этическому совершенству во всех взаимодействиях с клиентами, партнерами и заинтересованными сторонами.",
+
+        conflictTitle: "Конфликт интересов",
+        conflictDescription:
+          "Наша корпоративная консультационная структура основана на независимости, прозрачности и нейтральности, обеспечивая объективную поддержку во всех взаимодействиях. Мы активно управляем конфликтами интересов и поддерживаем высочайшие стандарты честности, ответственности и доверия заинтересованных сторон.",
+
+        biddingTitle: "Соответствие требованиям справедливого тендера",
+        biddingDescription:
+          "Мы гарантируем полное соблюдение международных правил проведения тендеров, обеспечивая прозрачный бухгалтерский учет, честную конкуренцию и надежные административные процедуры во всех регионах. Наш подход способствует ответственности, эффективности и соблюдению международных лучших практик на каждом этапе закупок и реализации проектов.",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Обсудим",
-        ctaTitle2: "ваши задачи.",
+        ctaTitle1: "Создание устойчивых сообществ",
+        ctaTitle2: "посредством ответственного развития",
         ctaDescription:
-          "Свяжитесь с нами, чтобы обсудить, как наша экспертиза может поддержать ваш следующий проект или инициативу.",
+          "Мы интегрируем устойчивость, социальную ответственность и измеримое воздействие в наши проекты, согласовывая консультационные услуги с Целями устойчивого развития ООН (ЦУР).",
         ctaButton: "Связаться с нами",
       },
 
       projects: {
-        heroLabel: "НАШИ ПРОЕКТЫ",
-        heroTitle1: "Опыт",
-        heroTitle2: "на практике.",
+        heroLabel: "ПРОЕКТНЫЙ ОПЫТ",
+        heroTitle1: "Доказанный опыт",
+        heroTitle2: "достигнутые результаты",
         heroDescription:
+          "Водоснабжение и санитария, управление твердыми отходами, цифровизация коммунальных услуг, а также социальная и гендерная политика.",
+
+        mainLabel: "ПРОЕКТНЫЙ ОПЫТ",
+        mainTitle1: "Доказанный опыт",
+        mainTitle2: "достигнутые результаты",
+        mainDescription:
           "Наш проектный опыт отражает практическую работу в сферах развития, инфраструктуры, институциональной поддержки и консультирования.",
 
-        portfolioLabel: "ПОРТФОЛИО ПРОЕКТОВ",
-        portfolioTitle1: "Выбранные направления",
-        portfolioTitle2: "опыта.",
-        portfolioDescription:
-          "Наш многопрофильный опыт поддерживает проекты, требующие технических знаний, стратегического мышления и практической реализации.",
-
+        project1Category: "ADB / EBRD",
         project1Title: "Водоснабжение и санитария",
         project1Description:
-          "Опыт поддержки проектов в сфере водоснабжения, санитарии и соответствующей инфраструктуры.",
+          "Реструктуризация тарифных систем, разработка бизнес-моделей возврата затрат и установление протоколов соответствия.",
 
-        project2Title: "Инфраструктура и коммунальные услуги",
+        project2Category: "EBRD",
+        project2Title: "Управление твердыми отходами",
         project2Description:
-          "Профессиональный опыт поддержки инфраструктуры и основных коммунальных услуг.",
+          "Выполнение требований ESAP, разработка планов взаимодействия с сообществами и оптимизация местных процессов биллинга.",
 
-        project3Title: "Социальное развитие",
+        project3Category: "World Bank",
+        project3Title: "Цифровизация коммунальных услуг",
         project3Description:
-          "Опыт участия в проектах социального развития и инициативах, ориентированных на сообщества.",
+          "Внедрение современных систем MIS-биллинга, индивидуальных архитектур баз данных и цифровых систем взаимоотношений с клиентами.",
 
-        project4Title: "Институциональное развитие",
+        project4Category: "Инициативы, поддержанные донорами",
+        project4Title: "Социальная и гендерная политика",
         project4Description:
-          "Консультационный опыт поддержки развития институтов и организаций.",
+          "Разработка руководящих принципов равных возможностей, проведение общественных слушаний с заинтересованными сторонами и создание корпоративных HR-структур.",
+
+        approachLabel: "НАШ СТРАТЕГИЧЕСКИЙ ПОДХОД",
+        approachTitle1: "Практический подход",
+        approachTitle2: "к долгосрочному результату.",
+        approachDescription:
+          "Мы ставим действия выше теории. Наши команды реализуют практические, основанные на фактах и институционально интегрированные меры, которые сохраняют свою эффективность после завершения проектного цикла.",
+        approachButton: "Связаться с нами",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Практический опыт.",
-        ctaTitle2: "Устойчивые результаты.",
+        ctaTitle1: "Практические, устойчивые",
+        ctaTitle2: "решения",
         ctaDescription:
-          "Узнайте, как наш профессиональный опыт может поддержать вашу следующую инициативу.",
+          "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
         ctaButton: "Связаться с нами",
       },
 
       team: {
         heroLabel: "НАША МЕЖДУНАРОДНАЯ КОМАНДА",
         heroTitle1: "Эксперты с",
-        heroTitle2: "международным опытом.",
+        heroTitle2: "глобальным опытом.",
         heroDescription:
-          "Наша международная команда обладает значительным профессиональным опытом в сфере развития, инфраструктуры, институциональных реформ и консультирования.",
+          "Наша международная команда обладает значительным профессиональным опытом в сфере развития, инфраструктуры, институциональных реформ и консультационных услуг.",
 
-        expertsLabel: "НАШИ ЭКСПЕРТЫ",
-        expertsTitle1: "Международный опыт.",
-        expertsTitle2: "Практическая экспертиза.",
-        expertsDescription:
-          "Наши эксперты обладают разнообразным профессиональным опытом и международной практикой для решения сложных задач развития и консультирования.",
+        mainLabel: "НАШИ ЭКСПЕРТЫ",
+        mainTitle1: "Международный опыт.",
+        mainTitle2: "Практическая экспертиза.",
+        mainDescription:
+          "Наши эксперты обладают разнообразным профессиональным и международным опытом для решения сложных задач развития и консультирования.",
 
-        expert1Position: "Старший эксперт по развитию и консультированию",
-        expert1Experience: "Международный опыт",
-        expert1Description:
-          "Опытный специалист, предоставляющий стратегическую и консультативную поддержку в проектах развития и институциональных инициативах.",
+        expert1Name: "Mohd Masood Seediqyar",
+        expert1Position:
+          "Инженер-электрик и специалист по управлению коммунальными услугами",
+        expert1Experience:
+          "Специалист по управлению коммунальными услугами, энергетике, стратегическому планированию, финансовому моделированию коммунальных предприятий и экономически эффективному проектированию тарифов. Почти 25 лет опыта в управлении коммунальными услугами, финансовом планировании и корпоративном управленческом консультировании. Проверенная экспертиза в разработке устойчивых решений и повышении эффективности коммунальных услуг.",
+        expert1Description: "",
 
-        expert2Position: "Эксперт по инфраструктуре и развитию",
-        expert2Experience: "Техническая экспертиза",
-        expert2Description:
-          "Профессиональный опыт в инфраструктуре, развитии и техническом консультировании.",
+        expert2Name: "Dr. Kelkar Padmakar Waman",
+        expert2Position:
+          "Специалист по водным ресурсам и автоматизации",
+        expert2Experience:
+          "Специалист по приборостроению, проектированию каналов, системам автоматизации и управлению водными ресурсами. Эксперт по системам мониторинга и управления каналами, ирригационной инфраструктурой и распределением воды. Имеет опыт применения решений автоматизации для повышения эффективности и устойчивости водного сектора.",
+        expert2Description: "",
 
-        expert3Position: "Специалист по развитию и консультированию",
-        expert3Experience: "Международный опыт",
-        expert3Description:
-          "Опытный консультант, поддерживающий инициативы развития и организации посредством практической профессиональной экспертизы.",
+        expert3Name: "Thomas Bedour, B.A.",
+        expert3Position:
+          "Старший специалист по водоснабжению и сточным водам",
+        expert3Experience:
+          "Thomas — старший специалист по водоснабжению и сточным водам с более чем 10-летним опытом работы в муниципальных и промышленных коммунальных услугах, системах очистки, управлении инфраструктурой, соблюдении нормативных требований и оптимизации операций. Он успешно руководил и поддерживал широкий спектр проектов водоснабжения по всей Канаде.",
+        expert3Description: "",
 
-        expert4Position: "Эксперт по развитию и институтам",
-        expert4Experience: "Международный опыт",
-        expert4Description:
-          "Профессиональный опыт поддержки институционального развития и сложных консультационных проектов.",
+        expert4Name: "Dr. Sanjay Bhattacharya",
+        expert4Position:
+          "Старший советник по стратегии и трансформации",
+        expert4Experience:
+          "Профессор-практик и эксперт по стратегическому и проектному управлению с более чем 30-летним совокупным академическим и отраслевым опытом. Его экспертиза подкреплена обширными исследованиями, публикациями и руководящим опытом в области стратегии, инноваций и организационной конкурентоспособности.",
+        expert4Description: "",
 
-        expert5Position: "Специалист по развитию и инфраструктуре",
-        expert5Experience: "Региональный опыт",
-        expert5Description:
-          "Опытный специалист с экспертизой в проектах развития и инфраструктуры.",
+        expert5Name: "Ilkhom Tashtemirov",
+        expert5Position:
+          "Старший специалист по закупкам МФИ и проектам развития",
+        expert5Experience:
+          "Старший специалист по закупкам МФИ и управлению проектами с более чем 20-летним опытом реализации проектов, финансируемых Всемирным банком и АБР, в Центральной Азии. Имеет две степени магистра в области инженерии и экономики, обладает экспертизой в руководстве, консультировании государственных органов, здравоохранении, цифровых технологиях и водной инфраструктуре.",
+        expert5Description: "",
 
-        expert6Position: "Международный эксперт по развитию",
-        expert6Experience: "Международный опыт",
-        expert6Description:
-          "Профессиональный опыт в сфере развития, консультирования и институциональных инициатив.",
+        expert6Name: "Mher Kelian",
+        expert6Position:
+          "Старший инженер по водной инфраструктуре и системам",
+        expert6Experience:
+          "Опытный инженер по водоснабжению и механике с более чем 12-летним опытом реализации свыше 300 проектов в области инфраструктуры, очистных сооружений и транспортировки воды на Ближнем Востоке и в Африке. Член Ордена инженеров и архитекторов с доказанным успехом в оптимизации процессов, проектировании систем и реализации крупных проектов.",
+        expert6Description: "",
 
         networkLabel: "НАША СЕТЬ",
-        networkTitle1: "Широкая сеть.",
+        networkTitle1: "Более широкая сеть.",
         networkTitle2: "Более сильная перспектива.",
         networkDescription:
           "Наша международная сеть позволяет объединять различные знания и профессиональные перспективы, когда проектам требуется специализированная экспертиза.",
@@ -631,37 +1029,37 @@ const resources = {
 
       news: {
         heroLabel: "НОВОСТИ И ОБНОВЛЕНИЯ",
-        heroTitle1: "Новости и",
-        heroTitle2: "обновления.",
+        heroTitle1: "Новости",
+        heroTitle2: "и обновления.",
         heroDescription:
           "Новости компании, этапы проектов, профессиональные материалы и обновления NHD Consultants.",
 
-        latestLabel: "ПОСЛЕДНИЕ ОБНОВЛЕНИЯ",
-        latestTitle1: "Что происходит",
-        latestTitle2: "в NHD Consultants.",
-        latestDescription:
-          "Здесь будут размещаться официальные новости компании, обновления проектов, профессиональные материалы и другие важные события.",
+        mainLabel: "ЦУР И СОЦИАЛЬНОЕ ВОЗДЕЙСТВИЕ",
+        mainTitle1: "Создание устойчивых сообществ",
+        mainTitle2: "посредством ответственного развития",
+        mainDescription:
+          "Мы интегрируем устойчивость, социальную ответственность и измеримое воздействие в наши проекты, согласовывая консультационные услуги с Целями устойчивого развития ООН (ЦУР).",
 
-        comingSoonLabel: "СКОРО",
-        comingSoonTitle: "Новости и обновления появятся здесь.",
-        comingSoonDescription:
-          "NHD Consultants будет публиковать новости компании, этапы проектов, профессиональные материалы и обновления в сфере развития по мере их появления.",
+        updateCategory: "ЦУР И СОЦИАЛЬНОЕ ВОЗДЕЙСТВИЕ",
+        updateTitle:
+          "Создание устойчивых сообществ посредством ответственного развития",
+        updateDescription:
+          "Благодаря инклюзивным и ответственным подходам мы поддерживаем инициативы, улучшающие жизнь сообществ, укрепляющие устойчивость и создающие долгосрочную ценность для общества. Наша приверженность выходит за рамки реализации проектов и направлена на позитивные преобразования, равные возможности и устойчивые результаты для будущих поколений.",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Практическая экспертиза.",
-        ctaTitle2: "Устойчивые решения.",
+        ctaTitle1: "Создание устойчивых сообществ",
+        ctaTitle2: "посредством ответственного развития",
+        ctaDescription:
+          "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
         ctaButton: "Связаться с нами",
       },
 
-      /* =========================================================
-         CONTACT - RUSSIAN
-         ========================================================= */
       contact: {
         heroLabel: "СВЯЖИТЕСЬ С NHD CONSULTANTS",
-        heroTitle1: "Обсудим",
-        heroTitle2: "ваш следующий проект.",
+        heroTitle1: "Практические, устойчивые",
+        heroTitle2: "решения",
         heroDescription:
-          "Свяжитесь с NHD Consultants, чтобы обсудить вопросы развития, инфраструктуры, государственной политики, институциональных реформ или консультационных услуг.",
+          "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
 
         getInTouchLabel: "СВЯЗАТЬСЯ С НАМИ",
         getInTouchTitle1: "Начните",
@@ -681,57 +1079,56 @@ const resources = {
 
         formLabel: "ОТПРАВИТЬ ЗАПРОС",
         fullName: "Полное имя",
+        fullNamePlaceholder: "Ваше полное имя",
         email: "Адрес электронной почты",
+        emailPlaceholder: "Ваш адрес электронной почты",
         subject: "Тема",
+        subjectPlaceholder: "Чем мы можем помочь?",
         message: "Сообщение",
-        sendInquiry: "Отправить запрос",
+        messagePlaceholder:
+          "Расскажите о вашем проекте или запросе...",
+        sendInquiry: "Отправить запрос →",
         formNote:
           "Отправка контактной формы будет подключена после утверждения содержания и дизайна веб-сайта.",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Практический опыт.",
-        ctaTitle2: "Устойчивые решения.",
+        ctaTitle1: "Практические, устойчивые",
+        ctaTitle2: "решения",
         ctaDescription:
-          "Поддержка сильных институтов, устойчивых сообществ и устойчивого развития посредством ответственных консультационных услуг.",
-        ctaButton: "Связаться с нами",
+          "Мы предоставляем практические, устойчивые и институционально интегрированные решения для развития сообществ, инфраструктуры и реформы государственной политики.",
       },
 
       footer: {
         description:
-          "Профессиональные консультационные решения для устойчивого развития и долгосрочного результата.",
-
+          "Профессиональные консультационные решения для устойчивого развития и долгосрочного воздействия.",
         localExpertise: "Местная экспертиза",
         socialImpact: "Социальное воздействие",
         sustainableSolutions: "Устойчивые решения",
-
         company: "Компания",
         home: "Главная",
         about: "О нас",
         services: "Услуги",
         news: "Новости",
         contact: "Контакты",
-
         expertise: "Экспертиза",
         waterSanitation: "Водоснабжение и санитария",
-        infrastructureUtilities: "Инфраструктура и коммунальные услуги",
+        infrastructureUtilities:
+          "Инфраструктура и коммунальные услуги",
         socialDevelopment: "Социальное развитие",
         digitalTransformation: "Цифровая трансформация",
-
         connect: "Связаться",
         companyName: "New Horizons of Dushanbe LLC",
         country: "Таджикистан",
         contactNhd: "Связаться с NHD Consultants",
-
         follow: "Мы в социальных сетях",
-
         copyright: "© 2026 NHD Consultants. Все права защищены.",
       },
     },
   },
 
-  /* ===========================================================
+  /* =========================================================
      TAJIK
-     =========================================================== */
+     ========================================================= */
   tg: {
     translation: {
       nav: {
@@ -746,188 +1143,382 @@ const resources = {
       },
 
       home: {
-        heroLabel: "NHD CONSULTANTS",
-        heroTitle1: "Тафаккури стратегӣ.",
-        heroTitle2: "Натиҷаҳои амалӣ.",
+        heroLabel: "NHD Consultants",
+        heroTitle1: "Идомаи мероси собитшудаи",
+        heroTitle2: "муваффақият дар Тоҷикистон.",
         heroDescription:
-          "Роҳҳалҳои касбии машваратӣ барои рушди устувор, таҳкими институтҳо ва натиҷаҳои дарозмуддат.",
-
+          "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
         primaryButton: "Хизматрасониҳои мо",
         secondaryButton: "Тамос бо мо",
 
-        approachLabel: "РӮЙКАРДИ МО",
-        approachTitle1: "Таҷрибае, ки",
-        approachTitle2: "таъсир эҷод мекунад.",
+        localExpertise: "Таҷрибаи маҳаллӣ",
+        socialImpact: "Таъсири иҷтимоӣ",
+        sustainableSolutions: "Роҳҳалҳои устувор",
+        companyLabel: "ДАР БОРАИ ШИРКАТ",
+
+heroCardTitle1: "Роҳҳалҳои амалӣ, устувор",
+heroCardTitle2: "Ҳалҳо",
+
+heroCardTitle3: "Рушди ба институтҳо",
+heroCardTitle4: "муттаҳидшуда",
+
+heroCardDescription:
+  "New Horizons of Dushanbe LLC як ширкати нави машваратии аз ҷиҳати ҳуқуқӣ мустақил мебошад, ки бар таҷрибаи собитшудаи роҳбарӣ ва фаъолияти олӣ асос ёфтааст.",
+
+        aboutLabel: "ДАР БОРАИ ШИРКАТ",
+        introTitle1: "Идомаи мероси собитшудаи",
+introTitle2: "муваффақият дар Тоҷикистон.",
+
+introParagraph1:
+  "New Horizons of Dushanbe LLC як ширкати нави машваратии аз ҷиҳати ҳуқуқӣ мустақил мебошад, ки бар таҷрибаи собитшудаи роҳбарӣ ва фаъолияти олӣ асос ёфтааст. Дастаи роҳбарии мо қаблан дар BAZIS, GMES ва BDO доираи васеи лоиҳаҳои муҳимро роҳбарӣ, идора ва бомуваффақият амалӣ намудааст. Мо ин таҷрибаи васеи иҷро ва равиши қатъии идоракунии лоиҳаҳоро мустақиман ба ширкати нави худ меорем.",
+
+introParagraph2:
+  "Роҳбарияти мо, ки аз директорони собиқи идоракунанда ва як мансабдори собиқи баландпояи давлатӣ бо зиёда аз 25 соли таҷриба дар соҳаи хизматрасониҳои коммуналии шаҳрӣ иборат аст, дониши амиқи маҳаллиро бо таҷрибаҳои беҳтарини байналмилалӣ муттаҳид мекунад.",
+
+introParagraph3:
+  "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
+        aboutTitle1: "Идомаи мероси собитшудаи",
+        aboutTitle2: "муваффақият дар Тоҷикистон.",
+        aboutDescription1:
+          "New Horizons of Dushanbe LLC як ширкати нави машваратии аз ҷиҳати ҳуқуқӣ мустақил мебошад, ки бар таҷрибаи собитшудаи роҳбарӣ ва фаъолияти олӣ асос ёфтааст. Дастаи роҳбарии мо қаблан дар BAZIS, GMES ва BDO доираи васеи лоиҳаҳои муҳимро роҳбарӣ, идора ва бомуваффақият амалӣ намудааст. Мо ин таҷрибаи васеи иҷро ва равиши қатъии идоракунии лоиҳаҳоро мустақиман ба ширкати нави худ меорем.",
+        aboutDescription2:
+          "Роҳбарияти мо, ки аз директорони собиқи идоракунанда ва як мансабдори собиқи баландпояи давлатӣ бо зиёда аз 25 соли таҷриба дар соҳаи хизматрасониҳои коммуналии шаҳрӣ иборат аст, дониши амиқи маҳаллиро бо таҷрибаҳои беҳтарини байналмилалӣ муттаҳид мекунад.",
+        aboutDescription3:
+          "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
+        discoverMore: "Маълумоти бештар",
+
+        sectorsLabel: "СОҲАҲОИ АСОСИИ ФАЪОЛИЯТ",
+        sectorsTitle1: "Соҳаҳои асосии",
+        sectorsTitle2: "фаъолият",
+        allExpertise: "Ҳамаи самтҳо",
+        exploreSector: "Муфассалтар",
+
+        sector1Title:
+          "Обтаъминкунӣ, санитария ва гигиена (WASH)",
+        sector1Description:
+          "Таҳияи сохторҳои устувори тарифӣ, таҳқиқоти ҳамаҷонибаи иқтисодӣ ва чаҳорчӯбаҳои самараноки ҳуқуқӣ ва институтсионалӣ барои таъмини хизматрасониҳои боэътимод, самаранок, устувор ва аз ҷиҳати молиявӣ устувори оби тозаи минтақавӣ. Равиши мо таҳлили иқтисодӣ, мутобиқати меъёрӣ ва банақшагирии стратегиро муттаҳид намуда, хизматрасониҳоро беҳтар ва устувории дарозмуддати инфрасохтори обро дастгирӣ мекунад.",
+
+        sector2Title:
+          "Тозакунии обҳои партов ва идоракунии устувор",
+        sector2Description:
+          "Пешниҳоди роҳҳалҳои инноватсионӣ ва устувори тозакунии обҳои партов тавассути технологияҳои пешрафта, тарҳрезии самараноки системаҳо ва таҷрибаҳои масъулонаи экологӣ. Мо рушди инфрасохтори боэътимоди обҳои партовро дастгирӣ менамоем, ки саломатии ҷамъиятиро беҳтар ва захираҳои табииро ҳифз мекунад.",
+
+        sector3Title:
+          "Интиқоли ҳамгирошудаи об ва идоракунии каналҳо",
+        sector3Description:
+          "Пешниҳоди роҳҳалҳои устувори интиқоли об ва усулҳои самараноки идоракунии каналҳо барои дастгирии тақсимоти самараноки об, эътимоднокии система ва устувории дарозмуддати захираҳо. Мо ба банақшагирии амалӣ, беҳсозии инфрасохтор ва таҷрибаҳои масъулонаи экологӣ диққат медиҳем.",
+
+        sector4Title:
+          "Обёрии пешрафта ва идоракунии захираҳои об",
+        sector4Description:
+          "Пешниҳоди роҳҳалҳои инноватсионии обёрӣ ва усулҳои ҳамгирошудаи идоракунии захираҳои об барои баланд бардоштани самаранокии истифодаи об, беҳсозии маҳсулнокии кишоварзӣ ва истифодаи устувори захираҳои дастрас.",
+
+        approachLabel: "РӮЙКАРДИ СТРАТЕГИИ МО",
+        approachTitle1: "Равиши амалӣ",
+        approachTitle2: "барои таъсири дарозмуддат.",
         approachDescription:
-          "NHD Consultants таҷрибаи байналмилалӣ, донишҳои маҳаллӣ ва дастгирии амалии машваратиро барои ба даст овардани натиҷаҳои муҳим ва устувор муттаҳид мекунад.",
+          "Мо амалро аз назария боло мегузорем. Дастаҳои мо чораҳои амалӣ, бар далел асосёфта ва ба институтҳо муттаҳидшударо амалӣ мекунанд, ки баъд аз анҷоми давраи лоиҳа низ самаранок мемонанд.",
 
-        whyLabel: "ЧАРО NHD",
-        whyTitle1: "Таҷрибаи касбӣ.",
-        whyTitle2: "Фаҳмиши маҳаллӣ.",
-        whyDescription:
-          "Мо таҷрибаи гуногуни касбӣ ва донишҳои амалӣ барои ҳалли масъалаҳои мураккаби рушд ва машваратиро муттаҳид мекунем.",
+        approach1Title: "Таваҷҷӯҳ ба мизоҷ",
+        approach1Description:
+          "Мо роҳҳалҳои якхеларо пурра рад мекунем. Ҳар як барномаи машваратӣ барои ҳалли мушкилоти беназир ва амалии мизоҷи дахлдор махсус мутобиқ карда мешавад.",
 
-        servicesLabel: "ХИЗМАТРАСОНИҲОИ МО",
-        servicesTitle1: "Роҳҳалҳо барои",
-        servicesTitle2: "мушкилоти воқеӣ.",
-        servicesDescription:
-          "Хизматрасониҳои машваратии мо инфрасохтор, институтҳо, ҷомеаҳо ва ташкилотҳоеро дастгирӣ мекунанд, ки барои рушди устувор фаъолият мекунанд.",
+        approach2Title: "Шарикии стратегӣ",
+        approach2Description:
+          "Фаъолияти мо ба ҳамкорӣ асос ёфтааст. Мо робитаҳои устуворро байни ҳукуматҳои минтақавӣ, донорҳои байналмилалии молиявӣ ва роҳбарони ҷомеаҳои маҳаллӣ эҷод мекунем.",
+
+        approach3Title: "Самаранокии собитшуда",
+        approach3Description:
+          "Мо амалро аз назария боло мегузорем. Дастаҳои мо чораҳои амалӣ, бар далел асосёфта ва ба институтҳо муттаҳидшударо амалӣ мекунанд, ки баъд аз анҷоми давраи лоиҳа низ самаранок мемонанд.",
+
+        approach4Title: "Рушди пайваста",
+        approach4Description:
+          "Мо иқтидорҳои маҳаллиро пайваста инкишоф медиҳем. Мо системаҳои муосири идоракуниро барои мутобиқ шудан ба мушкилоти нави макроиқтисодӣ ва экологӣ фаъолона мутобиқ мекунем.",
 
         teamLabel: "ДАСТАИ БАЙНАЛМИЛАЛИИ МО",
         teamTitle1: "Коршиносон бо",
         teamTitle2: "таҷрибаи ҷаҳонӣ.",
         teamDescription:
-          "Дастаи байналмилалии мо таҷрибаи гуногуни касбӣ дар соҳаҳои рушд, инфрасохтор, ислоҳоти институтсионалӣ ва хизматрасониҳои машваратиро муттаҳид мекунад.",
+          "Дастаи байналмилалии мо таҷрибаи васеи касбӣ дар соҳаҳои рушд, инфрасохтор, ислоҳоти институтсионалӣ ва хизматрасониҳои машваратиро муттаҳид мекунад.",
 
-        teamButton: "Коршиносони мо",
+        impactLabel: "ҲАДАФҲОИ РУШДИ УСТУВОР ВА ТАЪСИРИ ИҶТИМОӢ",
+        impactTitle1: "Эҷоди ҷомеаҳои устувор",
+        impactTitle2: "тавассути рушди масъулона",
+        impactDescription:
+          "NHD Consultants устуворӣ, масъулияти иҷтимоӣ ва таъсири ченшавандаро ба лоиҳаҳои худ муттаҳид намуда, хизматрасониҳои машваратии худро бо Ҳадафҳои Рушди Устувори Созмони Милали Муттаҳид ҳамоҳанг мекунад. Тавассути равишҳои фарогир ва масъул мо ташаббусҳоеро дастгирӣ мекунем, ки ҷомеаҳоро беҳтар, устувориро тақвият ва барои ҷомеа арзиши дарозмуддат эҷод мекунанд. Ӯҳдадории мо аз иҷрои лоиҳаҳо фаротар буда, ба тағйироти мусбат, имкониятҳои баробар ва натиҷаҳои устувор барои наслҳои оянда равона шудааст. Бо ҳамгироии принсипҳои экологӣ, иҷтимоӣ ва идоракунӣ мо ба шарикон дар ноил шудан ба таъсири назаррас ва натиҷаҳои дарозмуддати рушд кӯмак мекунем.",
+        exploreImpact: "Таъсири мо",
+
+        impactSectionLabel: "ҲАДАФҲОИ РУШДИ УСТУВОР ВА ТАЪСИРИ ИҶТИМОӢ",
+impactSectionTitle1: "Роҳҳалҳои устувор барои",
+impactSectionTitle2: "таъсири дарозмуддат.",
+impactSectionDescription:
+  "NHD Consultants рушди устуворро тавассути роҳҳалҳои амалӣ дастгирӣ мекунад, ки инфрасохторро тақвият медиҳанд, хизматрасониҳоро беҳтар месозанд ва таъсири дарозмуддати иҷтимоӣ ва иқтисодӣ эҷод мекунанд.",
+impactSectionButton: "Хизматрасониҳои мо",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Биёед роҳҳалҳои",
-        ctaTitle2: "устувор эҷод кунем.",
+        ctaTitle1: "Эҷоди ҷомеаҳои устувор",
+        ctaTitle2: "тавассути рушди масъулона",
         ctaDescription:
-          "Барои муҳокимаи масъалаҳои рушди, инфрасохторӣ ё машваратии худ бо дастаи мо тамос гиред.",
-        ctaButton: "Оғози суҳбат",
+          "Мо устуворӣ, масъулияти иҷтимоӣ ва таъсири ченшавандаро ба лоиҳаҳои худ муттаҳид намуда, хизматрасониҳои машваратии худро бо Ҳадафҳои Рушди Устувори Созмони Милали Муттаҳид ҳамоҳанг мекунем.",
+        ctaButton: "Тамос бо мо",
+
+        ctaSectionLabel: "NHD CONSULTANTS",
+ctaSectionTitle1: "Омодаед таъсири",
+ctaSectionTitle2: "амалӣ эҷод кунед?",
+ctaSectionDescription:
+  "Биёед якҷоя роҳҳалҳои амалӣ ва устуворро таҳия кунем, ки барои ташкилоти шумо ва ҷомеаҳое, ки ба онҳо хизмат мерасонед, арзиши дарозмуддат эҷод мекунанд.",
+ctaSectionButton: "Тамос бо мо",
       },
 
       about: {
-        heroLabel: "ДАР БОРАИ NHD CONSULTANTS",
-        heroTitle1: "Таҷриба.",
-        heroTitle2: "Дидгоҳ.",
+        heroLabel: "ДАР БОРАИ ШИРКАТ",
+        heroTitle1: "Идомаи мероси собитшудаи",
+        heroTitle2: "муваффақият дар Тоҷикистон.",
         heroDescription:
-          "New Horizons of Dushanbe LLC хизматрасониҳои касбии машваратӣ пешниҳод мекунад, ки рушди устувор ва рушди институтҳоро дастгирӣ менамоянд.",
+          "New Horizons of Dushanbe LLC як ширкати нави машваратии аз ҷиҳати ҳуқуқӣ мустақил мебошад, ки бар таҷрибаи собитшудаи роҳбарӣ ва фаъолияти олӣ асос ёфтааст. Дастаи роҳбарии мо қаблан дар BAZIS, GMES ва BDO доираи васеи лоиҳаҳои муҳимро роҳбарӣ, идора ва бомуваффақият амалӣ намудааст. Мо ин таҷрибаи васеи иҷро ва равиши қатъии идоракунии лоиҳаҳоро мустақиман ба ширкати нави худ меорем.",
 
         storyLabel: "ТАЪРИХИ МО",
-        storyTitle1: "Эҷоди",
-        storyTitle2: "уфуқҳои нав.",
+        storyTitle1: "Таҷрибаи маҳаллӣ",
+        storyTitle2: "Таҷрибаҳои беҳтарини байналмилалӣ",
         storyDescription1:
-          "NHD Consultants бо ташкилотҳо ва шарикони рушд ҳамкорӣ намуда, ба ҳалли масъалаҳои мураккаб тавассути хизматрасониҳои амалӣ ва масъулонаи машваратӣ мусоидат мекунад.",
+          "Роҳбарияти мо, ки аз директорони собиқи идоракунанда ва як мансабдори собиқи баландпояи давлатӣ бо зиёда аз 25 соли таҷриба дар соҳаи хизматрасониҳои коммуналии шаҳрӣ иборат аст, дониши амиқи маҳаллиро бо таҷрибаҳои беҳтарини байналмилалӣ муттаҳид мекунад.",
         storyDescription2:
-          "Рӯйкарди мо таҷрибаи байналмилалиро бо дарки воқеиятҳои маҳаллӣ муттаҳид намуда, ба мизоҷон дар таҳияи роҳҳалҳои амалӣ, устувор ва мувофиқ ба ниёзҳояшон кӯмак мекунад.",
+          "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
 
         missionLabel: "РИСОЛАТИ МО",
-        missionTitle1: "Роҳҳалҳои амалӣ.",
-        missionTitle2: "Таъсири назаррас.",
+        missionTitle: "Тақвияти ҷомеаҳои маҳаллӣ",
         missionDescription:
-          "Ҳадафи мо пешниҳоди дастгирии касбии машваратӣ мебошад, ки институтҳо, ҷомеаҳо ва ташаббусҳои рушдро таҳким мебахшад.",
+          "Тақвияти ҷомеаҳои маҳаллӣ, таъмини имкониятҳои баробар ва ворид намудани стандартҳои байналмилалӣ ба амалияи ҳаррӯза. Мо ҳар як амалро бо Ҳадафҳои Рушди Устувор ва афзалиятҳои донорӣ дар ислоҳоти институтсионалӣ ва фарогирии иҷтимоӣ ҳамоҳанг мекунем.",
 
         visionLabel: "ДИДГОҲИ МО",
-        visionTitle1: "Ояндаи",
-        visionTitle2: "қавитар.",
+        visionTitle: "Шарики боэътимодтарин ва сазовори эътимод",
         visionDescription:
-          "Мо ба ояндае бовар дорем, ки қарорҳои асоснок, рушди масъулона ва институтҳои самаранок ба ҷомеаҳои устувор мусоидат мекунанд.",
+          "Шарики боэътимодтарин ва сазовори эътимод барои ҳукуматҳо, ташкилотҳои байналмилалии донорӣ ва ҷомеаҳои маҳаллӣ будан, то ба онҳо дар ноил шудан ба рушди устувор, таҳкими институтҳои идоракунӣ ва таъмини рушди фарогир мувофиқи Ҳадафҳои Рушди Устувори СММ кӯмак расонем.",
 
-        valuesLabel: "АРЗИШҲОИ МО",
-        valuesTitle1: "Он чизе, ки",
+        valuesLabel: "АРЗИШҲОИ АСОСИИ МО",
+        valuesTitle1: "Он чизе ки",
         valuesTitle2: "кори моро роҳнамоӣ мекунад.",
 
         value1Title: "Касбият",
         value1Description:
-          "Мо стандартҳои баланди касбӣ ва усулҳои масъулонаи кориро риоя мекунем.",
+          "Мо дар ҳар як супориши коммуналӣ ва инфрасохторӣ стандартҳои баландтарини сифати техникӣ, дақиқӣ ва иҷрои касбиро нигоҳ медорем. Ӯҳдадории мо ба навоварӣ, бехатарӣ ва сифат роҳҳалҳои боэътимод, самаранок ва устуворро таъмин мекунад.",
 
         value2Title: "Ростқавлӣ",
         value2Description:
-          "Мо ба ҳар як ҳамкорӣ бо шаффофият, масъулият ва эҳтиром муносибат мекунем.",
+          "Шаффофият, ахлоқи қатъӣ ва масъулияти комил асоси тамоми фаъолияти мо мебошанд. Мо тавассути пешниҳоди роҳнамоии объективӣ, идоракунии масъулонаи лоиҳаҳо ва стандартҳои баланди ростқавлии касбӣ шарикиҳои боэътимоди машваратиро бо муассисаҳои байналмилалии молиявӣ эҷод мекунем.",
 
-        value3Title: "Фаҳмиши маҳаллӣ",
+        value3Title: "Муваффақият",
         value3Description:
-          "Мо ҳангоми таҳияи роҳҳалҳои амалӣ аҳамияти шароити маҳаллиро ба назар мегирем.",
+          "Мо ба натиҷаҳои амалӣ ва ченшаванда таваҷҷӯҳ мекунем, ки некӯаҳволии ҷомеаҳоро беҳтар, инфрасохтори маҳаллиро тақвият ва таъсири дарозмуддати иҷтимоиро дар саросари Тоҷикистон эҷод мекунанд. Ин тавассути муҳандисии инноватсионӣ, роҳҳалҳои устувор ва шарикии ҳамкорӣ амалӣ мегардад.",
 
-        value4Title: "Устуворӣ",
+        value4Title: "Навоварӣ",
         value4Description:
-          "Мо ба роҳҳалҳое диққат медиҳем, ки барои институтҳо ва ҷомеаҳо арзиши дарозмуддат эҷод мекунанд.",
+          "Мо омӯзиши пайваста ва қабули роҳҳалҳои муосирро барои рушди навоварӣ ва фаъолияти олӣ дастгирӣ мекунем. Бо ҳамгироии воситаҳо ва технологияҳои пешрафтаи рақамӣ мо равандҳои маҳаллии кориро содда, самаранокиро баланд ва қабули қарорҳоро беҳтар мекунем.",
 
-        ctaLabel: "ҲАМКОРӢ БО NHD",
-        ctaTitle1: "Таҷриба ва",
-        ctaTitle2: "дониши маҳаллӣ.",
+        approachLabel: "РӮЙКАРДИ СТРАТЕГИИ МО",
+        approachHeading1: "Равиши амалӣ",
+        approachHeading2: "барои таъсири дарозмуддат.",
+        approachDescription:
+          "Мо амалро аз назария боло мегузорем. Дастаҳои мо чораҳои амалӣ, бар далел асосёфта ва ба институтҳо муттаҳидшударо амалӣ мекунанд, ки баъд аз анҷоми давраи лоиҳа низ самаранок мемонанд.",
+
+        approach1Title: "Таваҷҷӯҳ ба мизоҷ",
+        approach1Description:
+          "Мо роҳҳалҳои якхеларо пурра рад мекунем. Ҳар як барномаи машваратӣ барои ҳалли мушкилоти беназир ва амалии мизоҷи дахлдор махсус мутобиқ карда мешавад.",
+
+        approach2Title: "Шарикии стратегӣ",
+        approach2Description:
+          "Фаъолияти мо ба ҳамкорӣ асос ёфтааст. Мо робитаҳои устуворро байни ҳукуматҳои минтақавӣ, донорҳои байналмилалии молиявӣ ва роҳбарони ҷомеаҳои маҳаллӣ эҷод мекунем.",
+
+        approach3Title: "Самаранокии собитшуда",
+        approach3Description:
+          "Мо амалро аз назария боло мегузорем. Дастаҳои мо чораҳои амалӣ, бар далел асосёфта ва ба институтҳо муттаҳидшударо амалӣ мекунанд, ки баъд аз анҷоми давраи лоиҳа низ самаранок мемонанд.",
+
+        approach4Title: "Рушди пайваста",
+        approach4Description:
+          "Мо иқтидорҳои маҳаллиро пайваста инкишоф медиҳем. Мо системаҳои муосири идоракуниро барои мутобиқ шудан ба мушкилоти нави макроиқтисодӣ ва экологӣ фаъолона мутобиқ мекунем.",
+
+        ctaLabel: "NHD CONSULTANTS",
+        ctaTitle1: "Эҷоди ҷомеаҳои устувор",
+        ctaTitle2: "тавассути рушди масъулона",
         ctaDescription:
-          "Таҷрибаи гуногунсоҳаи мо ба мо имкон медиҳад, ки мизоҷонро дар доираи васеи масъалаҳои рушд ва машваратӣ дастгирӣ намоем.",
-        ctaButton: "Хизматрасониҳои мо",
+          "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
+        ctaButton: "Тамос бо мо",
       },
 
       services: {
         heroLabel: "ХИЗМАТРАСОНИҲОИ МО",
-        heroTitle1: "Таҷриба барои",
-        heroTitle2: "масъалаҳои мураккаб.",
+        heroTitle1: "Роҳҳалҳои амалӣ ва устувор",
+        heroTitle2: "барои масъалаҳои мураккаб",
         heroDescription:
-          "NHD Consultants хизматрасониҳои амалӣ ва машваратиро дар соҳаҳои асосии рушд ва дастгирии институтсионалӣ пешниҳод мекунад.",
+          "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
 
-        listLabel: "ТАХАССУСИ АСОСИИ МО",
-        listTitle1: "Донишҳои амалӣ.",
-        listTitle2: "Роҳҳалҳои касбӣ.",
-        listDescription:
-          "Хизматрасониҳои мо таҷрибаи байналмилалӣ, донишҳои техникӣ ва фаҳмиши маҳаллиро барои натиҷаҳои устувор муттаҳид мекунанд.",
+        expertiseLabel: "СОҲАҲОИ АСОСИИ ФАЪОЛИЯТ",
+        expertiseTitle1: "Самтҳои",
+        expertiseTitle2: "тахассусии мо",
 
-        service1Title: "Обтаъминкунӣ ва санитария",
+        service1Title:
+          "Обтаъминкунӣ, санитария ва гигиена (WASH)",
         service1Description:
-          "Дастгирии машваратӣ барои лоиҳаҳои обтаъминкунӣ, санитария ва рушди марбут.",
+          "Таҳияи сохторҳои устувори тарифӣ, таҳқиқоти ҳамаҷонибаи иқтисодӣ ва чаҳорчӯбаҳои самараноки ҳуқуқӣ ва институтсионалӣ барои таъмини хизматрасониҳои боэътимод, самаранок, устувор ва аз ҷиҳати молиявӣ устувори оби тозаи минтақавӣ. Равиши мо таҳлили иқтисодӣ, мутобиқати меъёрӣ ва банақшагирии стратегиро муттаҳид мекунад.",
 
-        service2Title: "Инфрасохтор ва хизматрасониҳои коммуналӣ",
+        service2Title:
+          "Тозакунии обҳои партов ва идоракунии устувор",
         service2Description:
-          "Дастгирии машваратӣ барои инфрасохтор, хизматрасониҳои коммуналӣ ва хизматрасониҳои асосии давлатӣ.",
+          "Пешниҳоди роҳҳалҳои инноватсионӣ ва устувори тозакунии обҳои партов тавассути технологияҳои пешрафта, тарҳрезии самараноки системаҳо ва таҷрибаҳои масъулонаи экологӣ. Мо рушди инфрасохтори боэътимоди обҳои партовро дастгирӣ мекунем.",
 
-        service3Title: "Рушди иҷтимоӣ",
+        service3Title:
+          "Интиқоли ҳамгирошудаи об ва идоракунии каналҳо",
         service3Description:
-          "Хизматрасониҳои машваратӣ барои дастгирии ҷомеаҳо, институтҳо ва рушди фарогир.",
+          "Пешниҳоди роҳҳалҳои устувори интиқоли об ва усулҳои самараноки идоракунии каналҳо барои дастгирии тақсимоти самараноки об, эътимоднокии система ва устувории дарозмуддати захираҳо.",
 
-        service4Title: "Табдили рақамӣ",
+        service4Title:
+          "Обёрии пешрафта ва идоракунии захираҳои об",
         service4Description:
-          "Дастгирии амалӣ барои роҳҳалҳои рақамӣ, навсозии институтҳо ва табдили рақамӣ.",
+          "Пешниҳоди роҳҳалҳои инноватсионии обёрӣ ва усулҳои ҳамгирошудаи идоракунии захираҳои об барои баланд бардоштани самаранокии истифодаи об, беҳсозии маҳсулнокии кишоварзӣ ва истифодаи устувори захираҳо.",
 
-        capacityLabel: "ИҚТИДОРИ МО",
-        capacityTitle1: "Таҷрибаи байналмилалӣ.",
-        capacityTitle2: "Дидгоҳи маҳаллӣ.",
+        service5Title: "Идоракунии партовҳои сахт",
+        service5Description:
+          "Пешниҳоди роҳҳалҳои ҳамгирошудаи идоракунии партовҳои сахт, аз ҷумла системаҳои самараноки ҷамъоварӣ, коркарди партовҳо, ташаббусҳои коркарди дубора ва идоракунии масъулонаи экологӣ.",
 
+        service6Title: "Муҳофизати муҳити зист",
+        service6Description:
+          "Таъмини иҷрои масъулонаи лоиҳаҳо тавассути чораҳои ҳамаҷонибаи экологӣ, мутобиқати меъёрӣ ва равишҳои рушди устувор. Мо арзёбии экологӣ, идоракунии хавфҳо ва барномаҳои мониторингро истифода мебарем.",
+
+        service7Title:
+          "Арзёбии иқтисодии табдили партов ба захира",
+        service7Description:
+          "Рушди барқарорсозии устувори захираҳо тавассути арзёбии ҳамаҷонибаи иқтисодӣ, таҳлили бозор ва банақшагирии сармоягузорӣ барои ташаббусҳои табдили партов ба захира.",
+
+        service8Title:
+          "Иштироки ҷонибҳои манфиатдор ва барномаҳои огоҳсозии ҷомеа",
+        service8Description:
+          "Тақвияти ҷалби ҷомеа тавассути иштироки фарогири ҷонибҳои манфиатдор, ташаббусҳои огоҳсозӣ ва стратегияҳои самараноки муошират.",
+
+        service9Title: "Банақшагирӣ ва рушди институтсионалӣ",
+        service9Description:
+          "Тақвияти иқтидори ташкилотӣ тавассути банақшагирии стратегӣ, чаҳорчӯбаҳои рушди институтсионалӣ ва равишҳои самараноки идоракунӣ.",
+
+        service10Title: "Баробарии гендерӣ ва фарогирӣ",
+        service10Description:
+          "Пешбурди рушди фарогир тавассути равишҳои гендерӣ, иштироки баробар ва стратегияҳои фарогирии иҷтимоӣ.",
+
+        capacityLabel: "ТАКМИЛИ ИҚТИДОР",
+        capacityTitle1: "Ҳамгироии дониш ва",
+        capacityTitle2: "маҳорат",
         capacityDescription1:
-          "Дастаи мо таҷрибаи гуногуни касбӣ ва таҷрибаи корӣ дар муҳити рушд ва машваратиро муттаҳид мекунад.",
-
+          "Мо барномаҳои махсуси касбӣ, семинарҳои амалии рақамӣ ва омӯзиши ташкилотиро барои кормандони хизматрасониҳои коммуналӣ пешниҳод мекунем.",
         capacityDescription2:
-          "Мо дарк мекунем, ки лоиҳаҳои муваффақ на танҳо донишҳои техникӣ, балки муоширати равшан, фаҳмиши маҳаллӣ ва татбиқи амалӣ талаб мекунанд.",
-
+          "Тағйироти устувор танҳо инфрасохтори муосирро талаб намекунад — он иқтидори маҳаллиро низ талаб мекунад. Тавассути интиқоли сохтории дониш NHD Consultants байни ҷорӣ намудани технология ва идоракунии дарозмуддати хизматрасониҳои коммуналӣ робита эҷод мекунад.",
         capacityDescription3:
-          "NHD Consultants ин дидгоҳҳоро муттаҳид намуда, ба мизоҷон барои гузаштан аз стратегия ба натиҷаҳои воқеӣ кӯмак мекунад.",
+          "Мо ба маъмурони минтақавӣ ва дастаҳои шаҳрӣ имкон медиҳем, ки мустақилона пойгоҳҳои нави маълумоти ҳисобдорӣ, технологияҳои муосири ҳисобкунии ченакҳо ва чораҳои қавии экологӣ, тандурустӣ ва бехатарии меҳнатро истифода баранд.",
+        capacityDescription4:
+          "Бо табдил додани иҷрои техникӣ ба таҷрибаи устувори институтсионалӣ мо кафолат медиҳем, ки дастаҳои маҳаллӣ самаранокӣ, мутобиқат ва рушдро бо эътимоди комил пеш баранд.",
+
+        sdgLabel: "ҲАДАФҲОИ РУШДИ УСТУВОР ВА ТАЪСИРИ ИҶТИМОӢ",
+        sdgTitle1: "Эҷоди ҷомеаҳои устувор",
+        sdgTitle2: "тавассути рушди масъулона",
+        sdg6Title: "Оби тоза",
+        sdg6Description:
+          "Васеъ намудани дастрасӣ ба хизматрасониҳои коммуналӣ.",
+        sdg5Title: "Баробарии гендерӣ",
+        sdg5Description:
+          "Таҳияи стратегияҳои одилонаи ҷалби кормандон.",
+        sdg11Title: "Шаҳрҳои устувор",
+        sdg11Description:
+          "Пешбурди ислоҳоти сиёсати сабзи маҳаллӣ.",
+
+        credentialsLabel: "ТААҶРИБАИ ЛОИҲАВӢ",
+        credentialsTitle1: "Таҷрибаи собитшуда",
+        credentialsTitle2: "Натиҷаҳои бадастомада",
+
+        credential1Sector: "Обтаъминкунӣ ва санитария",
+        credential1Client: "ADB / EBRD",
+        credential1Scope:
+          "Таҷдиди сохторҳои тарифӣ, таҳияи моделҳои тиҷоратии барқарорсозии хароҷот ва таъсиси протоколҳои мутобиқат.",
+
+        credential2Sector: "Идоракунии партовҳои сахт",
+        credential2Client: "EBRD",
+        credential2Scope:
+          "Иҷрои талаботи ESAP, таҳияи нақшаҳои ҷалби ҷомеа ва беҳсозии равандҳои маҳаллии ҳисобдорӣ.",
+
+        credential3Sector: "Рақамикунонии хизматрасониҳои коммуналӣ",
+        credential3Client: "World Bank",
+        credential3Scope:
+          "Ҷорӣ намудани низомҳои муосири ҳисобдорӣ, меъмории махсуси пойгоҳҳои маълумот ва системаҳои рақамии муносибат бо мизоҷон.",
+
+        credential4Sector: "Сиёсати иҷтимоӣ ва гендерӣ",
+        credential4Client: "Ташаббусҳои дастгиришудаи донорон",
+        credential4Scope:
+          "Таҳияи роҳнамоҳои имкониятҳои баробар, гузаронидани шунидани ҷамъиятӣ ва таъсиси сохторҳои корпоративии HR.",
+
+        complianceLabel: "ХАРИД ВА МУТОБИҚАТ",
+        complianceTitle1: "Мубориза бо коррупсия",
+        complianceTitle2: "ва ахлоқ",
+
+        complianceDescription:
+          "Мо тавассути сиёсати қатъии таҳаммулнопазирӣ нисбат ба қаллобӣ, коррупсия ва амалҳои ҳамдастӣ стандартҳои баландтарини ростқавлиро риоя мекунем. Ҳамаи хизматрасониҳои машваратӣ ва фаъолияти дастгирии тендерӣ пурра ба стандартҳои ростқавлӣ ва дастурҳои хариди ADB, EBRD ва Бонки Ҷаҳонӣ мутобиқ мебошанд.",
+
+        conflictTitle: "Бархӯрди манфиатҳо",
+        conflictDescription:
+          "Чаҳорчӯбаи машваратии мо бар мустақилият, шаффофият ва бетарафӣ асос ёфта, дастгирии объективиро дар тамоми ҳамкориҳо таъмин мекунад. Мо бархӯрди манфиатҳоро фаъолона идора намуда, стандартҳои баландтарини ростқавлӣ, масъулият ва эътимоди ҷонибҳои манфиатдорро нигоҳ медорем.",
+
+        biddingTitle: "Мутобиқати тендери одилона",
+        biddingDescription:
+          "Мо мутобиқати пурра ба қоидаҳои байналмилалии тендериро кафолат дода, ҳисобдорӣ, рақобати одилона ва расмиёти қавии маъмуриро таъмин мекунем.",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Биёед ниёзҳои",
-        ctaTitle2: "шуморо муҳокима кунем.",
+        ctaTitle1: "Эҷоди ҷомеаҳои устувор",
+        ctaTitle2: "тавассути рушди масъулона",
         ctaDescription:
-          "Барои муҳокимаи он ки чӣ гуна таҷрибаи мо метавонад лоиҳа ё ташаббуси шуморо дастгирӣ кунад, бо мо тамос гиред.",
+          "Мо устуворӣ, масъулияти иҷтимоӣ ва таъсири ченшавандаро ба лоиҳаҳои худ муттаҳид намуда, хизматрасониҳои машваратии худро бо Ҳадафҳои Рушди Устувори СММ ҳамоҳанг мекунем.",
         ctaButton: "Тамос бо мо",
       },
 
       projects: {
-        heroLabel: "ЛОИҲАҲОИ МО",
-        heroTitle1: "Таҷриба",
-        heroTitle2: "дар амал.",
+        heroLabel: "ТААҶРИБАИ ЛОИҲАВӢ",
+        heroTitle1: "Таҷрибаи собитшуда",
+        heroTitle2: "натиҷаҳои бадастомада",
         heroDescription:
+          "Обтаъминкунӣ ва санитария, идоракунии партовҳои сахт, рақамикунонии хизматрасониҳои коммуналӣ ва сиёсати иҷтимоӣ ва гендерӣ.",
+
+        mainLabel: "ТААҶРИБАИ ЛОИҲАВӢ",
+        mainTitle1: "Таҷрибаи собитшуда",
+        mainTitle2: "натиҷаҳои бадастомада",
+        mainDescription:
           "Таҷрибаи лоиҳавии мо фаъолияти амалиро дар соҳаҳои рушд, инфрасохтор, институтҳо ва хизматрасониҳои машваратӣ инъикос мекунад.",
 
-        portfolioLabel: "ПОРТФОЛИОИ ЛОИҲАҲО",
-        portfolioTitle1: "Самтҳои интихобшудаи",
-        portfolioTitle2: "таҷриба.",
-        portfolioDescription:
-          "Таҷрибаи гуногунсоҳаи мо лоиҳаҳоеро дастгирӣ мекунад, ки донишҳои техникӣ, тафаккури стратегӣ ва татбиқи амалиро талаб мекунанд.",
-
+        project1Category: "ADB / EBRD",
         project1Title: "Обтаъминкунӣ ва санитария",
         project1Description:
-          "Таҷриба дар дастгирии лоиҳаҳои обтаъминкунӣ, санитария ва инфрасохтори марбут.",
+          "Таҷдиди сохторҳои тарифӣ, таҳияи моделҳои тиҷоратии барқарорсозии хароҷот ва таъсиси протоколҳои мутобиқат.",
 
-        project2Title: "Инфрасохтор ва хизматрасониҳои коммуналӣ",
+        project2Category: "EBRD",
+        project2Title: "Идоракунии партовҳои сахт",
         project2Description:
-          "Таҷрибаи касбӣ дар дастгирии инфрасохтор ва хизматрасониҳои асосии коммуналӣ.",
+          "Иҷрои талаботи ESAP, таҳияи нақшаҳои ҷалби ҷомеа ва беҳсозии равандҳои маҳаллии ҳисобдорӣ.",
 
-        project3Title: "Рушди иҷтимоӣ",
+        project3Category: "World Bank",
+        project3Title: "Рақамикунонии хизматрасониҳои коммуналӣ",
         project3Description:
-          "Таҷриба дар лоиҳаҳои рушди иҷтимоӣ ва ташаббусҳои ба ҷомеа нигаронидашуда.",
+          "Ҷорӣ намудани низомҳои муосири ҳисобдорӣ, меъмории махсуси пойгоҳҳои маълумот ва системаҳои рақамии муносибат бо мизоҷон.",
 
-        project4Title: "Рушди институтсионалӣ",
+        project4Category: "Ташаббусҳои дастгиришудаи донорон",
+        project4Title: "Сиёсати иҷтимоӣ ва гендерӣ",
         project4Description:
-          "Таҷрибаи машваратӣ дар дастгирии рушди институтҳо ва ташкилотҳо.",
+          "Таҳияи роҳнамоҳои имкониятҳои баробар, гузаронидани шунидани ҷамъиятӣ ва таъсиси сохторҳои корпоративии HR.",
+
+        approachLabel: "РӮЙКАРДИ СТРАТЕГИИ МО",
+        approachTitle1: "Равиши амалӣ",
+        approachTitle2: "барои таъсири дарозмуддат.",
+        approachDescription:
+          "Мо амалро аз назария боло мегузорем. Дастаҳои мо чораҳои амалӣ, бар далел асосёфта ва ба институтҳо муттаҳидшударо амалӣ мекунанд, ки баъд аз анҷоми давраи лоиҳа низ самаранок мемонанд.",
+        approachButton: "Тамос бо мо",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Таҷрибаи амалӣ.",
-        ctaTitle2: "Натиҷаҳои устувор.",
+        ctaTitle1: "Роҳҳалҳои амалӣ ва устувор",
+        ctaTitle2: "барои рушди масъулона",
         ctaDescription:
-          "Бифаҳмед, ки чӣ гуна таҷрибаи касбии мо метавонад ташаббуси навбатии шуморо дастгирӣ кунад.",
+          "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
         ctaButton: "Тамос бо мо",
       },
 
@@ -938,44 +1529,56 @@ const resources = {
         heroDescription:
           "Дастаи байналмилалии мо таҷрибаи васеи касбӣ дар соҳаҳои рушд, инфрасохтор, ислоҳоти институтсионалӣ ва машварат дорад.",
 
-        expertsLabel: "КОРШИНОСОНИ МО",
-        expertsTitle1: "Таҷрибаи байналмилалӣ.",
-        expertsTitle2: "Таҷрибаи амалӣ.",
-        expertsDescription:
-          "Коршиносони мо дорои таҷрибаи гуногуни касбӣ ва байналмилалӣ барои ҳалли масъалаҳои мураккаби рушд ва машваратӣ мебошанд.",
+        mainLabel: "КОРШИНОСОНИ МО",
+        mainTitle1: "Таҷрибаи байналмилалӣ.",
+        mainTitle2: "Таҷрибаи амалӣ.",
+        mainDescription:
+          "Коршиносони мо дорои таҷрибаи гуногуни касбӣ ва байналмилалӣ барои дастгирии масъалаҳои мураккаби рушд ва машваратӣ мебошанд.",
 
-        expert1Position: "Коршиноси калони рушд ва машварат",
-        expert1Experience: "Таҷрибаи байналмилалӣ",
-        expert1Description:
-          "Мутахассиси ботаҷриба, ки дастгирии стратегӣ ва машваратиро дар ташаббусҳои рушд ва институтсионалӣ пешниҳод мекунад.",
+        expert1Name: "Mohd Masood Seediqyar",
+        expert1Position:
+          "Муҳандиси барқ ва мутахассиси идоракунии хизматрасониҳои коммуналӣ",
+        expert1Experience:
+          "Мутахассиси идоракунии хизматрасониҳои коммуналӣ, муҳандисии бахши энергетика, банақшагирии стратегӣ, моделсозии молиявии хизматрасониҳои коммуналӣ ва тарҳрезии тарифҳои самараноки хароҷот. Қариб 25 соли таҷриба дар идоракунии коммуналӣ, банақшагирии молиявӣ ва машварати идоракунии корпоративӣ. Таҷрибаи собитшуда дар таҳияи роҳҳалҳои устувор ва баланд бардоштани самаранокии хизматрасониҳо.",
+        expert1Description: "",
 
-        expert2Position: "Коршиноси инфрасохтор ва рушд",
-        expert2Experience: "Таҷрибаи техникӣ",
-        expert2Description:
-          "Таҷрибаи касбӣ дар соҳаҳои инфрасохтор, рушд ва машварати техникӣ.",
+        expert2Name: "Dr. Kelkar Padmakar Waman",
+        expert2Position:
+          "Мутахассиси захираҳои об ва автоматикунонӣ",
+        expert2Experience:
+          "Мутахассиси асбобсозӣ, муҳандисии каналҳо, системаҳои автоматикунонӣ ва идоракунии захираҳои об. Коршиноси системаҳои мониторинг ва назорат барои шабакаҳои каналҳо, инфрасохтори обёрӣ ва тақсимоти об. Таҷриба дар истифодаи роҳҳалҳои автоматикунонӣ барои баланд бардоштани самаранокӣ ва устувории бахши об.",
+        expert2Description: "",
 
-        expert3Position: "Мутахассиси рушд ва машварат",
-        expert3Experience: "Таҷрибаи байналмилалӣ",
-        expert3Description:
-          "Мушовири ботаҷриба, ки ташаббусҳои рушд ва ташкилотҳоро тавассути таҷрибаи касбӣ дастгирӣ мекунад.",
+        expert3Name: "Thomas Bedour, B.A.",
+        expert3Position:
+          "Мутахассиси калони обтаъминкунӣ ва обҳои партов",
+        expert3Experience:
+          "Thomas мутахассиси калони обтаъминкунӣ ва обҳои партов бо зиёда аз 10 соли таҷриба дар фаъолияти коммуналӣ ва саноатӣ, системаҳои тозакунӣ, идоракунии инфрасохтор, мутобиқати меъёрӣ ва беҳсозии фаъолият мебошад. Ӯ доираи васеи лоиҳаҳои обтаъминкуниро дар саросари Канада бомуваффақият идора ва дастгирӣ кардааст.",
+        expert3Description: "",
 
-        expert4Position: "Коршиноси рушд ва институтсионалӣ",
-        expert4Experience: "Таҷрибаи байналмилалӣ",
-        expert4Description:
-          "Таҷрибаи касбӣ дар дастгирии рушди институтсионалӣ ва лоиҳаҳои мураккаби машваратӣ.",
+        expert4Name: "Dr. Sanjay Bhattacharya",
+        expert4Position:
+          "Мушовири калони стратегия ва тағйирот",
+        expert4Experience:
+          "Профессори амалия ва коршиноси идоракунии стратегӣ ва лоиҳавӣ бо зиёда аз 30 соли таҷрибаи якҷояи академӣ ва соҳавӣ. Таҷрибаи ӯ бо таҳқиқоти васеъ, нашрияҳо ва роҳбарии иҷроия дар соҳаҳои стратегия, навоварӣ ва рақобатпазирии ташкилотӣ дастгирӣ мешавад.",
+        expert4Description: "",
 
-        expert5Position: "Мутахассиси рушд ва инфрасохтор",
-        expert5Experience: "Таҷрибаи минтақавӣ",
-        expert5Description:
-          "Мутахассиси ботаҷриба бо таҷриба дар ташаббусҳои рушд ва инфрасохтор.",
+        expert5Name: "Ilkhom Tashtemirov",
+        expert5Position:
+          "Мутахассиси калони хариди ММФ ва лоиҳаҳои рушд",
+        expert5Experience:
+          "Мутахассиси калони хариди ММФ ва идоракунии лоиҳаҳо бо зиёда аз 20 соли таҷриба дар иҷрои лоиҳаҳои маблағгузоришудаи Бонки Ҷаҳонӣ ва БОР дар Осиёи Марказӣ. Дорои ду дараҷаи магистрӣ дар муҳандисӣ ва иқтисод буда, дар роҳбарӣ, машварати давлатӣ, тандурустӣ, рақамӣ ва инфрасохтори об таҷриба дорад.",
+        expert5Description: "",
 
-        expert6Position: "Коршиноси байналмилалии рушд",
-        expert6Experience: "Таҷрибаи байналмилалӣ",
-        expert6Description:
-          "Таҷрибаи касбӣ дар рушди байналмилалӣ, машварат ва ташаббусҳои институтсионалӣ.",
+        expert6Name: "Mher Kelian",
+        expert6Position:
+          "Муҳандиси калони инфрасохтори об ва системаҳо",
+        expert6Experience:
+          "Муҳандиси ботаҷрибаи об ва механика бо зиёда аз 12 соли таҷриба дар иҷрои зиёда аз 300 лоиҳаи инфрасохторӣ, иншооти тозакунӣ ва интиқоли об дар Шарқи Наздик ва Африқо. Узви Орденҳои муҳандисон ва меъморон буда, дар беҳсозии равандҳо, тарҳрезии системаҳо ва иҷрои лоиҳаҳои калон муваффақияти собитшуда дорад.",
+        expert6Description: "",
 
         networkLabel: "ШАБАКАИ МО",
-        networkTitle1: "Шабакаи васеъ.",
+        networkTitle1: "Шабакаи васеътар.",
         networkTitle2: "Дидгоҳи қавитар.",
         networkDescription:
           "Шабакаи байналмилалии мо ба мо имкон медиҳад, ки ҳангоми талаб шудани дониши махсус таҷриба ва дидгоҳҳои гуногунро муттаҳид намоем.",
@@ -984,37 +1587,37 @@ const resources = {
 
       news: {
         heroLabel: "АХБОР ВА НАВСОЗИҲО",
-        heroTitle1: "Ахбор ва",
-        heroTitle2: "навсозиҳо.",
+        heroTitle1: "Ахбор",
+        heroTitle2: "ва навсозиҳо.",
         heroDescription:
           "Эълонҳои ширкат, марҳилаҳои лоиҳаҳо, маълумоти касбӣ ва навсозиҳои NHD Consultants.",
 
-        latestLabel: "НАВСОЗИҲОИ ОХИРИН",
-        latestTitle1: "Дар NHD Consultants",
-        latestTitle2: "чӣ рӯй медиҳад.",
-        latestDescription:
-          "Дар ин бахш эълонҳои расмии ширкат, навсозиҳои лоиҳаҳо, маълумоти касбӣ ва дигар таҳаввулоти муҳим нашр карда мешаванд.",
+        mainLabel: "ҲАДАФҲОИ РУШДИ УСТУВОР ВА ТАЪСИРИ ИҶТИМОӢ",
+        mainTitle1: "Эҷоди ҷомеаҳои устувор",
+        mainTitle2: "тавассути рушди масъулона",
+        mainDescription:
+          "Мо устуворӣ, масъулияти иҷтимоӣ ва таъсири ченшавандаро ба лоиҳаҳои худ муттаҳид намуда, хизматрасониҳои машваратии худро бо Ҳадафҳои Рушди Устувори СММ ҳамоҳанг мекунем.",
 
-        comingSoonLabel: "БА ЗУДӢ",
-        comingSoonTitle: "Ахбор ва навсозиҳо дар ин ҷо пайдо мешаванд.",
-        comingSoonDescription:
-          "NHD Consultants ахбори ширкат, марҳилаҳои лоиҳаҳо, маълумоти касбӣ ва навсозиҳои соҳаи рушдро ҳангоми дастрас шудан нашр мекунад.",
+        updateCategory: "ҲАДАФҲОИ РУШДИ УСТУВОР ВА ТАЪСИРИ ИҶТИМОӢ",
+        updateTitle:
+          "Эҷоди ҷомеаҳои устувор тавассути рушди масъулона",
+        updateDescription:
+          "Тавассути равишҳои фарогир ва масъул мо ташаббусҳоеро дастгирӣ мекунем, ки ҷомеаҳоро беҳтар, устувориро тақвият ва барои ҷомеа арзиши дарозмуддат эҷод мекунанд. Ӯҳдадории мо аз иҷрои лоиҳаҳо фаротар буда, ба тағйироти мусбат, имкониятҳои баробар ва натиҷаҳои устувор барои наслҳои оянда равона шудааст.",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Таҷрибаи амалӣ.",
-        ctaTitle2: "Роҳҳалҳои устувор.",
+        ctaTitle1: "Эҷоди ҷомеаҳои устувор",
+        ctaTitle2: "тавассути рушди масъулона",
+        ctaDescription:
+          "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
         ctaButton: "Тамос бо мо",
       },
 
-      /* =========================================================
-         CONTACT - TAJIK
-         ========================================================= */
       contact: {
         heroLabel: "ТАМОС БО NHD CONSULTANTS",
-        heroTitle1: "Лоиҳаи навбатии",
-        heroTitle2: "худро муҳокима мекунем.",
+        heroTitle1: "Роҳҳалҳои амалӣ ва устувор",
+        heroTitle2: "барои шумо",
         heroDescription:
-          "Барои муҳокимаи масъалаҳои рушд, инфрасохтор, сиёсати давлатӣ, ислоҳоти институтсионалӣ ё хизматрасониҳои машваратӣ бо NHD Consultants тамос гиред.",
+          "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
 
         getInTouchLabel: "БО МО ТАМОС ГИРЕД",
         getInTouchTitle1: "Суҳбатро",
@@ -1034,50 +1637,50 @@ const resources = {
 
         formLabel: "ИРСОЛИ ДАРХОСТ",
         fullName: "Ному насаб",
+        fullNamePlaceholder: "Ному насаби шумо",
         email: "Суроғаи почтаи электронӣ",
+        emailPlaceholder: "Суроғаи почтаи электронии шумо",
         subject: "Мавзӯъ",
+        subjectPlaceholder: "Чӣ гуна мо метавонем кӯмак кунем?",
         message: "Паём",
-        sendInquiry: "Ирсоли дархост",
+        messagePlaceholder:
+          "Дар бораи лоиҳа ё дархости худ ба мо маълумот диҳед...",
+        sendInquiry: "Ирсоли дархост →",
         formNote:
           "Ирсоли шакли тамос пас аз тасдиқи мундариҷа ва дизайни вебсайт пайваст карда мешавад.",
 
         ctaLabel: "NHD CONSULTANTS",
-        ctaTitle1: "Таҷрибаи амалӣ.",
-        ctaTitle2: "Роҳҳалҳои устувор.",
+        ctaTitle1: "Роҳҳалҳои амалӣ ва устувор",
+        ctaTitle2: "барои рушди масъулона",
         ctaDescription:
-          "Дастгирии институтҳои қавӣ, ҷомеаҳои устувор ва рушди устувор тавассути хизматрасониҳои масъулонаи машваратӣ.",
-        ctaButton: "Тамос бо мо",
+          "Мо роҳҳалҳои амалӣ, устувор ва ба институтҳо муттаҳидшударо барои рушди ҷомеаҳо, инфрасохтор ва ислоҳоти сиёсати давлатӣ пешниҳод менамоем.",
       },
 
       footer: {
         description:
-          "Роҳҳалҳои касбии машваратӣ барои рушди устувор ва натиҷаҳои дарозмуддат.",
-
+          "Роҳҳалҳои касбии машваратӣ барои рушди устувор ва таъсири дарозмуддат.",
         localExpertise: "Таҷрибаи маҳаллӣ",
         socialImpact: "Таъсири иҷтимоӣ",
         sustainableSolutions: "Роҳҳалҳои устувор",
-
         company: "Ширкат",
         home: "Асосӣ",
         about: "Дар бораи мо",
         services: "Хизматрасониҳо",
         news: "Ахбор",
         contact: "Тамос",
-
-        expertise: "Таҷриба",
+        expertise: "Тахассус",
         waterSanitation: "Обтаъминкунӣ ва санитария",
-        infrastructureUtilities: "Инфрасохтор ва хизматрасониҳои коммуналӣ",
+        infrastructureUtilities:
+          "Инфрасохтор ва хизматрасониҳои коммуналӣ",
         socialDevelopment: "Рушди иҷтимоӣ",
         digitalTransformation: "Табдили рақамӣ",
-
         connect: "Тамос",
         companyName: "New Horizons of Dushanbe LLC",
         country: "Тоҷикистон",
         contactNhd: "Тамос бо NHD Consultants",
-
         follow: "Моро пайгирӣ кунед",
-
-        copyright: "© 2026 NHD Consultants. Ҳамаи ҳуқуқҳо ҳифз шудаанд.",
+        copyright:
+          "© 2026 NHD Consultants. Ҳамаи ҳуқуқҳо ҳифз шудаанд.",
       },
     },
   },

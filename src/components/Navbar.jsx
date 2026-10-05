@@ -19,21 +19,24 @@ function Navbar() {
       <div className="navbar">
 
         {/* BRAND */}
-        <a href="/" className="navbar-brand" onClick={closeMenu}>
-          <span className="brand-main">NHD</span>
-          <span className="brand-sub">CONSULTANTS</span>
-        </a>
+       <a href="/" className="navbar-brand" onClick={closeMenu}>
+  <img
+    src="/images/logo/Logo Photo.jpg"
+    alt="NHD Consultants"
+    className="navbar-logo"
+  />
+</a>
 
         {/* DESKTOP NAVIGATION */}
-        <nav className="navbar-nav">
-          <a href="/">{t("nav.home")}</a>
-          <a href="/about">{t("nav.about")}</a>
-          <a href="/services">{t("nav.services")}</a>
-          <a href="/projects">{t("nav.projects")}</a>
-          <a href="/team">{t("nav.experts")}</a>
-          <a href="/news">{t("nav.news")}</a>
-          <a href="/contact">{t("nav.contact")}</a>
-        </nav>
+       <nav className="navbar-nav">
+  <a href="/">{t("nav.home")}</a>
+  <a href="/about">{t("nav.about")}</a>
+  <a href="/services">{t("nav.services")}</a>
+  <a href="/projects">{t("nav.projects")}</a>
+  <a href="/team">{t("nav.experts")}</a>
+  <a href="/news">{t("nav.news")}</a>
+  <a href="/contact">{t("nav.contact")}</a>
+</nav>
 
         {/* LANGUAGE SELECTOR */}
         <div className="language-selector">
