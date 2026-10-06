@@ -11,19 +11,18 @@ function News() {
 
       <section className="news-page-hero">
   <div className="news-page-hero-container">
-    <p className="section-label">
-      NEWS &amp; UPDATES
-    </p>
+<p className="section-label">
+  {t("news.heroLabel")}
+</p>
 
-   <h1>
-  News
-  <span>&amp; Updates.</span>
+<h1>
+  {t("news.heroTitle1")}
+  <span>{t("news.heroTitle2")}</span>
 </h1>
 
-    <p>
-      Company announcements, project milestones, professional insights,
-      and updates from NHD Consultants.
-    </p>
+<p>
+  {t("news.heroDescription")}
+</p>
   </div>
 </section>
       {/* =========================================================
@@ -32,73 +31,65 @@ function News() {
 <section className="news-main">
   <div className="news-main-container">
 
-    <div className="news-heading">
-      <p className="section-label">
-        SDG &amp; SOCIAL IMPACT
-      </p>
+   <div className="news-heading">
+  <p className="section-label">
+    {t("news.mainLabel")}
+  </p>
 
-      <h2>
-        Building Resilient Communities
-        <span>Through Responsible Development</span>
-      </h2>
+  <h2>
+    {t("news.mainTitle1")}
+    <span>{t("news.mainTitle2")}</span>
+  </h2>
 
-      <p>
-        We embed sustainability, social responsibility, and measurable
-        impact into our projects, aligning our advisory services with the
-        United Nations Sustainable Development Goals (SDGs).
-      </p>
-    </div>
+  <p>
+    {t("news.mainDescription")}
+  </p>
+</div>
 
-    <div className="news-empty">
+   <div className="news-empty">
 
-      <span>01</span>
+  <span>01</span>
 
-      <div>
-        <p className="news-category">
-          SDG &amp; SOCIAL IMPACT
-        </p>
+  <div>
+    <p className="news-category">
+      {t("news.updateCategory")}
+    </p>
 
-        <h3>
-          Building Resilient Communities Through Responsible Development
-        </h3>
+    <h3>
+      {t("news.updateTitle")}
+    </h3>
 
-        <p>
-          Through inclusive approaches and responsible practices, we
-          support initiatives that improve communities, strengthen
-          resilience, and create long-term value for society. Our
-          commitment extends beyond project delivery, focusing on
-          positive transformation, equitable opportunities, and
-          sustainable outcomes for future generations.
-        </p>
-      </div>
+    <p>
+      {t("news.updateDescription")}
+    </p>
+  </div>
 
-    </div>
+</div>
 
   </div>
 </section>
       {/* =========================================================
           NEWS CTA
           ========================================================= */}
-
-     <section className="news-cta">
+<section className="news-cta">
   <div className="news-cta-container">
     <p className="section-label">
-      NHD CONSULTANTS
+      {t("news.ctaLabel")}
     </p>
 
-    <h2>
-      Building Resilient Communities
-      <span>Through Responsible Development</span>
-    </h2>
-
+   <h2>
+  {t("news.ctaTitle1")}
+  <br />
+  <span style={{ color: "#7A1F2B" }}>
+    {t("news.ctaTitle2")}
+  </span>
+</h2>
     <p>
-      We provide practical, sustainable, and institutionally embedded
-      solutions for community development, infrastructure, and public
-      policy reform.
+      {t("news.ctaDescription")}
     </p>
 
     <a href="/contact" className="hero-primary-button">
-      Contact Us
+      {t("news.ctaButton")}
     </a>
   </div>
 </section>

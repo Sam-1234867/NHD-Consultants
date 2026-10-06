@@ -5211,3 +5211,24 @@ body .about-story-container .about-story-content h2 span {
   width: 1150px !important;
   max-width: 1150px !important;
 }
+
+
+/* =========================================================
+   NEWS PAGE — SDG INTRO PARAGRAPH WIDTH
+   ========================================================= */
+
+.news-heading > p:last-child {
+  width: 1150px !important;
+  max-width: 1150px !important;
+}
+
+/* =========================================================
+   NEWS PAGE — UPDATE PARAGRAPH
+   ========================================================= */
+
+.news-empty > div > p:last-child {
+  width: 1000px !important;
+  max-width: 1000px !important;
+  margin: 0 !important;
+}
+
