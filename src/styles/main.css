@@ -5174,3 +5174,40 @@ body .about-story-container .about-story-content h2 span {
 .projects-page-hero h1 + p {
   margin-top: 25px;
 }
+
+
+/* =========================================================
+   EXPERTS PAGE — HERO PARAGRAPH WIDTH
+   ========================================================= */
+
+.team-page-hero-container > p:last-child {
+  width: 1150px;
+  max-width: 1150px;
+}
+
+/* =========================================================
+   EXPERTS PAGE — HERO
+   ========================================================= */
+
+.team-page-hero {
+  padding-top: 90px;
+}
+
+.team-page-hero-container > p:last-child {
+  width: 1150px !important;
+  max-width: 1150px !important;
+}
+
+/* =========================================================
+   EXPERTS PAGE — PARAGRAPH WIDTH
+   ========================================================= */
+
+.team-page-hero {
+  padding-top: 90px;
+}
+
+.team-page-hero-container > p:last-child,
+.team-main-heading > p:last-child {
+  width: 1150px !important;
+  max-width: 1150px !important;
+}
