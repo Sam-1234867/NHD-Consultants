@@ -247,19 +247,17 @@ function Home() {
         <div className="home-services-container">
 
           <div className="home-services-heading">
+<div>
+  <p className="section-label">
+    {t("home.sectorsLabel")}
+  </p>
 
-            <div>
-
-              <p className="section-label">
-                {t("home.sectorsLabel")}
-              </p>
-
-              <h2>
-                {t("home.sectorsTitle1")}
-                <span>{t("home.sectorsTitle2")}</span>
-              </h2>
-
-            </div>
+  <h2>
+    {t("home.sectorsTitle1")}
+    <br />
+    <span>{t("home.sectorsTitle2")}</span>
+  </h2>
+</div>
 
             <a href="/services" className="text-link">
               {t("home.allExpertise")}
@@ -315,10 +313,11 @@ function Home() {
               {t("home.approachLabel")}
             </p>
 
-            <h2>
-              {t("home.approachTitle1")}
-              <span>{t("home.approachTitle2")}</span>
-            </h2>
+          <h2>
+  {t("home.approachTitle1")}
+  <br />
+  <span>{t("home.approachTitle2")}</span>
+</h2>
 
             <p>
               {t("home.approachDescription")}
@@ -374,11 +373,11 @@ function Home() {
         {t("home.teamLabel")}
       </p>
 
-      <h2>
-        {t("home.teamTitle1")}
-        <span>{t("home.teamTitle2")}</span>
-      </h2>
-
+    <h2>
+  {t("home.teamTitle1")}
+  <br />
+  <span>{t("home.teamTitle2")}</span>
+</h2>
       <p>
         {t("home.teamDescription")}
       </p>

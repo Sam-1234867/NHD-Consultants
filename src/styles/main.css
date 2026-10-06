@@ -767,12 +767,15 @@ h2 span {
 
 .home-services-heading {
   display: flex;
-  justify-content: space-between;
+justify-content: flex-start;
   align-items: flex-end;
 
   gap: 30px;
 
   margin-bottom: 50px;
+
+   text-align: left;
+  
 }
 
 .home-services-heading h2 {
@@ -782,11 +785,14 @@ h2 span {
 
   font-size: clamp(38px, 4.5vw, 55px);
   line-height: 1.05;
+
+  text-align: left;
+  text-align: justify;
 }
 
 .home-services-heading h2 span {
   display: inline;
-  margin-left: 0.22em;
+ margin-left: 0;
 }
 
 .home-services-grid {
@@ -873,8 +879,9 @@ h2 span {
 }
 
 .home-approach-heading {
-  max-width: 750px;
+ max-width: 1150px;
   margin-bottom: 50px;
+  
 }
 
 .home-approach-heading h2 {
@@ -888,12 +895,12 @@ h2 span {
 
 .home-approach-heading h2 span {
   display: inline;
-  margin-left: 0.22em;
+  margin-left: 0;
 }
 
 .home-approach-heading > p:last-child {
+  max-width: 1150px;
   color: var(--muted);
-
   font-size: 15px;
   line-height: 1.85;
 }
@@ -966,7 +973,7 @@ h2 span {
 }
 
 .international-team-heading {
-  max-width: 760px;
+  max-width: 1150px;
   margin-bottom: 50px;
 }
 
@@ -981,7 +988,7 @@ h2 span {
 
 .international-team-heading h2 span {
   display: inline;
-  margin-left: 0.22em;
+  margin-left: 0;
 }
 
 .international-team-heading > p:last-child {
@@ -1136,7 +1143,7 @@ h2 span {
 
 .home-impact-content {
   width: 100%;
-  max-width: 900px;
+  max-width: 1150px;
 
   margin: 0;
   padding: 0;
@@ -1166,7 +1173,7 @@ h2 span {
 }
 
 .home-impact-content p {
-  max-width: 900px;
+  max-width: 1150px;
 
   margin: 0 0 28px;
   padding: 0;
@@ -1285,12 +1292,13 @@ h2 span {
 }
 
 .about-page-hero-container > p:last-child {
-  max-width: 780px;
+  max-width: 1150px;
 
   color: var(--muted);
 
   font-size: 16px;
   line-height: 1.85;
+   text-align: justify;
 }
 
 
@@ -1365,6 +1373,8 @@ h2 span {
 
   font-size: 15px;
   line-height: 1.9;
+    max-width: 1150px;
+   text-align: justify;
 }
 /* =========================================================
    17. ABOUT — MISSION / VISION
@@ -1502,7 +1512,7 @@ h2 span {
 }
 
 .about-approach-heading {
-  max-width: 720px;
+   max-width: 1150px;
   margin-bottom: 45px;
 }
 
@@ -1516,7 +1526,7 @@ h2 span {
 }
 
 .about-approach-heading > p:last-child {
-  max-width: 680px;
+ max-width: 1150px;
 
   color: var(--muted);
 
@@ -5016,6 +5026,78 @@ body .about-story-container .about-story-content h2 span {
   object-fit: contain;
 }
 
+/* ==================== CORE VALUES IMAGE SIZE ==================== */
+
+.about-value-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+
+.about-mission-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 25px;
+}
+
+
+
+/* Mission & Vision Hover Effect */
+.about-mission-card {
+  transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-mission-card:hover {
+  background: var(--navy);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(16, 42, 67, 0.1);
+}
+
+.about-mission-card:hover h2,
+.about-mission-card:hover p {
+  color: var(--white);
+}
+
+
+
+/* About Strategic Approach Description */
+.about-approach-heading > p:last-child {
+  max-width: 1150px !important;
+  width: 100% !important;
+}
+
+
+.about-approach-heading h2 span {
+  display: block;
+}
+
+.about-approach-heading h2 span {
+  color: var(--maroon);
+}
+
+.about-values-heading h2 span {
+  display: block;
+}
+
+
+
+/* Home Page – Three Main Paragraphs */
+.home-section p {
+  max-width: 1150px;
+}
+
+
+
+.home-services-heading,
+.home-approach-heading,
+.international-team-heading {
+  text-align: left !important;
+}
 
 
 

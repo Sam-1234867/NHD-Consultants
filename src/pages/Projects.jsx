@@ -117,17 +117,19 @@ function Projects() {
       </p>
 
       <h2>
-        A practical approach
+        A practical approach 
         <span>to lasting impact.</span>
       </h2>
     </div>
 
     <div className="projects-approach-content">
-      <p>
-        We prioritize actions over theories. Our teams execute practical,
-        evidence-based, and institutionally embedded measures that survive
-        past the end of the project cycle.
-      </p>
+     <p>
+  We prioritize actions over theories. Our teams execute practical,
+  evidence-based, and institutionally embedded measures that survive past
+  the end of the project cycle. We focus on solutions that create lasting
+  value, strengthen local institutions, and deliver measurable results
+  for our clients and communities.
+</p>
 
       <a href="/contact" className="hero-primary-button">
         Contact Us
