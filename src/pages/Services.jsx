@@ -129,7 +129,7 @@ function Services() {
                 alt="Water, Sanitation, and Hygiene"
               />
 
-              <span>{services[0].number}</span>
+            
               <h3>{services[0].title}</h3>
               <p>{services[0].description}</p>
 
@@ -142,7 +142,7 @@ function Services() {
                 alt="Wastewater Treatment and Sustainable Management"
               />
 
-              <span>{services[1].number}</span>
+             
               <h3>{services[1].title}</h3>
               <p>{services[1].description}</p>
 
@@ -155,7 +155,7 @@ function Services() {
                 alt="Integrated Water Conveyance and Channel Management"
               />
 
-              <span>{services[2].number}</span>
+             
               <h3>{services[2].title}</h3>
               <p>{services[2].description}</p>
 
@@ -168,7 +168,7 @@ function Services() {
                 alt="Advanced Irrigation and Water Resource Management"
               />
 
-              <span>{services[3].number}</span>
+             
               <h3>{services[3].title}</h3>
               <p>{services[3].description}</p>
 
@@ -181,7 +181,7 @@ function Services() {
                 alt="Solid Waste Management"
               />
 
-              <span>{services[4].number}</span>
+             
               <h3>{services[4].title}</h3>
               <p>{services[4].description}</p>
 
@@ -194,7 +194,7 @@ function Services() {
                 alt="Environmental Safeguards"
               />
 
-              <span>{services[5].number}</span>
+          
               <h3>{services[5].title}</h3>
               <p>{services[5].description}</p>
 
@@ -207,7 +207,6 @@ function Services() {
                 alt="Waste-to-Resource Economic Feasibility"
               />
 
-              <span>{services[6].number}</span>
               <h3>{services[6].title}</h3>
               <p>{services[6].description}</p>
 
@@ -220,7 +219,6 @@ function Services() {
                 alt="Community Stakeholder Participation"
               />
 
-              <span>{services[7].number}</span>
               <h3>{services[7].title}</h3>
               <p>{services[7].description}</p>
 
@@ -233,7 +231,7 @@ function Services() {
                 alt="Institutional Planning and Development"
               />
 
-              <span>{services[8].number}</span>
+            
               <h3>{services[8].title}</h3>
               <p>{services[8].description}</p>
 
@@ -246,7 +244,7 @@ function Services() {
                 alt="Gender Equity and Inclusion"
               />
 
-              <span>{services[9].number}</span>
+             
               <h3>{services[9].title}</h3>
               <p>{services[9].description}</p>
 

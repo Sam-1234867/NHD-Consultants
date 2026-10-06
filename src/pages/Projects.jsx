@@ -3,60 +3,54 @@ import { useTranslation } from "react-i18next";
 function Projects() {
   const { t } = useTranslation();
 
-  const projects = [
-    {
-      number: "01",
-      category: "ADB / EBRD",
-      title: "Water Supply & Sanitation",
-      description:
-        "Restructuring tariff systems, developing cost-recovery business models, and establishing compliance protocols.",
-    },
-    {
-      number: "02",
-      category: "EBRD",
-      title: "Solid Waste Management",
-      description:
-        "Implementing ESAP requirements, designing community engagement plans, and optimizing local billing processes.",
-    },
-    {
-      number: "03",
-      category: "World Bank",
-      title: "Public Utility Digitalization",
-      description:
-        "Deploying modern MIS billing, custom database architectures, and digital client relationship systems.",
-    },
-    {
-      number: "04",
-      category: "Donor-Supported Initiatives",
-      title: "Social & Gender Policies",
-      description:
-        "Formulating equal opportunity guidelines, leading stakeholder public hearings, and establishing corporate HR structures.",
-    },
-  ];
-
+const projects = [
+  {
+    category: t("projects.project1Category"),
+    title: t("projects.project1Title"),
+    description: t("projects.project1Description"),
+    image: "/images/projects/project-01-water-supply.png",
+  },
+  {
+    category: t("projects.project2Category"),
+    title: t("projects.project2Title"),
+    description: t("projects.project2Description"),
+    image: "/images/projects/project-02-solid-waste.png",
+  },
+  {
+    category: t("projects.project3Category"),
+    title: t("projects.project3Title"),
+    description: t("projects.project3Description"),
+    image: "/images/projects/project-03-public-utility-digitalization.png",
+  },
+  {
+    category: t("projects.project4Category"),
+    title: t("projects.project4Title"),
+    description: t("projects.project4Description"),
+    image: "/images/projects/project-04-social-gender-policies.png",
+  },
+];
   return (
     <main>
       {/* =====================================================
           PROJECTS HERO
           ===================================================== */}
 
-      <section className="projects-page-hero">
-        <div className="projects-page-hero-container">
-          <p className="section-label">
-            PROJECT CREDENTIALS
-          </p>
+     <section className="projects-page-hero">
+  <div className="projects-page-hero-container">
+    <p className="section-label">
+      {t("projects.heroLabel")}
+    </p>
 
-          <h1>
-            Proven Experience
-            <span>Delivered Results</span>
-          </h1>
+    <h1>
+      {t("projects.heroTitle1")}
+      <span>{t("projects.heroTitle2")}</span>
+    </h1>
 
-          <p>
-            Water Supply &amp; Sanitation, Solid Waste Management, Public
-            Utility Digitalization, and Social &amp; Gender Policies.
-          </p>
-        </div>
-      </section>
+    <p>
+      {t("projects.heroDescription")}
+    </p>
+  </div>
+</section>
 
       {/* =====================================================
           PROJECTS MAIN
@@ -66,38 +60,43 @@ function Projects() {
         <div className="projects-main-container">
 
           <div className="projects-intro">
-            <p className="section-label">
-              PROJECT CREDENTIALS
-            </p>
+  <p className="section-label">
+    {t("projects.mainLabel")}
+  </p>
 
-            <h2>
-              Proven Experience
-              <span>Delivered Results</span>
-            </h2>
+  <h2>
+    {t("projects.mainTitle1")}
+    <span>{t("projects.mainTitle2")}</span>
+  </h2>
 
-            <p>
-              Our project experience reflects practical engagement across
-              development, infrastructure, institutional, and advisory
-              initiatives.
-            </p>
-          </div>
-
+  <p>
+    {t("projects.mainDescription")}
+  </p>
+</div>
           <div className="projects-grid">
             {projects.map((project) => (
-              <article className="project-card" key={project.number}>
-                <span className="project-number">
-                  {project.number}
-                </span>
+             <article className="project-card" key={project.title}>
+                
+<div>
+  <img
+    src={project.image}
+    alt={project.title}
+    style={{
+      width: "100%",
+      height: "260px",
+      objectFit: "cover",
+      display: "block",
+    }}
+  />
 
-                <div>
-                  <p className="project-category">
-                    {project.category}
-                  </p>
+  <p className="project-category">
+    {project.category}
+  </p>
 
-                  <h3>{project.title}</h3>
+  <h3>{project.title}</h3>
 
-                  <p>{project.description}</p>
-                </div>
+  <p>{project.description}</p>
+</div>
               </article>
             ))}
           </div>
@@ -113,53 +112,48 @@ function Projects() {
   <div className="projects-approach-container">
     <div className="projects-approach-heading">
       <p className="section-label">
-        OUR STRATEGIC APPROACH
+        {t("projects.approachLabel")}
       </p>
 
       <h2>
-        A practical approach 
-        <span>to lasting impact.</span>
+        {t("projects.approachTitle1")}
+        <span>{t("projects.approachTitle2")}</span>
       </h2>
     </div>
 
     <div className="projects-approach-content">
-     <p>
-  We prioritize actions over theories. Our teams execute practical,
-  evidence-based, and institutionally embedded measures that survive past
-  the end of the project cycle. We focus on solutions that create lasting
-  value, strengthen local institutions, and deliver measurable results
-  for our clients and communities.
-</p>
+      <p>
+        {t("projects.approachDescription")}
+      </p>
 
       <a href="/contact" className="hero-primary-button">
-        Contact Us
+        {t("projects.approachButton")}
       </a>
     </div>
   </div>
 </section>
+
       {/* =====================================================
           PROJECT CTA
           ===================================================== */}
 
-      <section className="projects-cta">
+     <section className="projects-cta">
   <div className="projects-cta-container">
     <p className="section-label">
-      NHD CONSULTANTS
+      {t("projects.ctaLabel")}
     </p>
 
     <h2>
-      Practical, Sustainable
-      <span>Solutions</span>
+      {t("projects.ctaTitle1")}
+      <span>{t("projects.ctaTitle2")}</span>
     </h2>
 
     <p>
-      We provide practical, sustainable, and institutionally embedded
-      solutions for community development, infrastructure, and public
-      policy reform.
+      {t("projects.ctaDescription")}
     </p>
 
     <a href="/contact" className="hero-primary-button">
-      Contact Us
+      {t("projects.ctaButton")}
     </a>
   </div>
 </section>

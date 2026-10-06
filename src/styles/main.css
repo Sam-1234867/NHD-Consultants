@@ -2055,6 +2055,8 @@ justify-content: flex-start;
     box-shadow 0.25s ease;
 }
 
+
+
 .project-card:hover {
   background: var(--navy);
   transform: translateY(-3px);
@@ -5109,4 +5111,66 @@ body .about-story-container .about-story-content h2 span {
   height: 260px;
   object-fit: cover;
   display: block;
+}
+
+
+/* =========================================================
+   PROJECT IMAGE — FINAL
+   ========================================================= */
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card > .project-number {
+  position: absolute;
+}
+
+.project-card > div {
+  width: 100%;
+}
+
+.project-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* =========================================================
+   PROJECT INTRO PARAGRAPH — WIDTH
+   ========================================================= */
+
+.projects-main-container {
+  max-width: 1150px;
+}
+
+.projects-intro {
+  max-width: 1150px;
+}
+
+.projects-intro > p:last-child {
+  width: 1150px;
+  max-width: 100%;
+}
+
+/* =========================================================
+   PROJECT APPROACH — TEXT POSITION
+   ========================================================= */
+
+.projects-approach-content {
+  position: relative;
+  left: 80px;
+  width: calc(100% - 80px);
+}
+
+.projects-approach-content p {
+  max-width: 680px;
+}
+
+.services-page-hero h1 + p,
+.projects-page-hero h1 + p {
+  margin-top: 25px;
 }
