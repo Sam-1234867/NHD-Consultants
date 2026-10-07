@@ -208,6 +208,9 @@ h2 span {
   margin-left: 0.22em;
 }
 
+.contact-information > p {
+  text-align: justify;
+}
 
 /* =========================================================
    5. BUTTONS
@@ -1947,7 +1950,13 @@ justify-content: flex-start;
 
   text-align: center;
 }
+.services-cta h2 {
+  color: var(--white);
+}
 
+.services-cta h2 span {
+  color: #d09fa6;
+}
 .services-cta-container {
   width: min(100% - 48px, var(--max-width));
   max-width: none;
@@ -1970,21 +1979,21 @@ justify-content: flex-start;
 .services-cta h2 {
   margin: 18px 0;
 
-  color: var(--navy);
+   color: var(--white);
 
   font-size: clamp(38px, 4.5vw, 55px);
   line-height: 1.05;
 }
 
 .services-cta h2 span {
-  color: var(--maroon);
+  color: #cf9099 !important;
 }
 
 .services-cta > div > p:last-of-type {
   max-width: 680px;
   margin: 0 auto 28px;
 
-  color: rgba(255, 255, 255, 0.78);
+ color: #d6b0b6;
 
   font-size: 15px;
   line-height: 1.8;
@@ -5232,3 +5241,46 @@ body .about-story-container .about-story-content h2 span {
   margin: 0 !important;
 }
 
+.news-cta h2 span {
+  color: #ffffff !important;
+}
+
+
+.services-cta .services-cta-container > p:not(.section-label) {
+  color: #d5a9b0 !important;
+}
+
+.services-cta h2 span {
+  color: #e9b1b9 !important;
+}
+
+
+.news-cta h2 {
+  color: var(--white);
+}
+
+.news-cta h2 span {
+  color: #c98b94 !important;
+}
+
+.news-cta .news-cta-container > p:not(.section-label) {
+  color: #d5a9b0 !important;
+}
+
+
+.contact-cta h2 {
+  color: var(--white);
+}
+
+.contact-closing p:not(.section-label) {
+  color: #d5a9b0 !important;
+}
+
+.contact-page-hero-container > p:last-child {
+  width: 1150px !important;
+  max-width: 1150px !important;
+}
+.contact-information > p:last-child {
+  text-align: left;
+  width: 100%;
+}
