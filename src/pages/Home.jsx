@@ -124,7 +124,7 @@ function Home() {
             <div className="hero-actions">
 
               <a href="/services" className="hero-primary-button">
-                {t("home.heroButton")}
+               {t("home.primaryButton")}
               </a>
 
               <a href="/contact" className="hero-secondary-button">

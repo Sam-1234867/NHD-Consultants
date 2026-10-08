@@ -2556,6 +2556,7 @@ justify-content: flex-start;
 
   font-size: 15px;
   line-height: 1.85;
+   text-align: justify;
 }
 
 .news-empty {
@@ -2626,6 +2627,10 @@ justify-content: flex-start;
 
 .news-cta h2 span {
   color: #d6b0b6;
+}
+
+.news-main-heading > p:last-child {
+  text-align: justify;
 }
 
 
@@ -5284,3 +5289,7 @@ body .about-story-container .about-story-content h2 span {
   text-align: left;
   width: 100%;
 }
+
+
+
+
