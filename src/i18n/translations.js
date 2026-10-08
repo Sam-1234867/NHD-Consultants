@@ -535,7 +535,9 @@ ctaSectionButton: "Contact Us",
         sendInquiry: "Send Inquiry →",
         formNote:
           "Contact form submission will be connected after the website content and design are approved.",
-
+        
+          formSuccess:
+  "Form submitted successfully! Thank you for reaching out to us. We'll review your submission and get back to you soon.",
         ctaLabel: "NHD CONSULTANTS",
         ctaTitle1: "Practical, Sustainable",
         ctaTitle2: "Solutions",
@@ -1088,9 +1090,11 @@ ctaSectionButton: "Связаться с нами",
         messagePlaceholder:
           "Расскажите о вашем проекте или запросе...",
         sendInquiry: "Отправить запрос →",
-        formNote:
-          "Отправка контактной формы будет подключена после утверждения содержания и дизайна веб-сайта.",
+      formNote:
+  "Отправка контактной формы будет подключена после утверждения содержания и дизайна веб-сайта.",
 
+formSuccess:
+  "Форма успешно отправлена! Спасибо, что связались с нами. Мы рассмотрим ваше обращение и свяжемся с вами в ближайшее время.",
         ctaLabel: "NHD CONSULTANTS",
         ctaTitle1: "Практические, устойчивые",
         ctaTitle2: "решения",
@@ -1646,9 +1650,11 @@ ctaSectionButton: "Тамос бо мо",
         messagePlaceholder:
           "Дар бораи лоиҳа ё дархости худ ба мо маълумот диҳед...",
         sendInquiry: "Ирсоли дархост →",
-        formNote:
-          "Ирсоли шакли тамос пас аз тасдиқи мундариҷа ва дизайни вебсайт пайваст карда мешавад.",
+       formNote:
+  "Ирсоли шакли тамос пас аз тасдиқи мундариҷа ва дизайни вебсайт пайваст карда мешавад.",
 
+formSuccess:
+  "Шакл бомуваффақият фиристода шуд! Ташаккур барои тамос гирифтан бо мо. Мо дархости шуморо баррасӣ карда, ба зудӣ бо шумо тамос мегирем.",
         ctaLabel: "NHD CONSULTANTS",
         ctaTitle1: "Роҳҳалҳои амалӣ ва устувор",
         ctaTitle2: "барои рушди масъулона",

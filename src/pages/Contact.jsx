@@ -172,7 +172,7 @@ const response = await fetch("https://api.web3forms.com/submit", {
 
   {submitted ? (
   <p className="contact-form-note">
-    Form submitted successfully! Thank you for reaching out to us. We'll review your submission and get back to you soon.
+     {t("contact.formSuccess")}
   </p>
 ) : (
   <p className="contact-form-note">
