@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 function Contact() {
   const { t } = useTranslation();
+  const [submitted, setSubmitted] = useState(false);
   return (
     <main>
       {/* HERO */}
@@ -76,15 +78,51 @@ function Contact() {
   {t("contact.formLabel")}
 </p>
 
-<form className="contact-form">
+<form
+  className="contact-form"
+  onSubmit={async (e) => {
+    e.preventDefault();
+      console.log("CUSTOM FORM SUBMIT IS RUNNING");
+
+
+ const form = e.currentTarget;
+const formData = new FormData(form);
+const data = Object.fromEntries(formData);
+const json = JSON.stringify(data);
+
+const response = await fetch("https://api.web3forms.com/submit", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    Accept: "application/json",
+  },
+  body: json,
+});
+
+    const result = await response.json();
+
+    if (result.success) {
+      setSubmitted(true);
+      form.reset();
+    }
+  }}
+>
+  <input
+    type="hidden"
+    name="access_key"
+    value="34757ac7-93d1-4e3c-80d6-9e1883b5a278"
+  />
+
   <div className="contact-form-row">
     <div className="contact-field">
       <label htmlFor="name">{t("contact.fullName")}</label>
 
       <input
         id="name"
+        name="name"
         type="text"
         placeholder={t("contact.fullNamePlaceholder")}
+        required
       />
     </div>
 
@@ -93,8 +131,10 @@ function Contact() {
 
       <input
         id="email"
+        name="email"
         type="email"
         placeholder={t("contact.emailPlaceholder")}
+        required
       />
     </div>
   </div>
@@ -104,8 +144,10 @@ function Contact() {
 
     <input
       id="subject"
+      name="subject"
       type="text"
       placeholder={t("contact.subjectPlaceholder")}
+      required
     />
   </div>
 
@@ -114,21 +156,29 @@ function Contact() {
 
     <textarea
       id="message"
+      name="message"
       rows="7"
       placeholder={t("contact.messagePlaceholder")}
+      required
     ></textarea>
   </div>
 
   <button
-    type="button"
+    type="submit"
     className="contact-submit-button"
   >
     {t("contact.sendInquiry")}
   </button>
 
+  {submitted ? (
+  <p className="contact-form-note">
+    Form submitted successfully! Thank you for reaching out to us. We'll review your submission and get back to you soon.
+  </p>
+) : (
   <p className="contact-form-note">
     {t("contact.formNote")}
   </p>
+)}
 </form>
           </div>
         </div>
