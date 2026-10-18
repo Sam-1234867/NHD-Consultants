@@ -5,6 +5,13 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
 
+  // Detect the current page
+  const currentPath =
+    window.location.pathname.replace(/\/+$/, "") || "/";
+
+  // Check whether a navigation link is selected
+  const isActive = (path) => currentPath === path;
+
   const closeMenu = () => {
     setMenuOpen(false);
   };
@@ -19,24 +26,44 @@ function Navbar() {
       <div className="navbar">
 
         {/* BRAND */}
-       <a href="/" className="navbar-brand" onClick={closeMenu}>
-  <img
-    src="/images/logo/Logo Photo.jpg"
-    alt="NHD Consultants"
-    className="navbar-logo"
-  />
-</a>
+        <a href="/" className="navbar-brand" onClick={closeMenu}>
+          <img
+            src="/images/logo/Logo Photo.jpg"
+            alt="NHD Consultants"
+            className="navbar-logo"
+          />
+        </a>
 
         {/* DESKTOP NAVIGATION */}
-       <nav className="navbar-nav">
-  <a href="/">{t("nav.home")}</a>
-  <a href="/about">{t("nav.about")}</a>
-  <a href="/services">{t("nav.services")}</a>
-  <a href="/projects">{t("nav.projects")}</a>
-  <a href="/team">{t("nav.experts")}</a>
-  <a href="/news">{t("nav.news")}</a>
-  <a href="/contact">{t("nav.contact")}</a>
-</nav>
+        <nav className="navbar-nav">
+          <a href="/" className={isActive("/") ? "active" : ""}>
+            {t("nav.home")}
+          </a>
+
+          <a href="/about" className={isActive("/about") ? "active" : ""}>
+            {t("nav.about")}
+          </a>
+
+          <a href="/services" className={isActive("/services") ? "active" : ""}>
+            {t("nav.services")}
+          </a>
+
+          <a href="/projects" className={isActive("/projects") ? "active" : ""}>
+            {t("nav.projects")}
+          </a>
+
+          <a href="/team" className={isActive("/team") ? "active" : ""}>
+            {t("nav.experts")}
+          </a>
+
+          <a href="/news" className={isActive("/news") ? "active" : ""}>
+            {t("nav.news")}
+          </a>
+
+          <a href="/contact" className={isActive("/contact") ? "active" : ""}>
+            {t("nav.contact")}
+          </a>
+        </nav>
 
         {/* LANGUAGE SELECTOR */}
         <div className="language-selector">
@@ -89,31 +116,31 @@ function Navbar() {
             menuOpen ? "mobile-navbar-open" : ""
           }`}
         >
-          <a href="/" onClick={closeMenu}>
+          <a href="/" className={isActive("/") ? "active" : ""} onClick={closeMenu}>
             {t("nav.home")}
           </a>
 
-          <a href="/about" onClick={closeMenu}>
+          <a href="/about" className={isActive("/about") ? "active" : ""} onClick={closeMenu}>
             {t("nav.about")}
           </a>
 
-          <a href="/services" onClick={closeMenu}>
+          <a href="/services" className={isActive("/services") ? "active" : ""} onClick={closeMenu}>
             {t("nav.services")}
           </a>
 
-          <a href="/projects" onClick={closeMenu}>
+          <a href="/projects" className={isActive("/projects") ? "active" : ""} onClick={closeMenu}>
             {t("nav.projects")}
           </a>
 
-          <a href="/team" onClick={closeMenu}>
+          <a href="/team" className={isActive("/team") ? "active" : ""} onClick={closeMenu}>
             {t("nav.experts")}
           </a>
 
-          <a href="/news" onClick={closeMenu}>
+          <a href="/news" className={isActive("/news") ? "active" : ""} onClick={closeMenu}>
             {t("nav.news")}
           </a>
 
-          <a href="/contact" onClick={closeMenu}>
+          <a href="/contact" className={isActive("/contact") ? "active" : ""} onClick={closeMenu}>
             {t("nav.contact")}
           </a>
 

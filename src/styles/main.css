@@ -473,7 +473,11 @@ h2 span {
 .mobile-navbar {
   display: none;
 }
-
+/* ACTIVE NAVBAR LINK */
+.site-header .navbar-nav a.active,
+.site-header .mobile-navbar a.active {
+  color: var(--maroon, #7b2638);
+}
 
 /* =========================================================
  /* =========================================================
