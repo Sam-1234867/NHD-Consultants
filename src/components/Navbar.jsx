@@ -16,10 +16,11 @@ function Navbar() {
     setMenuOpen(false);
   };
 
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-    closeMenu();
-  };
+const changeLanguage = (language) => {
+  localStorage.setItem("selectedLanguage", language);
+  i18n.changeLanguage(language);
+  closeMenu();
+};
 
   return (
     <header className="site-header">
@@ -27,11 +28,11 @@ function Navbar() {
 
         {/* BRAND */}
         <a href="/" className="navbar-brand" onClick={closeMenu}>
-          <img
-            src="/images/logo/Logo Photo.jpg"
-            alt="NHD Consultants"
-            className="navbar-logo"
-          />
+         <img
+  src="/images/logo/nhd%20logo.jpg"
+  alt="NHD Consultants"
+  className="navbar-logo"
+/>
         </a>
 
         {/* DESKTOP NAVIGATION */}
