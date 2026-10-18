@@ -477,8 +477,9 @@ h2 span {
 .site-header .navbar-nav a.active,
 .site-header .mobile-navbar a.active {
   color: var(--maroon, #7b2638);
+  font-weight: 700;
+  font-size: 1.01em;
 }
-
 /* =========================================================
  /* =========================================================
    7. HOME — HERO
