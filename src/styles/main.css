@@ -4583,6 +4583,57 @@ body .about-story-container .about-story-content h2 span {
   object-position: center;
 }
 
+/* MOBILE: ALIGN INTERNATIONAL AND NATIONAL EXPERT TEXT */
+@media (max-width: 768px) {
+  .team-grid.international-team-grid .expert-content,
+  .team-grid.national-team-grid .expert-content {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .team-grid.international-team-grid .expert-content p,
+  .team-grid.national-team-grid .expert-content p {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    overflow-wrap: anywhere;
+  }
+}
+
+
+/* MOBILE: ALIGN EXPERT NAMES AND PARAGRAPHS */
+@media (max-width: 768px) {
+  .team-grid.international-team-grid .expert-content,
+  .team-grid.national-team-grid .expert-content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .team-grid.international-team-grid .expert-content h3,
+  .team-grid.national-team-grid .expert-content h3 {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .team-grid.international-team-grid .expert-content p,
+  .team-grid.national-team-grid .expert-content p {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
+
+
 /* INTERNATIONAL TEAM: ALIGN ALL PHOTOS TO THE SAME SIZE */
 .team-grid.international-team-grid .expert-card img {
   display: block;
@@ -5452,7 +5503,328 @@ section.team-main:not(.national-team-section) {
 
 
 
+/* NATIONAL AND INTERNATIONAL TEAM: 2 CARDS PER ROW */
+@media (min-width: 769px) {
+  .team-grid.national-team-grid,
+  .team-grid.international-team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* MOBILE: SHOW 2 EXPERT CARDS PER ROW */
+@media (max-width: 768px) {
+  .team-grid.national-team-grid,
+  .team-grid.international-team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
 
 
+/* NATIONAL TEAM: SAME-SIZE PHOTO FRAMES */
+.team-grid.national-team-grid .national-expert-photo {
+  width: 100%;
+  height: 280px;
+  min-height: 280px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.team-grid.national-team-grid .national-expert-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* NATIONAL TEAM: SMALLER PHOTOS WITH MAROON BORDERS */
+.team-grid.national-team-grid .national-expert-photo {
+  width: 100%;
+  height: 200px;
+ min-height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 3px solid #7b1e2b;
+  box-sizing: border-box;
+}
+
+.team-grid.national-team-grid .national-expert-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* MOBILE: ALIGN NATIONAL TEAM NAME BOXES */
+@media (max-width: 768px) {
+  .team-grid.national-team-grid .expert-content h3 {
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+    line-height: 20px !important;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+}
+
+/* NATIONAL TEAM: REDUCE SPACE BELOW PHOTOS */
+.team-grid.national-team-grid .expert-content {
+  padding-top: 8px !important;
+  margin-top: 0 !important;
+}
+
+/* NATIONAL TEAM: REDUCE SPACE ABOVE NAMES */
+.team-grid.national-team-grid .expert-content h3 {
+  margin-top: 0 !important;
+}
+
+/* MOBILE: REDUCE SPACE BETWEEN NATIONAL TEAM PHOTOS AND NAMES */
+@media (max-width: 768px) {
+  .team-grid.national-team-grid .expert-content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    gap: 0 !important;
+  }
+
+  .team-grid.national-team-grid .expert-content h3 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
 
 
+/* NATIONAL TEAM: FIX PHOTO AND NAME SPACING ON MOBILE */
+@media (max-width: 768px) {
+  .team-grid.national-team-grid .expert-card {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .team-grid.national-team-grid .national-expert-photo {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .team-grid.national-team-grid .expert-content {
+    display: block !important;
+    width: 100%;
+    padding: 12px !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  .team-grid.national-team-grid .expert-content h3 {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 0 10px !important;
+    padding: 0 !important;
+    line-height: 1.25 !important;
+    overflow: visible !important;
+  }
+}
+/* INTERNATIONAL TEAM: ORIGINAL PHOTO SIZE WITH MAROON BORDER */
+.team-grid.international-team-grid .expert-card > img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  min-height: 280px;
+  max-height: 280px;
+  object-fit: contain;
+  object-position: center center;
+  border: 3px solid #7b1e2b;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+/* =========================================================
+   EXPERTS PAGE - MOBILE PARAGRAPH ALIGNMENT
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .team-section-description {
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+}
+
+/* =========================================================
+   EXPERTS PAGE — FIX PARAGRAPH WIDTH ON MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .team-page-hero-container > p:last-child,
+  .team-main-heading > p:last-child,
+  .team-section-description {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    text-align: left !important;
+    overflow-wrap: break-word;
+  }
+}
+
+/* EXPERTS PAGE — ALIGN 3 PARAGRAPHS ON MOBILE */
+
+@media (max-width: 768px) {
+  .team-page-hero-container > p:last-child,
+  .team-main-heading > p:last-child,
+  .team-section-description {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box;
+    text-align: left !important;
+  }
+}
+
+/* EXPERTS PAGE — MOBILE PARAGRAPH RIGHT EDGE FIX */
+
+@media (max-width: 768px) {
+  .team-page-hero-container,
+  .team-main-heading {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .team-page-hero-container > p:last-child,
+  .team-main-heading > p:last-child,
+  .team-section-description {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+    text-align: justify !important;
+    overflow-wrap: anywhere;
+  }
+}
+
+/* EXPERTS PAGE — ALIGN FIRST PARAGRAPH ON MOBILE */
+
+@media (max-width: 768px) {
+  .team-page-hero-container > p:last-child {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+    text-align: justify !important;
+  }
+}
+
+
+/* EXPERTS PAGE — MATCH FIRST PARAGRAPH SIDE MARGINS */
+
+@media (max-width: 768px) {
+  .team-page-hero-container > p.team-section-description {
+    width: auto !important;
+    max-width: none !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* EXPERTS PAGE — MATCH HERO TITLE SIDE MARGINS */
+
+@media (max-width: 768px) {
+  .team-page-hero-container h1 {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* EXPERTS PAGE — ALIGN INTERNATIONAL TEAM LABEL ON MOBILE */
+
+@media (max-width: 768px) {
+  .team-main-heading > .section-label {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+}
+/* INTERNATIONAL TEAM LABEL — MOBILE LEFT MARGIN */
+
+@media (max-width: 768px) {
+  .international-team-label {
+    display: block !important;
+    width: calc(100% - 40px) !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding-left: 0 !important;
+    box-sizing: border-box !important;
+    text-align: left !important;
+    transform: none !important;
+  }
+}
+
+/* MATCH INTERNATIONAL LABEL WITH HERO LEFT MARGIN */
+
+@media (max-width: 768px) {
+  .team-main-heading > .international-team-label {
+    width: auto !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding-left: 0 !important;
+    text-align: left !important;
+    box-sizing: border-box !important;
+    transform: none !important;
+  }
+}
+
+/* EXPERTS PAGE — REDUCE SECTION SIDE MARGINS ON MOBILE */
+
+/* EXPERTS PAGE — REDUCE SIDE SPACING ON MOBILE ONLY */
+
+@media (max-width: 768px) {
+  .team-main.national-team-section .team-main-container,
+  .team-main:not(.national-team-section) .team-main-container {
+    width: calc(100% - 20px) !important;
+    max-width: none !important;
+   margin-left: 5px !important;
+   margin-right: 5px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* EXPERTS PAGE — FIX RIGHT SIDE SPACING ON MOBILE */
+
+@media (max-width: 768px) {
+  .team-main.national-team-section .team-main-container,
+  .team-main:not(.national-team-section) .team-main-container {
+    margin-right: 0 !important;
+    width: calc(100% - 5px) !important;
+  }
+}
+
+/* INTERNATIONAL TEAM LABEL — MOBILE LEFT ALIGNMENT */
+@media (max-width: 768px) {
+  .team-main .team-main-heading > p.international-team-label {
+    display: block !important;
+    margin: 0 0 0 5px !important;
+    padding: 0 !important;
+    text-indent: 0 !important;
+    transform: none !important;
+    width: fit-content !important;
+  }
+}

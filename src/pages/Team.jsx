@@ -113,9 +113,9 @@ function Team() {
             <span>{t("team.heroTitle2")}</span>
           </h1>
 
-          <p>
-            {t("team.heroDescription")}
-          </p>
+          <p className="team-section-description">
+  {t("team.heroDescription")}
+</p>
         </div>
       </section>
 
@@ -143,7 +143,7 @@ function Team() {
               </span>
             </h2>
 
-            <p>
+           <p className="team-section-description">
               {t("team.nationalDescription", {
                 defaultValue:
                   "Our national experts bring local knowledge and professional experience to support sustainable development across Tajikistan.",
@@ -187,18 +187,18 @@ function Team() {
       <section className="team-main">
         <div className="team-main-container">
           <div className="team-main-heading">
-            <p className="section-label">
-              {t("team.mainLabel")}
-            </p>
+          <p className="section-label international-team-label">
+  {t("team.mainLabel")}
+</p>
 
             <h2>
               {t("team.mainTitle1")}
               <span>{t("team.mainTitle2")}</span>
             </h2>
 
-            <p>
-              {t("team.mainDescription")}
-            </p>
+           <p className="team-section-description">
+  {t("team.mainDescription")}
+</p>
           </div>
 
           <div className="team-grid international-team-grid">
@@ -344,9 +344,9 @@ function Team() {
           </div>
 
           <div className="team-network-content">
-            <p>
-              {t("team.networkDescription")}
-            </p>
+           <p className="team-section-description">
+  {t("team.networkDescription")}
+</p>
 
             <a href="/contact" className="hero-primary-button">
               {t("team.networkButton")}
