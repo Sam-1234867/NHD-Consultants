@@ -203,9 +203,9 @@ function Team() {
 
           <div className="team-grid international-team-grid">
             <article className="expert-card">
-    <img
+<img
   className="mohd-photo"
-  src="/images/experts/mohd-masood-seediqyar-new.jpg"
+  src="/images/experts/international%20pics%20edit/mohd-masood-seediqyar-new-edit.jpg"
   alt="Mohd Masood Seediqyar"
   loading="lazy"
 />
@@ -224,9 +224,9 @@ function Team() {
             </article>
 
             <article className="expert-card">
-         <img
+ <img
   className="kelkar-photo"
-  src="/images/experts/kelkar-padmakar-waman-new.jpg"
+  src="/images/experts/international%20pics%20edit/kelkar-padmakar-waman-new-edit.jpg"
   alt="Dr. Kelkar Padmakar Waman"
   loading="lazy"
 />
@@ -245,8 +245,8 @@ function Team() {
             </article>
 
             <article className="expert-card">
-           <img
-  src="/images/experts/thomas-bedour-new.png"
+     <img
+  src="/images/experts/international%20pics%20edit/thomas-bedour-new-edit.png"
   alt="Thomas Bedour"
   loading="lazy"
 />
@@ -265,8 +265,8 @@ function Team() {
             </article>
 
             <article className="expert-card">
-            <img
-  src="/images/experts/sanjay-bhattacharya-new.jpg"
+   <img
+  src="/images/experts/international%20pics%20edit/sanjay-bhattacharya-new-edit.jpg"
   alt="Dr. Sanjay Bhattacharya"
   loading="lazy"
 />
@@ -285,12 +285,11 @@ function Team() {
             </article>
 
             <article className="expert-card">
-           <img
-  src="/images/experts/ilkhom-tashtemirov-new.png"
+   <img
+  src="/images/experts/international%20pics%20edit/ilkhom-tashtemirov-new-edit.png"
   alt="Ilkhom Tashtemirov"
   loading="lazy"
 />
-
               <div className="expert-content">
                 <h3>Ilkhom Tashtemirov</h3>
 
@@ -305,8 +304,8 @@ function Team() {
             </article>
 
             <article className="expert-card">
-            <img
-  src="/images/experts/mher-kelian-new.png"
+    <img
+  src="/images/experts/international%20pics%20edit/mher-kelian-new-edit.png"
   alt="Mher Kelian"
   loading="lazy"
 />
