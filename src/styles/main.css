@@ -1027,10 +1027,9 @@ justify-content: flex-start;
 
 .international-team-grid .expert-card:hover {
   transform: translateY(-4px);
-
-  border-color: #d6b0b6;
-
-  box-shadow: 0 14px 35px rgba(16, 42, 67, 0.08);
+  background-color: var(--navy);
+  border-color: var(--navy);
+  box-shadow: 0 14px 35px rgba(16, 42, 67, 0.15);
 }
 
 .international-team-grid .expert-photo {
@@ -1068,7 +1067,8 @@ justify-content: flex-start;
 /* Expert PDF description */
 .international-team-grid .expert-experience {
   display: block;
-  height: 215px;
+  min-height: 215px;
+  height: auto;
   margin: 0 0 22px;
   color: var(--muted);
   font-size: 13px;
@@ -3588,7 +3588,7 @@ background: #ffffff;
 
 .services-expertise-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
 }
 
@@ -4497,6 +4497,7 @@ body .about-story-container .about-story-content h2 span {
 }
 
 
+
 /* Expert hover */
 .team-grid .expert-card:hover .expert-content h3 {
   color: #a7999b !important;
@@ -4530,8 +4531,162 @@ body .about-story-container .about-story-content h2 span {
 .team-grid .expert-experience {
   padding-top: 2px;
 }
+/* NATIONAL TEAM: FORCE 3 CARDS PER ROW */
+.team-grid.national-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  width: 100%;
+}
 
+/* NATIONAL TEAM: NAVY BLUE HOVER EFFECT */
+.team-grid.national-team-grid .expert-card:hover {
+  transform: translateY(-4px);
+  background-color: var(--navy);
+  border-color: var(--navy);
+  box-shadow: 0 14px 35px rgba(16, 42, 67, 0.15);
+}
 
+/* NATIONAL TEAM: ALIGN TEXT UNDER THE PHOTO */
+.team-grid.national-team-grid .expert-content {
+  display: block;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* NATIONAL TEAM: SAME SIZE FOR ALL PHOTOS */
+.team-grid.national-team-grid .expert-card img {
+  display: block;
+  width: 100% !important;
+  height: 280px !important;
+  min-height: 280px;
+  max-height: 280px;
+  object-fit: cover !important;
+  object-position: center center;
+  flex-shrink: 0;
+}
+
+/* NATIONAL TEAM: MAKE ALL PHOTO BOXES THE SAME SIZE */
+.team-grid.national-team-grid .national-expert-photo {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* NATIONAL TEAM: FIT PHOTOS INSIDE THE BOXES */
+.team-grid.national-team-grid .national-expert-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* INTERNATIONAL TEAM: ALIGN ALL PHOTOS TO THE SAME SIZE */
+.team-grid.international-team-grid .expert-card img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* INTERNATIONAL TEAM SECTION BODY BACKGROUND */
+/* NATIONAL TEAM SECTION — WHITE BACKGROUND */
+/* NATIONAL TEAM — WHITE BACKGROUND */
+/* NATIONAL TEAM — WHITE BACKGROUND */
+section.team-main.national-team-section {
+  background-color: white !important;
+}
+
+/* INTERNATIONAL TEAM — OFF-WHITE BACKGROUND */
+section.team-main:not(.national-team-section) {
+  background-color: var(--off-white) !important;
+}
+
+/* INTERNATIONAL TEAM: 3 EXPERTS PER ROW */
+.team-grid.international-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+}
+
+/* INTERNATIONAL TEAM: ALIGN CARD CONTENT CONSISTENTLY */
+.team-grid.international-team-grid .expert-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.team-grid.international-team-grid .expert-card img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center top;
+  flex-shrink: 0;
+}
+
+.team-grid.international-team-grid .expert-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.team-grid.international-team-grid .expert-content h3 {
+  min-height: 55px;
+}
+
+.team-grid.international-team-grid .expert-role {
+  min-height: 42px;
+}
+
+/* INTERNATIONAL TEAM: ALIGN ALL PHOTOS */
+.team-grid.international-team-grid .expert-card > img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  min-height: 280px;
+  max-height: 280px;
+  object-fit: cover;
+  object-position: center top;
+  flex-shrink: 0;
+}
+
+/* INTERNATIONAL TEAM: FIT PHOTOS INSIDE THEIR BOXES */
+.team-grid.international-team-grid .expert-card > img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  min-height: 280px;
+  max-height: 280px;
+  object-fit: contain;
+  object-position: center center;
+  transform: none;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* INTERNATIONAL TEAM: KEEP NAMES VISIBLE BELOW PHOTOS */
+.team-grid.international-team-grid .expert-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  flex: 1;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.team-grid.international-team-grid .expert-content h3 {
+  position: static;
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  margin-top: 16px;
+}
 /* =========================================================
    NEWS PAGE — HERO POSITION
    ========================================================= */

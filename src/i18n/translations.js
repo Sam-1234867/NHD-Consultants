@@ -280,6 +280,29 @@ ctaSectionButton: "Contact Us",
         service10Description:
           "Promoting inclusive development through gender-responsive approaches, equitable participation, and social inclusion strategies. We support organizations and communities in creating opportunities for all stakeholders, strengthening accessibility, empowering diverse voices, and fostering sustainable outcomes through fair and inclusive practices.",
 
+
+        service11Title: "Public Sector Digital Transformation",
+        service11Description:
+          "Accelerating digital transformation in the public sector through innovative technologies, integrated platforms, and modern governance solutions. We support institutions in improving operational efficiency, enhancing service delivery, strengthening data-driven decision-making, and building more responsive, transparent, and resilient public systems.",
+
+        service12Title: "Power and Energy",
+        service12Description:
+          "Advancing sustainable power and energy solutions through strategic planning, efficient infrastructure development, and innovative approaches to energy management. We support reliable, resilient, and cost-effective energy systems that enhance access, improve operational performance, and contribute to long-term economic and environmental sustainability.",
+
+        service13Title: "Electrical Distribution Systems and Networks",
+        service13Description:
+          "Advancing reliable and efficient electricity distribution through modern network planning, system design, and infrastructure optimization. We support the development of resilient electrical systems that improve energy access, enhance operational performance, reduce losses, and ensure safe and sustainable power delivery for communities and industries.",
+
+        service14Title: "Agriculture and Agribusiness Development",
+        service14Description:
+          "Supporting sustainable agricultural growth through innovative farming solutions, agribusiness strategies, and value chain development approaches. We help strengthen productivity, improve market access, enhance resource efficiency, and promote resilient agricultural systems that contribute to economic growth and improved livelihoods for communities.",
+
+        service15Title: "Trade Facilitation & Risk Mitigation Services",
+        service15Description:
+          "Strengthening trade efficiency through strategic advisory, compliance support, and effective risk management solutions. We help organizations navigate complex trade environments, improve operational resilience, enhance regulatory alignment, and develop practical strategies that support secure, efficient, and sustainable cross-border transactions.",
+
+
+
         capacityLabel: "CAPACITY BUILDING",
         capacityTitle1: "Knowledge &",
         capacityTitle2: "Skill Integration",
@@ -459,7 +482,68 @@ ctaSectionButton: "Contact Us",
           "Experienced Water and Mechanical Engineer with 12+ years of expertise delivering over 300 infrastructure, treatment plant, and conveyance projects across the Middle East and Africa. Member of the Order of Engineers and Architects with proven success in process optimization, system design, and large-scale project execution.",
         expert6Description: "",
 
+         nationalLabel: "OUR NATIONAL TEAM",
+        nationalTitle1: "Our National",
+        nationalTitle2: "Experts",
+        nationalDescription:
+          "Our national experts bring local knowledge and professional experience to support sustainable development across Tajikistan.",
+
+        nationalExpert1Position: "Senior Legal & Institutional Governance Expert",
+        nationalExpert1Experience:
+          "Over 30 years of experience in legislative affairs, legal reform, institutional mandates, and strategic advisory services, supporting public sector transformation.",
+
+        nationalExpert2Position: "Environmental and Social Safeguards Specialist",
+        nationalExpert2Experience:
+          "Over eight years of experience in environmental management, social safeguards, environmental health and safety, and stakeholder engagement.",
+
+        nationalExpert3Position: "Senior Public Health & Epidemiology Specialist",
+        nationalExpert3Experience:
+          "Experienced in infectious disease control, health systems strengthening, public health research, and capacity building with national and international partners.",
+
+        nationalExpert4Position:
+          "Senior Social Accountability, Gender, and Climate Resilience Specialist",
+        nationalExpert4Experience:
+          "Over 18 years of experience leading World Bank-funded socio-economic, gender, and climate resilience initiatives across Tajikistan. Specializes in social accountability, national policy, and community mobilization.",
+
+        nationalExpert5Position:
+          "Public Administration & Business Management Specialist",
+        nationalExpert5Experience:
+          "Experienced in project coordination, organizational development, and business operations. Has worked with international organizations and educational institutions and is pursuing a PhD in Economics.",
+
+        nationalExpert6Position: "Senior Water and Municipal Services Specialist",
+        nationalExpert6Experience:
+          "Over 30 years of experience in municipal services, utility management, institutional reform, and development programmes with international partners and government agencies.",
+
+        nationalExpert7Position: "Gender and Social Inclusion Expert",
+        nationalExpert7Experience:
+          "Over eight years of experience in gender equality, social inclusion, project management, and inclusive water sector initiatives, promoting equitable and sustainable service delivery.",
+
+        nationalExpert8Position: "Social Development and Communications Specialist",
+        nationalExpert8Experience:
+          "Experienced in social development, communications, project coordination, research, stakeholder engagement, and public communications, including community development, gender equality, and education projects.",
+
+        nationalExpert9Position: "Project Implementation & Coordination Specialist",
+        nationalExpert9Experience:
+          "Over 18 years of expertise in institutional reform, project delivery, and coordination with international financial institutions, supporting complex and sustainable development initiatives.",
+
+        nationalExpert10Position: "HR Strategy & Corporate Culture Specialist",
+        nationalExpert10Experience:
+          "Over 18 years of management experience in recruitment, HR transformation, and organizational development, helping organizations strengthen HR systems and employee engagement.",
+
+        nationalExpert11Position: "Senior Water Supply & Sanitation Engineer",
+        nationalExpert11Experience:
+          "Experienced in infrastructure development, project management, technical supervision, and implementation of international water supply and sanitation projects.",
+
+        nationalExpert12Position:
+          "Talent Management & Organizational Development Expert",
+        nationalExpert12Experience:
+          "Experienced in banking and microfinance, specializing in talent management, recruitment, training, HR strategy, employee development, and organizational performance.",
+
+
         networkLabel: "OUR NETWORK",
+
+        
+       
         networkTitle1: "A broader network.",
         networkTitle2: "A stronger perspective.",
         networkDescription:
@@ -849,6 +933,31 @@ ctaSectionButton: "Связаться с нами",
         service10Description:
           "Содействие инклюзивному развитию посредством гендерно ориентированных подходов, равноправного участия и стратегий социальной интеграции. Мы поддерживаем организации и сообщества в создании возможностей для всех заинтересованных сторон, укреплении доступности и расширении возможностей различных голосов.",
 
+
+        service11Title: "Цифровая трансформация государственного сектора",
+        service11Description:
+          "Ускоряем цифровую трансформацию государственного сектора с помощью инновационных технологий, интегрированных платформ и современных решений в области управления. Помогаем учреждениям повышать операционную эффективность, улучшать предоставление услуг, укреплять принятие решений на основе данных и создавать более гибкие, прозрачные и устойчивые государственные системы.",
+
+        service12Title: "Энергетика и электроэнергия",
+        service12Description:
+          "Развиваем устойчивые энергетические решения посредством стратегического планирования, эффективного развития инфраструктуры и инновационных подходов к управлению энергоресурсами. Мы содействуем созданию надежных, устойчивых и экономически эффективных энергетических систем, расширяющих доступ к энергии, повышающих операционную эффективность и способствующих долгосрочной экономической и экологической устойчивости.",
+
+        service13Title: "Системы и сети распределения электроэнергии",
+        service13Description:
+          "Совершенствуем надежное и эффективное распределение электроэнергии посредством современного планирования сетей, проектирования систем и оптимизации инфраструктуры. Мы поддерживаем развитие устойчивых электрических систем, которые расширяют доступ к энергии, повышают эффективность работы, сокращают потери и обеспечивают безопасную и устойчивую подачу электроэнергии для населения и промышленности.",
+
+        service14Title: "Развитие сельского хозяйства и агробизнеса",
+        service14Description:
+          "Поддерживаем устойчивый рост сельского хозяйства с помощью инновационных решений в сфере земледелия, стратегий развития агробизнеса и совершенствования цепочек создания стоимости. Мы помогаем повышать производительность, улучшать доступ к рынкам, эффективнее использовать ресурсы и развивать устойчивые сельскохозяйственные системы, способствующие экономическому росту и улучшению условий жизни населения.",
+
+        service15Title: "Содействие торговле и снижение рисков",
+        service15Description:
+          "Повышаем эффективность торговли посредством стратегического консультирования, поддержки соблюдения нормативных требований и эффективного управления рисками. Мы помогаем организациям ориентироваться в сложных условиях международной торговли, повышать операционную устойчивость, обеспечивать соответствие нормативным требованиям и разрабатывать практические стратегии для безопасных, эффективных и устойчивых трансграничных операций.",
+
+
+
+
+
         capacityLabel: "РАЗВИТИЕ ПОТЕНЦИАЛА",
         capacityTitle1: "Интеграция знаний и",
         capacityTitle2: "навыков",
@@ -1021,7 +1130,77 @@ ctaSectionButton: "Связаться с нами",
           "Опытный инженер по водоснабжению и механике с более чем 12-летним опытом реализации свыше 300 проектов в области инфраструктуры, очистных сооружений и транспортировки воды на Ближнем Востоке и в Африке. Член Ордена инженеров и архитекторов с доказанным успехом в оптимизации процессов, проектировании систем и реализации крупных проектов.",
         expert6Description: "",
 
+ 
+        nationalLabel: "НАША НАЦИОНАЛЬНАЯ КОМАНДА",
+        nationalTitle1: "Наши национальные",
+        nationalTitle2: "эксперты",
+        nationalDescription:
+          "Наши национальные эксперты обладают глубокими знаниями местных условий и профессиональным опытом, способствуя устойчивому развитию Таджикистана.",
+
+        nationalExpert1Position:
+          "Старший эксперт по правовым вопросам и институциональному управлению",
+        nationalExpert1Experience:
+          "Более 30 лет опыта в законодательной деятельности, правовой реформе, институциональных полномочиях и стратегическом консультировании, содействии преобразованиям государственного сектора.",
+
+        nationalExpert2Position:
+          "Специалист по экологическим и социальным гарантиям",
+        nationalExpert2Experience:
+          "Более 8 лет опыта в области экологического менеджмента, социальных гарантий, охраны окружающей среды, здоровья и безопасности, а также взаимодействия с заинтересованными сторонами.",
+
+        nationalExpert3Position:
+          "Старший специалист по общественному здравоохранению и эпидемиологии",
+        nationalExpert3Experience:
+          "Опыт работы в области контроля инфекционных заболеваний, укрепления систем здравоохранения, исследований общественного здоровья и развития потенциала совместно с национальными и международными партнёрами.",
+
+        nationalExpert4Position:
+          "Старший специалист по социальной подотчётности, гендерным вопросам и климатической устойчивости",
+        nationalExpert4Experience:
+          "Более 18 лет опыта руководства социально-экономическими инициативами, проектами в области гендерного равенства и климатической устойчивости, финансируемыми Всемирным банком, по всему Таджикистану. Специализируется на социальной подотчётности, национальной политике и мобилизации сообществ.",
+
+        nationalExpert5Position:
+          "Специалист по государственному управлению и менеджменту бизнеса",
+        nationalExpert5Experience:
+          "Опыт работы в координации проектов, организационном развитии и управлении бизнес-процессами. Сотрудничал с международными организациями и образовательными учреждениями; обучается в докторантуре по экономике.",
+
+        nationalExpert6Position:
+          "Старший специалист по муниципальным услугам и водоснабжению",
+        nationalExpert6Experience:
+          "Более 30 лет опыта в сфере муниципальных услуг, управления коммунальными предприятиями, институциональных реформ и программ развития совместно с международными партнёрами и государственными учреждениями.",
+
+        nationalExpert7Position:
+          "Эксперт по гендерному равенству и социальной инклюзии",
+        nationalExpert7Experience:
+          "Более 8 лет опыта в области гендерного равенства, социальной инклюзии, управления проектами и инклюзивных инициатив в водном секторе, направленных на обеспечение справедливого и устойчивого предоставления услуг.",
+
+        nationalExpert8Position:
+          "Специалист по социальному развитию и коммуникациям",
+        nationalExpert8Experience:
+          "Опыт работы в области социального развития, коммуникаций, координации проектов, исследований, взаимодействия с заинтересованными сторонами и связей с общественностью, включая проекты по развитию сообществ, гендерному равенству и образованию.",
+
+        nationalExpert9Position:
+          "Специалист по реализации и координации проектов",
+        nationalExpert9Experience:
+          "Более 18 лет опыта в области институциональных реформ, реализации проектов и координации с международными финансовыми институтами, включая поддержку сложных и устойчивых инициатив в сфере развития.",
+
+        nationalExpert10Position:
+          "Специалист по HR-стратегии и корпоративной культуре",
+        nationalExpert10Experience:
+          "Более 18 лет управленческого опыта в подборе персонала, трансформации HR-систем и организационном развитии. Помогает организациям укреплять кадровые системы и повышать вовлечённость сотрудников.",
+
+        nationalExpert11Position:
+          "Старший инженер по водоснабжению и санитарии",
+        nationalExpert11Experience:
+          "Опыт работы в развитии инфраструктуры, управлении проектами, техническом надзоре и реализации международных проектов в области водоснабжения и санитарии.",
+
+        nationalExpert12Position:
+          "Эксперт по управлению талантами и организационному развитию",
+        nationalExpert12Experience:
+          "Опыт работы в банковской сфере и микрофинансировании, специализация на управлении талантами, подборе персонала, обучении, HR-стратегии, развитии сотрудников и повышении эффективности организаций.",
+
+
         networkLabel: "НАША СЕТЬ",
+
+       
         networkTitle1: "Более широкая сеть.",
         networkTitle2: "Более сильная перспектива.",
         networkDescription:
@@ -1406,6 +1585,29 @@ ctaSectionButton: "Тамос бо мо",
         service10Description:
           "Пешбурди рушди фарогир тавассути равишҳои гендерӣ, иштироки баробар ва стратегияҳои фарогирии иҷтимоӣ.",
 
+
+        service11Title: "Трансформатсияи рақамии бахши давлатӣ",
+        service11Description:
+          "Мо трансформатсияи рақамии бахши давлатиро тавассути технологияҳои инноватсионӣ, платформаҳои ҳамгиро ва роҳҳои ҳалли муосири идоракунӣ суръат мебахшем. Мо ба муассисаҳо дар баланд бардоштани самаранокии амалиётӣ, беҳтар намудани пешниҳоди хизматрасониҳо, тақвияти қабули қарорҳо дар асоси маълумот ва ташкили низомҳои давлатии шаффофтар, устувортар ва ҷавобгӯ ба ниёзҳои ҷомеа мусоидат мекунем.",
+
+        service12Title: "Энергетика ва таъминоти нерӯи барқ",
+        service12Description:
+          "Мо роҳҳои ҳалли устувори энергетикиро тавассути банақшагирии стратегӣ, рушди самараноки инфрасохтор ва усулҳои инноватсионии идоракунии энергия пеш мебарем. Мо ба ташкили низомҳои боэътимод, устувор ва аз ҷиҳати иқтисодӣ самараноки энергетикӣ мусоидат мекунем, ки дастрасӣ ба энергияро беҳтар намуда, самаранокии амалиётиро баланд мебардоранд ва ба устувории дарозмуддати иқтисодӣ ва экологӣ саҳм мегузоранд.",
+
+        service13Title: "Низомҳо ва шабакаҳои тақсимоти нерӯи барқ",
+        service13Description:
+          "Мо тақсимоти боэътимод ва самараноки нерӯи барқро тавассути банақшагирии муосири шабакаҳо, тарҳрезии низомҳо ва беҳсозии инфрасохтор такмил медиҳем. Мо рушди низомҳои устувори барқиро дастгирӣ мекунем, ки дастрасӣ ба энергияро беҳтар намуда, самаранокии фаъолиятро баланд мебардоранд, талафотро коҳиш медиҳанд ва интиқоли бехатару устувори нерӯи барқро барои ҷомеаҳо ва саноат таъмин мекунанд.",
+
+        service14Title: "Рушди кишоварзӣ ва агробизнес",
+        service14Description:
+          "Мо рушди устувори кишоварзиро тавассути роҳҳои ҳалли инноватсионии кишоварзӣ, стратегияҳои рушди агробизнес ва такмили занҷираҳои арзиши иловашуда дастгирӣ мекунем. Мо ба баланд бардоштани ҳосилнокӣ, беҳтар намудани дастрасӣ ба бозорҳо, истифодаи самараноки захираҳо ва рушди низомҳои устувори кишоварзӣ мусоидат менамоем, ки ба рушди иқтисодӣ ва беҳтар шудани сатҳи зиндагии ҷомеаҳо саҳм мегузоранд.",
+
+        service15Title: "Рушди савдо ва коҳиш додани хавфҳо",
+        service15Description:
+          "Мо самаранокии савдоро тавассути машваратҳои стратегӣ, дастгирии риояи талаботи меъёрӣ ва роҳҳои ҳалли самараноки идоракунии хавфҳо тақвият медиҳем. Мо ба ташкилотҳо дар фаъолият дар муҳити мураккаби савдо, баланд бардоштани устувории амалиётӣ, таъмини мутобиқат ба талаботи меъёрӣ ва таҳияи стратегияҳои амалӣ барои амалиёти фаромарзии бехатар, самаранок ва устувор кӯмак мерасонем.",
+
+
+
         capacityLabel: "ТАКМИЛИ ИҚТИДОР",
         capacityTitle1: "Ҳамгироии дониш ва",
         capacityTitle2: "маҳорат",
@@ -1581,7 +1783,78 @@ ctaSectionButton: "Тамос бо мо",
           "Муҳандиси ботаҷрибаи об ва механика бо зиёда аз 12 соли таҷриба дар иҷрои зиёда аз 300 лоиҳаи инфрасохторӣ, иншооти тозакунӣ ва интиқоли об дар Шарқи Наздик ва Африқо. Узви Орденҳои муҳандисон ва меъморон буда, дар беҳсозии равандҳо, тарҳрезии системаҳо ва иҷрои лоиҳаҳои калон муваффақияти собитшуда дорад.",
         expert6Description: "",
 
+
+
+        nationalLabel: "ДАСТАИ МИЛЛИИ МО",
+        nationalTitle1: "Коршиносони",
+        nationalTitle2: "миллии мо",
+        nationalDescription:
+          "Коршиносони миллии мо бо дониши маҳаллӣ ва таҷрибаи касбӣ рушди устуворро дар саросари Тоҷикистон дастгирӣ мекунанд.",
+
+        nationalExpert1Position:
+          "Коршиноси калон оид ба ҳуқуқ ва идоракунии институтсионалӣ",
+        nationalExpert1Experience:
+          "Зиёда аз 30 соли таҷриба дар корҳои қонунгузорӣ, ислоҳоти ҳуқуқӣ, ваколатҳои институтсионалӣ ва машваратҳои стратегӣ барои дастгирии тағйироти бахши давлатӣ.",
+
+        nationalExpert2Position:
+          "Мутахассис оид ба ҳифзи муҳити зист ва масъалаҳои иҷтимоӣ",
+        nationalExpert2Experience:
+          "Зиёда аз 8 соли таҷриба дар идоракунии муҳити зист, кафолатҳои иҷтимоӣ, саломатӣ ва бехатарии экологӣ ва ҳамкорӣ бо ҷонибҳои манфиатдор.",
+
+        nationalExpert3Position:
+          "Мутахассиси калон оид ба тандурустии ҷамъиятӣ ва эпидемиология",
+        nationalExpert3Experience:
+          "Таҷриба дар назорати бемориҳои сироятӣ, таҳкими низоми тандурустӣ, таҳқиқоти тандурустии ҷамъиятӣ ва рушди иқтидор бо шарикони миллӣ ва байналмилалӣ.",
+
+        nationalExpert4Position:
+          "Мутахассиси калон оид ба ҳисоботдиҳии иҷтимоӣ, гендер ва устувории иқлимӣ",
+        nationalExpert4Experience:
+          "Зиёда аз 18 соли таҷриба дар роҳбарии ташаббусҳои иҷтимоию иқтисодӣ, гендерӣ ва устувории иқлимӣ, ки аз ҷониби Бонки Ҷаҳонӣ маблағгузорӣ мешаванд, дар саросари Тоҷикистон. Мутахассиси ҳисоботдиҳии иҷтимоӣ, сиёсати миллӣ ва сафарбарсозии ҷомеаҳо.",
+
+        nationalExpert5Position:
+          "Мутахассис оид ба идоракунии давлатӣ ва идоракунии тиҷорат",
+        nationalExpert5Experience:
+          "Таҷриба дар ҳамоҳангсозии лоиҳаҳо, рушди ташкилотӣ ва амалиёти тиҷоратӣ. Бо ташкилотҳои байналмилалӣ ва муассисаҳои таълимӣ кор кардааст ва таҳсили докториро дар соҳаи иқтисод идома медиҳад.",
+
+        nationalExpert6Position:
+          "Мутахассиси калон оид ба хизматрасониҳои коммуналӣ ва об",
+        nationalExpert6Experience:
+          "Зиёда аз 30 соли таҷриба дар хизматрасониҳои коммуналӣ, идоракунии корхонаҳои хизматрасонӣ, ислоҳоти институтсионалӣ ва барномаҳои рушд бо шарикони байналмилалӣ ва мақомоти давлатӣ.",
+
+        nationalExpert7Position:
+          "Коршинос оид ба гендер ва фарогирии иҷтимоӣ",
+        nationalExpert7Experience:
+          "Зиёда аз 8 соли таҷриба дар баробарии гендерӣ, фарогирии иҷтимоӣ, идоракунии лоиҳаҳо ва ташаббусҳои фарогир дар бахши об барои пешниҳоди одилона ва устувори хизматрасониҳо.",
+
+        nationalExpert8Position:
+          "Мутахассис оид ба рушди иҷтимоӣ ва робитаҳо",
+        nationalExpert8Experience:
+          "Таҷриба дар рушди иҷтимоӣ, робитаҳо, ҳамоҳангсозии лоиҳаҳо, таҳқиқот, ҳамкорӣ бо ҷонибҳои манфиатдор ва робита бо ҷомеа, аз ҷумла лоиҳаҳои рушди ҷомеа, баробарии гендерӣ ва маориф.",
+
+        nationalExpert9Position:
+          "Мутахассис оид ба татбиқ ва ҳамоҳангсозии лоиҳаҳо",
+        nationalExpert9Experience:
+          "Зиёда аз 18 соли таҷриба дар ислоҳоти институтсионалӣ, татбиқи лоиҳаҳо ва ҳамоҳангсозӣ бо муассисаҳои молиявии байналмилалӣ барои дастгирии ташаббусҳои мураккаб ва устувори рушд.",
+
+        nationalExpert10Position:
+          "Мутахассис оид ба стратегияи захираҳои инсонӣ ва фарҳанги корпоративӣ",
+        nationalExpert10Experience:
+          "Зиёда аз 18 соли таҷрибаи роҳбарӣ дар ҷалби кормандон, такмили низоми захираҳои инсонӣ ва рушди ташкилотӣ. Ба ташкилотҳо дар таҳкими низоми кадрӣ ва баланд бардоштани иштироки кормандон кӯмак мекунад.",
+
+        nationalExpert11Position:
+          "Муҳандиси калони обтаъминкунӣ ва санитария",
+        nationalExpert11Experience:
+          "Таҷриба дар рушди инфрасохтор, идоракунии лоиҳаҳо, назорати техникӣ ва татбиқи лоиҳаҳои байналмилалии обтаъминкунӣ ва санитария.",
+
+        nationalExpert12Position:
+          "Коршинос оид ба идоракунии истеъдодҳо ва рушди ташкилотӣ",
+        nationalExpert12Experience:
+          "Таҷриба дар соҳаҳои бонкдорӣ ва маблағгузории хурд, бо тахассус дар идоракунии истеъдодҳо, ҷалби кормандон, омӯзиш, стратегияи захираҳои инсонӣ, рушди кормандон ва самаранокии ташкилот.",
+
+
         networkLabel: "ШАБАКАИ МО",
+
+
         networkTitle1: "Шабакаи васеътар.",
         networkTitle2: "Дидгоҳи қавитар.",
         networkDescription:

@@ -54,6 +54,34 @@ function Services() {
       title: t("services.service10Title"),
       description: t("services.service10Description"),
     },
+
+    
+    {
+      number: "11",
+      title: t("services.service11Title"),
+      description: t("services.service11Description"),
+    },
+    {
+      number: "12",
+      title: t("services.service12Title"),
+      description: t("services.service12Description"),
+    },
+    {
+      number: "13",
+      title: t("services.service13Title"),
+      description: t("services.service13Description"),
+    },
+    {
+      number: "14",
+      title: t("services.service14Title"),
+      description: t("services.service14Description"),
+    },
+    {
+      number: "15",
+      title: t("services.service15Title"),
+      description: t("services.service15Description"),
+    },
+
   ];
 
   const credentials = [
@@ -248,6 +276,58 @@ function Services() {
               <h3>{services[9].title}</h3>
               <p>{services[9].description}</p>
 
+            </article>
+
+
+
+            {/* SERVICE 11 */}
+            <article className="services-expertise-card">
+              <img
+                src="/images/services/service-11-public-sector-digital-transformation.jpg"
+                alt="Public Sector Digital Transformation"
+              />
+              <h3>{services[10].title}</h3>
+              <p>{services[10].description}</p>
+            </article>
+
+            {/* SERVICE 12 */}
+            <article className="services-expertise-card">
+              <img
+                src="/images/services/service-12-power-and-energy.jpg"
+                alt="Power and Energy"
+              />
+              <h3>{services[11].title}</h3>
+              <p>{services[11].description}</p>
+            </article>
+
+            {/* SERVICE 13 */}
+            <article className="services-expertise-card">
+              <img
+                src="/images/services/service-13-electrical-distribution-networks.jpg"
+                alt="Electrical Distribution Systems and Networks"
+              />
+              <h3>{services[12].title}</h3>
+              <p>{services[12].description}</p>
+            </article>
+
+            {/* SERVICE 14 */}
+            <article className="services-expertise-card">
+              <img
+                src="/images/services/service-14-agriculture-agribusiness.jpg"
+                alt="Agriculture and Agribusiness Development"
+              />
+              <h3>{services[13].title}</h3>
+              <p>{services[13].description}</p>
+            </article>
+
+            {/* SERVICE 15 */}
+            <article className="services-expertise-card">
+              <img
+                src="/images/services/service-15-trade-facilitation-risk-mitigation.jpg"
+                alt="Trade Facilitation and Risk Mitigation Services"
+              />
+              <h3>{services[14].title}</h3>
+              <p>{services[14].description}</p>
             </article>
 
           </div>

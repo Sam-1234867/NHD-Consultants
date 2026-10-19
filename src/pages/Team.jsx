@@ -3,56 +3,98 @@ import { useTranslation } from "react-i18next";
 function Team() {
   const { t } = useTranslation();
 
-  const experts = [
+  // =========================================================
+  // NATIONAL TEAM - PHOTOS PROVIDED BY THE CLIENT
+  // =========================================================
+
+ 
+  const nationalExperts = [
     {
       number: "01",
-      name: "Mohd Masood Seediqyar",
-      image: "/images/experts/mohd-masood-seediqyar.jpg",
-      position: t("team.expert1Position"),
-      experience: t("team.expert1Experience"),
-      description: t("team.expert1Description"),
+      name: "Abdulhanon Karimov",
+      image: "/images/national team pics/abdulhanon-karimov.png",
+      position: t("team.nationalExpert1Position"),
+      experience: t("team.nationalExpert1Experience"),
     },
     {
       number: "02",
-      name: "Dr. Kelkar Padmakar Waman",
-      image: "/images/experts/kelkar-padmakar-waman.jpg",
-      position: t("team.expert2Position"),
-      experience: t("team.expert2Experience"),
-      description: t("team.expert2Description"),
+      name: "Amirshoev Siyovush",
+      image: "/images/national team pics/amirshoev-siyovush.jpg",
+      position: t("team.nationalExpert2Position"),
+      experience: t("team.nationalExpert2Experience"),
     },
     {
       number: "03",
-      name: "Thomas Bedour, B.A.",
-      image: "/images/experts/thomas-bedour.jpg",
-      position: t("team.expert3Position"),
-      experience: t("team.expert3Experience"),
-      description: t("team.expert3Description"),
+      name: "Dr. Zulfiya Tilloeva",
+      image: "/images/national team pics/zulfiya-tilloeva.png",
+      position: t("team.nationalExpert3Position"),
+      experience: t("team.nationalExpert3Experience"),
     },
     {
       number: "04",
-      name: "Dr. Sanjay Bhattacharya",
-      image: "/images/experts/sanjay-bhattacharya.jpg",
-      position: t("team.expert4Position"),
-      experience: t("team.expert4Experience"),
-      description: t("team.expert4Description"),
+      name: "Gulomshoeva Nodira",
+      image: "/images/national team pics/gulomshoeva-nodira.jpg",
+      position: t("team.nationalExpert4Position"),
+      experience: t("team.nationalExpert4Experience"),
     },
     {
       number: "05",
-      name: "Ilkhom Tashtemirov",
-      image: "/images/experts/ilkhom-tashtemirov.jpg",
-      position: t("team.expert5Position"),
-      experience: t("team.expert5Experience"),
-      description: t("team.expert5Description"),
+      name: "Komron Dadaboev",
+      image: "/images/national team pics/komron-dadaboev.png",
+      position: t("team.nationalExpert5Position"),
+      experience: t("team.nationalExpert5Experience"),
     },
     {
       number: "06",
-      name: "Mher Kelian",
-      image: "/images/experts/mher-kelian.jpg",
-      position: t("team.expert6Position"),
-      experience: t("team.expert6Experience"),
-      description: t("team.expert6Description"),
+      name: "Abdullaev Nematullo",
+      image: "/images/national team pics/nematullo.png",
+      position: t("team.nationalExpert6Position"),
+      experience: t("team.nationalExpert6Experience"),
+    },
+    {
+      number: "07",
+      name: "Nozanin Khudoieva",
+      image: "/images/national team pics/nozanin-khudoieva.png",
+      position: t("team.nationalExpert7Position"),
+      experience: t("team.nationalExpert7Experience"),
+    },
+    {
+      number: "08",
+      name: "Saidshoeva Madina",
+      image: "/images/national team pics/saidshoeva-madina.png",
+      position: t("team.nationalExpert8Position"),
+      experience: t("team.nationalExpert8Experience"),
+    },
+    {
+      number: "09",
+      name: "Shuhrat Jalilov",
+      image: "/images/national team pics/shuhrat-jalilov.jpg",
+      position: t("team.nationalExpert9Position"),
+      experience: t("team.nationalExpert9Experience"),
+    },
+    {
+      number: "10",
+      name: "Suhrob Khaitov",
+      image: "/images/national team pics/suhrob-khaitov.jpg",
+      position: t("team.nationalExpert10Position"),
+      experience: t("team.nationalExpert10Experience"),
+    },
+    {
+      number: "11",
+      name: "Suyar Yakubov",
+      image: "/images/national team pics/suyar-yakubov.png",
+      position: t("team.nationalExpert11Position"),
+      experience: t("team.nationalExpert11Experience"),
+    },
+    {
+      number: "12",
+      name: "Zebo Nazarova",
+      image: "/images/national team pics/zebo-nazarova.jpg",
+      position: t("team.nationalExpert12Position"),
+      experience: t("team.nationalExpert12Experience"),
     },
   ];
+
 
   return (
     <main>
@@ -61,216 +103,258 @@ function Team() {
          ========================================================= */}
 
       <section className="team-page-hero">
-  <div className="team-page-hero-container">
-   <p className="section-label">
-  {t("team.heroLabel")}
-</p>
+        <div className="team-page-hero-container">
+          <p className="section-label">
+            {t("team.heroLabel")}
+          </p>
 
-<h1>
-  {t("team.heroTitle1")}
-  <span>{t("team.heroTitle2")}</span>
-</h1>
+          <h1>
+            {t("team.heroTitle1")}
+            <span>{t("team.heroTitle2")}</span>
+          </h1>
 
-<p>
-  {t("team.heroDescription")}
-</p>
-  </div>
-</section>
+          <p>
+            {t("team.heroDescription")}
+          </p>
+        </div>
+      </section>
+
+      {/* =========================================================
+         NATIONAL TEAM
+         ========================================================= */}
+
+      <section className="team-main national-team-section">
+        <div className="team-main-container">
+          <div className="team-main-heading">
+            <p className="section-label">
+              {t("team.nationalLabel", {
+                defaultValue: "OUR NATIONAL TEAM",
+              })}
+            </p>
+
+            <h2>
+              {t("team.nationalTitle1", {
+                defaultValue: "Our National",
+              })}{" "}
+              <span>
+                {t("team.nationalTitle2", {
+                  defaultValue: "Experts",
+                })}
+              </span>
+            </h2>
+
+            <p>
+              {t("team.nationalDescription", {
+                defaultValue:
+                  "Our national experts bring local knowledge and professional experience to support sustainable development across Tajikistan.",
+              })}
+            </p>
+          </div>
+
+          <div className="team-grid national-team-grid">
+            {nationalExperts.map((expert) => (
+              <article className="expert-card" key={expert.number}>
+              <div className="national-expert-photo">
+  <img
+    src={expert.image}
+    alt={expert.name}
+    loading="lazy"
+  />
+</div>
+
+                <div className="expert-content">
+                  <h3>{expert.name}</h3>
+
+                  <p className="expert-role">
+                    {expert.position}
+                  </p>
+
+                  <p className="expert-experience">
+                    {expert.experience}
+                  </p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* =========================================================
          INTERNATIONAL EXPERTS
+         Existing international team preserved
          ========================================================= */}
 
       <section className="team-main">
-  <div className="team-main-container">
+        <div className="team-main-container">
+          <div className="team-main-heading">
+            <p className="section-label">
+              {t("team.mainLabel")}
+            </p>
 
-   <div className="team-main-heading">
-  <p className="section-label">
-    {t("team.mainLabel")}
-  </p>
+            <h2>
+              {t("team.mainTitle1")}
+              <span>{t("team.mainTitle2")}</span>
+            </h2>
 
-  <h2>
-    {t("team.mainTitle1")}
-    <span>{t("team.mainTitle2")}</span>
-  </h2>
+            <p>
+              {t("team.mainDescription")}
+            </p>
+          </div>
 
-  <p>
-    {t("team.mainDescription")}
-  </p>
-</div>
-    <div className="team-grid">
+          <div className="team-grid international-team-grid">
+            <article className="expert-card">
+    <img
+  className="mohd-photo"
+  src="/images/experts/mohd-masood-seediqyar-new.jpg"
+  alt="Mohd Masood Seediqyar"
+  loading="lazy"
+/>
 
-      <article className="expert-card">
-  <img
-    src="/images/experts/mohd-masood-seediqyar.jpg"
-    alt="Mohd Masood Seediqyar"
-  />
+              <div className="expert-content">
+                <h3>Mohd Masood Seediqyar</h3>
 
-  <div className="expert-content">
-    
+                <p className="expert-role">
+                  {t("team.expert1Position")}
+                </p>
 
-    <h3>
-      Mohd Masood Seediqyar
-    </h3>
+                <p className="expert-experience">
+                  {t("team.expert1Experience")}
+                </p>
+              </div>
+            </article>
 
-    <p className="expert-role">
-      {t("team.expert1Position")}
-    </p>
+            <article className="expert-card">
+         <img
+  className="kelkar-photo"
+  src="/images/experts/kelkar-padmakar-waman-new.jpg"
+  alt="Dr. Kelkar Padmakar Waman"
+  loading="lazy"
+/>
 
-    <p className="expert-experience">
-      {t("team.expert1Experience")}
-    </p>
-  </div>
-</article>
+              <div className="expert-content">
+                <h3>Dr. Kelkar Padmakar Waman</h3>
 
+                <p className="expert-role">
+                  {t("team.expert2Position")}
+                </p>
 
-      <article className="expert-card">
-  <img
-    src="/images/experts/kelkar-padmakar-waman.jpg"
-    alt="Dr. Kelkar Padmakar Waman"
-  />
+                <p className="expert-experience">
+                  {t("team.expert2Experience")}
+                </p>
+              </div>
+            </article>
 
-  <div className="expert-content">
-   
+            <article className="expert-card">
+           <img
+  src="/images/experts/thomas-bedour-new.png"
+  alt="Thomas Bedour"
+  loading="lazy"
+/>
 
-    <h3>
-      Dr. Kelkar Padmakar Waman
-    </h3>
+              <div className="expert-content">
+                <h3>Thomas Bedour, B.A.</h3>
 
-    <p className="expert-role">
-      {t("team.expert2Position")}
-    </p>
+                <p className="expert-role">
+                  {t("team.expert3Position")}
+                </p>
 
-    <p className="expert-experience">
-      {t("team.expert2Experience")}
-    </p>
-  </div>
-</article>
+                <p className="expert-experience">
+                  {t("team.expert3Experience")}
+                </p>
+              </div>
+            </article>
 
-     <article className="expert-card">
-  <img
-    src="/images/experts/thomas-bedour.jpg"
-    alt="Thomas Bedour, B.A."
-  />
+            <article className="expert-card">
+            <img
+  src="/images/experts/sanjay-bhattacharya-new.jpg"
+  alt="Dr. Sanjay Bhattacharya"
+  loading="lazy"
+/>
 
-  <div className="expert-content">
-      
+              <div className="expert-content">
+                <h3>Dr. Sanjay Bhattacharya</h3>
 
-    <h3>
-      Thomas Bedour, B.A.
-    </h3>
+                <p className="expert-role">
+                  {t("team.expert4Position")}
+                </p>
 
-    <p className="expert-role">
-      {t("team.expert3Position")}
-    </p>
+                <p className="expert-experience">
+                  {t("team.expert4Experience")}
+                </p>
+              </div>
+            </article>
 
-    <p className="expert-experience">
-      {t("team.expert3Experience")}
-    </p>
-  </div>
-</article>
+            <article className="expert-card">
+           <img
+  src="/images/experts/ilkhom-tashtemirov-new.png"
+  alt="Ilkhom Tashtemirov"
+  loading="lazy"
+/>
 
+              <div className="expert-content">
+                <h3>Ilkhom Tashtemirov</h3>
 
-     <article className="expert-card">
-  <img
-    src="/images/experts/sanjay-bhattacharya.jpg"
-    alt="Dr. Sanjay Bhattacharya"
-  />
+                <p className="expert-role">
+                  {t("team.expert5Position")}
+                </p>
 
-  <div className="expert-content">
-    
+                <p className="expert-experience">
+                  {t("team.expert5Experience")}
+                </p>
+              </div>
+            </article>
 
-    <h3>
-      Dr. Sanjay Bhattacharya
-    </h3>
+            <article className="expert-card">
+            <img
+  src="/images/experts/mher-kelian-new.png"
+  alt="Mher Kelian"
+  loading="lazy"
+/>
 
-    <p className="expert-role">
-      {t("team.expert4Position")}
-    </p>
+              <div className="expert-content">
+                <h3>Mher Kelian</h3>
 
-    <p className="expert-experience">
-      {t("team.expert4Experience")}
-    </p>
-  </div>
-</article>
+                <p className="expert-role">
+                  {t("team.expert6Position")}
+                </p>
 
+                <p className="expert-experience">
+                  {t("team.expert6Experience")}
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-     <article className="expert-card">
-  <img
-    src="/images/experts/ilkhom-tashtemirov.jpg"
-    alt="Ilkhom Tashtemirov"
-  />
-
-  <div className="expert-content">
-   
-
-    <h3>
-      Ilkhom Tashtemirov
-    </h3>
-
-    <p className="expert-role">
-      {t("team.expert5Position")}
-    </p>
-
-    <p className="expert-experience">
-      {t("team.expert5Experience")}
-    </p>
-  </div>
-</article>
-
-    <article className="expert-card">
-  <img
-    src="/images/experts/mher-kelian.jpg"
-    alt="Mher Kelian"
-  />
-
-  <div className="expert-content">
-   
-
-    <h3>
-      Mher Kelian
-    </h3>
-
-    <p className="expert-role">
-      {t("team.expert6Position")}
-    </p>
-
-    <p className="expert-experience">
-      {t("team.expert6Experience")}
-    </p>
-  </div>
-</article>
-    </div>
-  </div>
-</section>
       {/* =========================================================
          GLOBAL NETWORK
          ========================================================= */}
 
-     <section className="team-network">
-  <div className="team-network-container">
-    <div className="team-network-heading">
-      <p className="section-label">
-        {t("team.networkLabel")}
-      </p>
+      <section className="team-network">
+        <div className="team-network-container">
+          <div className="team-network-heading">
+            <p className="section-label">
+              {t("team.networkLabel")}
+            </p>
 
-      <h2>
-        {t("team.networkTitle1")}
-        <span>{t("team.networkTitle2")}</span>
-      </h2>
-    </div>
+            <h2>
+              {t("team.networkTitle1")}
+              <span>{t("team.networkTitle2")}</span>
+            </h2>
+          </div>
 
-    <div className="team-network-content">
-      <p>
-        {t("team.networkDescription")}
-      </p>
+          <div className="team-network-content">
+            <p>
+              {t("team.networkDescription")}
+            </p>
 
-      <a href="/contact" className="hero-primary-button">
-        {t("team.networkButton")}
-      </a>
-    </div>
-  </div>
-</section>
+            <a href="/contact" className="hero-primary-button">
+              {t("team.networkButton")}
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
