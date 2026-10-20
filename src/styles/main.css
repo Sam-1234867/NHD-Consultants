@@ -5983,3 +5983,65 @@ section.team-main.international-team-section {
   background: #ffffff !important;
   background-color: white !important;
 }
+
+/* HOME PAGE: INTERNATIONAL TEAM PHOTOS */
+.international-team .international-team-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+
+.international-team .international-team-grid .expert-card {
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.international-team .international-team-grid .expert-photo {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.international-team .international-team-grid .expert-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid #7b1e2b;
+  box-sizing: border-box;
+}
+
+/* HOME PAGE: INTERNATIONAL TEAM ON MOBILE */
+@media (max-width: 768px) {
+  .international-team .international-team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .international-team .international-team-grid .expert-photo {
+    width: 100%;
+    height: 220px;
+  }
+
+  .international-team .international-team-grid .expert-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .international-team .international-team-grid .expert-content {
+    min-width: 0;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+
+  .international-team .international-team-grid .expert-content h3 {
+    min-height: 0;
+    font-size: 16px;
+    overflow-wrap: anywhere;
+  }
+}
