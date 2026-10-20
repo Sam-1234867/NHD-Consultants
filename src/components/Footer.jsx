@@ -24,14 +24,18 @@ function Footer() {
           </div>
         </div>
 
-        <div className="footer-column">
-          <h3>{t("footer.company")}</h3>
-          <a href="/">{t("footer.home")}</a>
-          <a href="/about">{t("footer.about")}</a>
-          <a href="/services">{t("footer.services")}</a>
-          <a href="/news">{t("footer.news")}</a>
-          <a href="/contact">{t("footer.contact")}</a>
-        </div>
+     
+<div className="footer-column">
+  <h3>{t("footer.company")}</h3>
+  <a href="/">{t("footer.home")}</a>
+  <a href="/about">{t("footer.about")}</a>
+  <a href="/services">{t("footer.services")}</a>
+  <a href="/projects">{t("footer.projects")}</a>
+  <a href="/team">{t("footer.experts")}</a>
+  <a href="/news">{t("footer.news")}</a>
+  <a href="/contact">{t("footer.contact")}</a>
+</div>
+
 
         <div className="footer-column">
           <h3>{t("footer.expertise")}</h3>

@@ -12,14 +12,14 @@ function Team() {
     {
       number: "01",
       name: "Abdulhanon Karimov",
-      image: "/images/national team pics/abdulhanon-karimov.png",
+     image: "/images/national%20team%20pics/Abdulhanon-Karimov.png",
       position: t("team.nationalExpert1Position"),
       experience: t("team.nationalExpert1Experience"),
     },
     {
       number: "02",
       name: "Amirshoev Siyovush",
-      image: "/images/national team pics/amirshoev-siyovush.jpg",
+      image: "/images/national%20team%20pics/amirshoev-siyovush.jpg",
       position: t("team.nationalExpert2Position"),
       experience: t("team.nationalExpert2Experience"),
     },
@@ -54,7 +54,7 @@ function Team() {
     {
       number: "07",
       name: "Nozanin Khudoieva",
-      image: "/images/national team pics/nozanin-khudoieva.png",
+    image: "/images/national%20team%20pics/nozanin-khudoieva.png",
       position: t("team.nationalExpert7Position"),
       experience: t("team.nationalExpert7Experience"),
     },
@@ -68,7 +68,7 @@ function Team() {
     {
       number: "09",
       name: "Shuhrat Jalilov",
-      image: "/images/national team pics/shuhrat-jalilov.jpg",
+     image: "/images/national%20team%20pics/shuhrat-jalilov.jpeg",
       position: t("team.nationalExpert9Position"),
       experience: t("team.nationalExpert9Experience"),
     },
@@ -89,7 +89,7 @@ function Team() {
     {
       number: "12",
       name: "Zebo Nazarova",
-      image: "/images/national team pics/zebo-nazarova.jpg",
+   image: "/images/national%20team%20pics/zebo-nazarova.jpg",
       position: t("team.nationalExpert12Position"),
       experience: t("team.nationalExpert12Experience"),
     },
