@@ -12,7 +12,7 @@ function Team() {
     {
       number: "01",
       name: "Abdulhanon Karimov",
-     image: "/images/national%20team%20pics/Abdulhanon-Karimov.png",
+   image: "/images/national%20team%20pics/Abdulhanon-Karimov.png",
       position: t("team.nationalExpert1Position"),
       experience: t("team.nationalExpert1Experience"),
     },
