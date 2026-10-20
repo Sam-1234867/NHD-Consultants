@@ -119,6 +119,63 @@ function Team() {
         </div>
       </section>
 
+           {/* =========================================================
+         LEADERSHIP SPOTLIGHT
+         ========================================================= */}
+
+      
+      {/* =========================================================
+         LEADERSHIP SPOTLIGHT
+         ========================================================= */}
+
+      <section className="team-main leadership-spotlight-section">
+        <div className="team-main-container">
+          <div className="team-main-heading">
+            <p className="section-label">
+              {t("team.leadershipLabel")}
+            </p>
+
+            <h2>
+              {t("team.leadershipTitle1")}{" "}
+              <span>{t("team.leadershipTitle2")}</span>
+            </h2>
+          </div>
+
+          <article className="leadership-spotlight-card">
+            <div className="leadership-spotlight-photo">
+              <img
+                src="/images/Leadership%20pic/leadership-pic.png"
+                alt="Rayshan Tuvchizoda"
+                loading="lazy"
+              />
+            </div>
+
+            <div className="leadership-spotlight-content">
+              <h3>Rayshan Tuvchizoda</h3>
+
+              <p className="expert-role">
+                {t("team.leadershipRole")}
+              </p>
+
+              <p className="leadership-spotlight-description">
+                {t("team.leadershipDescription")}
+              </p>
+
+              <ul className="leadership-spotlight-list">
+                <li>{t("team.leadershipPoint1")}</li>
+                <li>{t("team.leadershipPoint2")}</li>
+                <li>{t("team.leadershipPoint3")}</li>
+                <li>{t("team.leadershipPoint4")}</li>
+                <li>{t("team.leadershipPoint5")}</li>
+                <li>{t("team.leadershipPoint6")}</li>
+                <li>{t("team.leadershipPoint7")}</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
       {/* =========================================================
          NATIONAL TEAM
          ========================================================= */}
@@ -184,7 +241,7 @@ function Team() {
          Existing international team preserved
          ========================================================= */}
 
-      <section className="team-main">
+     <section className="team-main international-team-section">
         <div className="team-main-container">
           <div className="team-main-heading">
           <p className="section-label international-team-label">

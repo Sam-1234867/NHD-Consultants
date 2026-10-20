@@ -4648,7 +4648,7 @@ body .about-story-container .about-story-content h2 span {
 /* NATIONAL TEAM — WHITE BACKGROUND */
 /* NATIONAL TEAM — WHITE BACKGROUND */
 section.team-main.national-team-section {
-  background-color: white !important;
+  background-color: var(--off-white) !important;
 }
 
 /* INTERNATIONAL TEAM — OFF-WHITE BACKGROUND */
@@ -5827,4 +5827,159 @@ section.team-main:not(.national-team-section) {
     transform: none !important;
     width: fit-content !important;
   }
+}
+
+/* LEADERSHIP SPOTLIGHT - PHOTO LEFT, TEXT RIGHT */
+.leadership-spotlight-card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 30px;
+}
+
+
+.leadership-spotlight-photo {
+  flex: 0 0 220px;
+  width: 220px;
+  max-width: 220px;
+  margin: 0;
+}
+
+.leadership-spotlight-photo img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+/* LEADERSHIP SPOTLIGHT - TEXT ON THE RIGHT */
+.leadership-spotlight-content {
+  flex: 1;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.leadership-spotlight-content h3 {
+  margin-top: 0;
+}
+
+.leadership-spotlight-description {
+  margin-top: 16px;
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .leadership-spotlight-card {
+    gap: 16px;
+  }
+
+  .leadership-spotlight-photo {
+    flex-basis: 130px;
+    width: 130px;
+    max-width: 130px;
+  }
+}
+
+/* LEADERSHIP SPOTLIGHT - MATCH EXISTING SECTION STYLE */
+.leadership-spotlight-section {
+  background-color: white;
+}
+
+.leadership-spotlight-section .team-main-heading h2 {
+  color: #14263d;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.leadership-spotlight-content h3 {
+  color: #14263d;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* LEADERSHIP SPOTLIGHT - NAVY BLUE TITLES */
+.leadership-spotlight-section .team-main-heading h2,
+.leadership-spotlight-content h3 {
+  color: var(--navy);
+}
+
+
+/* =========================================================
+   LEADERSHIP SPOTLIGHT — MATCH EXPERTS PAGE STYLES
+   ========================================================= */
+
+/* White section background */
+section.team-main.leadership-spotlight-section {
+  background-color: #ffffff !important;
+}
+
+/* Section title */
+.leadership-spotlight-section .team-main-heading {
+  margin-bottom: 55px;
+}
+
+.leadership-spotlight-section .team-main-heading h2 {
+  margin: 17px 0 20px;
+  color: var(--navy);
+  font-size: clamp(38px, 5vw, 62px);
+  line-height: 1.05;
+  text-align: left;
+}
+
+/* Person's name */
+.leadership-spotlight-content h3 {
+  margin: 0 0 12px;
+  color: var(--navy);
+  font-size: 21px;
+  line-height: 1.25;
+  text-align: left;
+}
+
+/* Position */
+.leadership-spotlight-content .expert-role {
+  margin: 0 0 20px;
+  color: var(--maroon);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* Description text */
+.leadership-spotlight-description {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.9;
+  text-align: justify;
+}
+
+/* LEADERSHIP SPOTLIGHT — EXPERIENCE LIST */
+.leadership-spotlight-list {
+  margin: 18px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.9;
+  text-align: justify;
+}
+
+.leadership-spotlight-list li {
+  margin-bottom: 10px;
+}
+
+/* LEADERSHIP SPOTLIGHT — MOVE PHOTO UP */
+.leadership-spotlight-photo {
+  transform: translateY(-13px);
+}
+
+
+/* INTERNATIONAL TEAM — FORCE WHITE BACKGROUND */
+section.team-main.international-team-section {
+  background: #ffffff !important;
+  background-color: white !important;
 }

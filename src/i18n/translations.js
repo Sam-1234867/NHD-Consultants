@@ -539,6 +539,38 @@ ctaSectionButton: "Contact Us",
         nationalExpert12Experience:
           "Experienced in banking and microfinance, specializing in talent management, recruitment, training, HR strategy, employee development, and organizational performance.",
 
+        leadershipLabel: "LEADERSHIP SPOTLIGHT",
+        leadershipTitle1: "Meet Our",
+        leadershipTitle2: "Leadership",
+        leadershipRole: "Partner & Owner",
+
+        leadershipDescription:
+          "A premier executive with over 25 years of distinguished leadership in municipal utilities and internationally financed infrastructure (IFI)-funded infrastructure projects. Recognized for driving strategic initiatives, delivering complex, high-impact programs, and leading multidisciplinary teams to achieve sustainable urban development and operational excellence.",
+
+        leadershipPoint1:
+          "Educated in Engineering, Economics, and Public Administration at Tajik Technical University, the Tax and Law University, and the Russian Presidential Academy of National Economy and Public Administration, he brings a multidisciplinary perspective to executive leadership and public sector transformation.",
+
+        leadershipPoint2:
+          "Former First Deputy Director General of KMK (State Municipal Holding).",
+
+        leadershipPoint3:
+          "Served directly as an esteemed cabinet member of the Government of Tajikistan.",
+
+        leadershipPoint4:
+          "Comprehensive expert in institutional restructuring, policy reform, and utility regulation under ADB, EBRD, and WB assignments.",
+
+        leadershipPoint5:
+          "Holds a degree in Petroleum Engineering with expertise in the oil and gas sector.",
+
+        leadershipPoint6:
+          "Served as a Senior Monitoring Officer for fuel station operations, overseeing quality assurance, regulatory compliance, and operational performance across a nationwide network of filling stations.",
+
+        leadershipPoint7:
+          "Extensive experience in the petroleum downstream sector, including fuel distribution, retail operations, supply chain monitoring, and compliance with industry standards.",
+
+        networkLabel: "OUR NETWORK",
+
+
 
         networkLabel: "OUR NETWORK",
 
@@ -1197,6 +1229,36 @@ ctaSectionButton: "Связаться с нами",
         nationalExpert12Experience:
           "Опыт работы в банковской сфере и микрофинансировании, специализация на управлении талантами, подборе персонала, обучении, HR-стратегии, развитии сотрудников и повышении эффективности организаций.",
 
+        leadershipLabel: "В ЦЕНТРЕ ВНИМАНИЯ — РУКОВОДСТВО",
+        leadershipTitle1: "Познакомьтесь с нашим",
+        leadershipTitle2: "руководством",
+        leadershipRole: "Партнёр и владелец",
+
+        leadershipDescription:
+          "Опытный руководитель с более чем 25-летним опытом работы в сфере муниципальных коммунальных услуг и инфраструктурных проектов, финансируемых международными финансовыми институтами. Известен разработкой стратегических инициатив, реализацией сложных программ с высоким эффектом и руководством междисциплинарными командами для достижения устойчивого городского развития и высокой операционной эффективности.",
+
+        leadershipPoint1:
+          "Получил образование в области инженерии, экономики и государственного управления в Таджикском техническом университете, Университете налогообложения и права, а также Российской академии народного хозяйства и государственной службы при Президенте РФ.",
+
+        leadershipPoint2:
+          "Ранее занимал должность первого заместителя генерального директора КМК (Государственного коммунального холдинга).",
+
+        leadershipPoint3:
+          "Непосредственно работал в качестве члена кабинета министров Правительства Таджикистана.",
+
+        leadershipPoint4:
+          "Обладает обширной экспертизой в институциональной реструктуризации, реформировании политики и регулировании коммунальных услуг в рамках проектов АБР, ЕБРР и Всемирного банка.",
+
+        leadershipPoint5:
+          "Имеет образование в области нефтяной инженерии и опыт работы в нефтегазовом секторе.",
+
+        leadershipPoint6:
+          "Работал старшим инспектором по мониторингу деятельности автозаправочных станций, контролируя обеспечение качества, соблюдение нормативных требований и операционные показатели общенациональной сети АЗС.",
+
+        leadershipPoint7:
+          "Обладает обширным опытом в секторе реализации нефтепродуктов, включая распределение топлива, розничные операции, мониторинг цепочек поставок и соблюдение отраслевых стандартов.",
+
+
 
         networkLabel: "НАША СЕТЬ",
 
@@ -1850,6 +1912,36 @@ ctaSectionButton: "Тамос бо мо",
           "Коршинос оид ба идоракунии истеъдодҳо ва рушди ташкилотӣ",
         nationalExpert12Experience:
           "Таҷриба дар соҳаҳои бонкдорӣ ва маблағгузории хурд, бо тахассус дар идоракунии истеъдодҳо, ҷалби кормандон, омӯзиш, стратегияи захираҳои инсонӣ, рушди кормандон ва самаранокии ташкилот.",
+
+        leadershipLabel: "ШИНОСОӢ БО РОҲБАРИЯТ",
+        leadershipTitle1: "Бо роҳбарияти мо",
+        leadershipTitle2: "шинос шавед",
+        leadershipRole: "Шарик ва молик",
+
+        leadershipDescription:
+          "Роҳбари варзида бо зиёда аз 25 соли таҷрибаи барҷаста дар соҳаи хизматрасониҳои коммуналии шаҳрӣ ва лоиҳаҳои инфрасохторие, ки аз ҷониби муассисаҳои байналмилалии молиявӣ маблағгузорӣ мешаванд. Ӯ бо пешбурди ташаббусҳои стратегӣ, татбиқи барномаҳои мураккабу дорои таъсири назаррас ва роҳбарии гурӯҳҳои байнисоҳавӣ барои рушди устувори шаҳрҳо ва баланд бардоштани самаранокии фаъолият маъруф аст.",
+
+        leadershipPoint1:
+          "Ӯ дар соҳаҳои муҳандисӣ, иқтисод ва идоракунии давлатӣ дар Донишгоҳи техникии Тоҷикистон, Донишгоҳи андоз ва ҳуқуқ ва Академияи президентии иқтисоди миллӣ ва идоракунии давлатии Русия таҳсил кардааст.",
+
+        leadershipPoint2:
+          "Қаблан муовини якуми директори генералӣ дар КМК (Холдинги давлатии коммуналӣ) буд.",
+
+        leadershipPoint3:
+          "Бевосита ҳамчун узви ҳайати ҳукуматии Ҳукумати Тоҷикистон хизмат кардааст.",
+
+        leadershipPoint4:
+          "Дар бозсозии сохторҳои институтсионалӣ, ислоҳоти сиёсат ва танзими хизматрасониҳои коммуналӣ дар доираи супоришҳои БОР, БАТР ва Бонки Ҷаҳонӣ таҷрибаи васеъ дорад.",
+
+        leadershipPoint5:
+          "Дараҷаи муҳандисии нафт дорад ва дар соҳаи нафту газ таҷриба дорад.",
+
+        leadershipPoint6:
+          "Ҳамчун нозири калони мониторинги фаъолияти нуқтаҳои фурӯши сӯзишворӣ кор карда, назорати сифат, риояи талаботи меъёрӣ ва самаранокии фаъолияти шабакаи умумимиллии нуқтаҳои сӯзишвориро ба уҳда дошт.",
+
+        leadershipPoint7:
+          "Дар бахши поёнии занҷираи саноати нафт, аз ҷумла тақсимоти сӯзишворӣ, фурӯши чакана, мониторинги занҷираи таъминот ва риояи стандартҳои соҳавӣ таҷрибаи васеъ дорад.",
+
 
 
         networkLabel: "ШАБАКАИ МО",
