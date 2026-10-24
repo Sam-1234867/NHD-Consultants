@@ -4558,18 +4558,23 @@ body .about-story-container .about-story-content h2 span {
 .team-grid.national-team-grid .expert-card img {
   display: block;
   width: 100% !important;
-  height: 280px !important;
-  min-height: 280px;
-  max-height: 280px;
+  height: 220px !important;
+  min-height: 220px;
+  max-height: 220px;
   object-fit: cover !important;
   object-position: center center;
   flex-shrink: 0;
 }
 
+
+
+
+
+
 /* NATIONAL TEAM: MAKE ALL PHOTO BOXES THE SAME SIZE */
 .team-grid.national-team-grid .national-expert-photo {
   width: 100%;
-  height: 280px;
+  height: 220px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -6043,5 +6048,28 @@ section.team-main.international-team-section {
     min-height: 0;
     font-size: 16px;
     overflow-wrap: anywhere;
+  }
+}
+/* PROJECTS: FIX RUSSIAN HEADING SECOND LINE ON MOBILE */
+@media (max-width: 768px) {
+  html[lang="ru"] .projects-page-hero h1 span {
+    padding-right: 20px !important;
+    box-sizing: border-box;
+  }
+}
+
+/* PROJECTS: RUSSIAN MOBILE HEADING RIGHT SPACE */
+@media (max-width: 768px) {
+  html[lang="ru"] .projects-page-hero h1 {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-right: 12px !important;
+    overflow-wrap: anywhere;
+  }
+
+  html[lang="ru"] .projects-page-hero h1 span {
+    max-width: 100%;
+    box-sizing: border-box;
   }
 }

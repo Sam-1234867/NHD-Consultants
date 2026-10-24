@@ -54,47 +54,47 @@ function Home() {
   ];
 
   const internationalExperts = [
-    {
+{
   number: "01",
   name: "Mohd Masood Seediqyar",
   position: t("team.expert1Position"),
   experience: t("team.expert1Experience"),
-  image: "mohd-masood-seediqyar-new.jpg",
+image: "../international%202/Our%20International%20Team%20Mohd.%20Masood%20Seediqyar.png",
 },
     {
   number: "02",
   name: "Dr. Kelkar Padmakar Waman",
   position: t("team.expert2Position"),
   experience: t("team.expert2Experience"),
-  image: "kelkar-padmakar-waman-new.jpg",
+image: "../international%202/Our%20International%20TeamDr.%20Kelkar%20Padmakar%20Waman.png",
 },
    {
   number: "03",
   name: "Thomas Bedour, B.A.",
   position: t("team.expert3Position"),
   experience: t("team.expert3Experience"),
-  image: "thomas-bedour-new.png",
+image: "Our International Team Thomas Bedour, B.A.png",
 },
 {
   number: "04",
   name: "Dr. Sanjay Bhattacharya",
   position: t("team.expert4Position"),
   experience: t("team.expert4Experience"),
-  image: "sanjay-bhattacharya-new.jpg",
+image: "../international%202/Our%20International%20Team%20Dr.%20Sanjay%20Bhattacharya.png",
 },
    {
   number: "05",
   name: "Ilkhom Tashtemirov",
   position: t("team.expert5Position"),
   experience: t("team.expert5Experience"),
-  image: "ilkhom-tashtemirov-new.png",
+image: "../international%202/Our%20International%20TeamIlkhom%20Tashtemirov.png",
 },
    {
   number: "06",
   name: "Mher Kelian",
   position: t("team.expert6Position"),
   experience: t("team.expert6Experience"),
-  image: "mher-kelian-new.png",
+ image: "../international%202/Our%20International%20Team%20Mher%20Kelian.png",
 },
   ];
 
@@ -395,7 +395,7 @@ function Home() {
           <div className="expert-photo">
 
             <img
-              src={`/images/experts/${expert.image}`}
+        src={`/images/experts/${expert.image}`}
               alt={expert.name}
             />
 

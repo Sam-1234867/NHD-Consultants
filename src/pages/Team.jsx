@@ -12,84 +12,84 @@ function Team() {
     {
       number: "01",
       name: "Abdulhanon Karimov",
-   image: "/images/national%20team%20pics/Abdulhanon-Karimov.png",
+   image: "/images/natioanl%201/Our%20National%20Team%20Abdulhanon%20Karimov%20%20.png",
       position: t("team.nationalExpert1Position"),
       experience: t("team.nationalExpert1Experience"),
     },
     {
       number: "02",
       name: "Amirshoev Siyovush",
-      image: "/images/national%20team%20pics/amirshoev-siyovush.jpg",
+   image: "/images/natioanl%201/Our%20National%20Team%20Amirshoev%20Siyovush.png",
       position: t("team.nationalExpert2Position"),
       experience: t("team.nationalExpert2Experience"),
     },
     {
       number: "03",
       name: "Dr. Zulfiya Tilloeva",
-      image: "/images/national team pics/zulfiya-tilloeva.png",
+     image: "/images/natioanl%201/Our%20National%20Team%20Dr.%20Zulfiya%20Tilloeva.png",
       position: t("team.nationalExpert3Position"),
       experience: t("team.nationalExpert3Experience"),
     },
     {
       number: "04",
       name: "Gulomshoeva Nodira",
-      image: "/images/national team pics/gulomshoeva-nodira.jpg",
+      image: "/images/natioanl%201/Our%20National%20Team%20Gulomshoeva%20Nodira.png",
       position: t("team.nationalExpert4Position"),
       experience: t("team.nationalExpert4Experience"),
     },
     {
       number: "05",
       name: "Komron Dadaboev",
-      image: "/images/national team pics/komron-dadaboev.png",
+    image: "/images/natioanl%201/Our%20National%20Team%20Komron%20Dadaboev%20.png",
       position: t("team.nationalExpert5Position"),
       experience: t("team.nationalExpert5Experience"),
     },
     {
       number: "06",
       name: "Abdullaev Nematullo",
-      image: "/images/national team pics/nematullo.png",
+    image: "/images/natioanl%201/Our%20National%20Team%20Namatulla.png",
       position: t("team.nationalExpert6Position"),
       experience: t("team.nationalExpert6Experience"),
     },
     {
       number: "07",
       name: "Nozanin Khudoieva",
-    image: "/images/national%20team%20pics/nozanin-khudoieva.png",
+    image: "/images/natioanl%201/Our%20National%20Team%20Nozanin%20Khudoieva.png",
       position: t("team.nationalExpert7Position"),
       experience: t("team.nationalExpert7Experience"),
     },
     {
       number: "08",
       name: "Saidshoeva Madina",
-      image: "/images/national team pics/saidshoeva-madina.png",
+  image: "/images/natioanl%201/Our%20National%20Team%20Saidshoeva%20Madina.png",
       position: t("team.nationalExpert8Position"),
       experience: t("team.nationalExpert8Experience"),
     },
     {
       number: "09",
       name: "Shuhrat Jalilov",
-     image: "/images/national%20team%20pics/shuhrat-jalilov.jpeg",
+   image: "/images/natioanl%201/Our%20National%20Team%20Shuhrat%20Jalilov.png",
       position: t("team.nationalExpert9Position"),
       experience: t("team.nationalExpert9Experience"),
     },
     {
       number: "10",
       name: "Suhrob Khaitov",
-      image: "/images/national team pics/suhrob-khaitov.jpg",
+image: "/images/natioanl%201/Our%20National%20Team%20Suhrob%20Khaitov.png",
       position: t("team.nationalExpert10Position"),
       experience: t("team.nationalExpert10Experience"),
     },
     {
       number: "11",
       name: "Suyar Yakubov",
-      image: "/images/national team pics/suyar-yakubov.png",
+      image: "/images/natioanl%201/Our%20National%20Team%20Suyar%20Yakubov.png",
       position: t("team.nationalExpert11Position"),
       experience: t("team.nationalExpert11Experience"),
     },
     {
       number: "12",
       name: "Zebo Nazarova",
-   image: "/images/national%20team%20pics/zebo-nazarova.jpg",
+  image: "/images/natioanl%201/Our%20National%20Team%20Zebo%20Nazarova.png",
       position: t("team.nationalExpert12Position"),
       experience: t("team.nationalExpert12Experience"),
     },
@@ -262,11 +262,10 @@ function Team() {
             <article className="expert-card">
 <img
   className="mohd-photo"
-  src="/images/experts/international%20pics%20edit/mohd-masood-seediqyar-new-edit.jpg"
+  src="/images/international%202/Our%20International%20Team%20Mohd.%20Masood%20Seediqyar.png"
   alt="Mohd Masood Seediqyar"
   loading="lazy"
 />
-
               <div className="expert-content">
                 <h3>Mohd Masood Seediqyar</h3>
 
@@ -281,9 +280,9 @@ function Team() {
             </article>
 
             <article className="expert-card">
- <img
+<img
   className="kelkar-photo"
-  src="/images/experts/international%20pics%20edit/kelkar-padmakar-waman-new-edit.jpg"
+  src="/images/international%202/Our%20International%20TeamDr.%20Kelkar%20Padmakar%20Waman.png"
   alt="Dr. Kelkar Padmakar Waman"
   loading="lazy"
 />
@@ -302,8 +301,8 @@ function Team() {
             </article>
 
             <article className="expert-card">
-     <img
-  src="/images/experts/international%20pics%20edit/thomas-bedour-new-edit.png"
+<img
+  src="/images/international%202/Our%20International%20Team%20Thomas%20Bedour,%20B.A.png"
   alt="Thomas Bedour"
   loading="lazy"
 />
@@ -322,12 +321,11 @@ function Team() {
             </article>
 
             <article className="expert-card">
-   <img
-  src="/images/experts/international%20pics%20edit/sanjay-bhattacharya-new-edit.jpg"
+  <img
+  src="/images/international%202/Our%20International%20Team%20Dr.%20Sanjay%20Bhattacharya.png"
   alt="Dr. Sanjay Bhattacharya"
   loading="lazy"
 />
-
               <div className="expert-content">
                 <h3>Dr. Sanjay Bhattacharya</h3>
 
@@ -342,8 +340,8 @@ function Team() {
             </article>
 
             <article className="expert-card">
-   <img
-  src="/images/experts/international%20pics%20edit/ilkhom-tashtemirov-new-edit.png"
+<img
+  src="/images/international%202/Our%20International%20TeamIlkhom%20Tashtemirov.png"
   alt="Ilkhom Tashtemirov"
   loading="lazy"
 />
@@ -361,12 +359,11 @@ function Team() {
             </article>
 
             <article className="expert-card">
-    <img
-  src="/images/experts/international%20pics%20edit/mher-kelian-new-edit.png"
+<img
+  src="/images/international%202/Our%20International%20Team%20Mher%20Kelian.png"
   alt="Mher Kelian"
   loading="lazy"
 />
-
               <div className="expert-content">
                 <h3>Mher Kelian</h3>
 
