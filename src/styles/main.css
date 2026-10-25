@@ -6659,3 +6659,26 @@ section.team-main.international-team-section {
     box-sizing: border-box !important;
   }
 }
+
+/* EXPERTS PAGE: FIX NATIONAL AND INTERNATIONAL PARAGRAPH OVERFLOW */
+@media (min-width: 769px) and (max-width: 1400px) {
+  .team-main-heading > p.team-section-description {
+    display: block !important;
+    width: 100% !important;
+    max-width: 780px !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+  }
+}
+
+/* EXPERTS PAGE — DESCRIPTION ONLY TURNS WHITE ON HOVER */
+.team-grid .expert-card:hover .expert-content .expert-experience {
+  color: #ffffff !important;
+}
