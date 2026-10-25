@@ -40,7 +40,7 @@ function Team() {
     {
       number: "05",
       name: "Komron Dadaboev",
-    image: "/images/natioanl%201/Our%20National%20Team%20Komron%20Dadaboev%20.png",
+image: "/images/natioanl%201/Our%20National%20Team%20Komron%20Dadaboev%20.png.png",
       position: t("team.nationalExpert5Position"),
       experience: t("team.nationalExpert5Experience"),
     },
@@ -92,6 +92,13 @@ image: "/images/natioanl%201/Our%20National%20Team%20Suhrob%20Khaitov.png",
   image: "/images/natioanl%201/Our%20National%20Team%20Zebo%20Nazarova.png",
       position: t("team.nationalExpert12Position"),
       experience: t("team.nationalExpert12Experience"),
+    },
+     {
+      number: "13",
+      name: "Ismina Davlatova",
+      image: "/images/natioanl%201/ismina-davlatova.png",
+      position: t("team.nationalExpert13Position"),
+      experience: t("team.nationalExpert13Experience"),
     },
   ];
 
@@ -210,7 +217,11 @@ image: "/images/natioanl%201/Our%20National%20Team%20Suhrob%20Khaitov.png",
 
           <div className="team-grid national-team-grid">
             {nationalExperts.map((expert) => (
-              <article className="expert-card" key={expert.number}>
+             <article
+  className="expert-card"
+  key={expert.number}
+  style={expert.name === "Ismina Davlatova" ? { paddingBottom: "15px" } : {}}
+>
               <div className="national-expert-photo">
   <img
     src={expert.image}

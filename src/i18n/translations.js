@@ -539,6 +539,12 @@ ctaSectionButton: "Contact Us",
         nationalExpert12Experience:
           "Experienced in banking and microfinance, specializing in talent management, recruitment, training, HR strategy, employee development, and organizational performance.",
 
+
+          nationalExpert13Position:
+  "Senior AI & Digital Communications Specialist",
+
+nationalExpert13Experience:
+  "She has over 4 years of expertise in AI-generated video, visual branding, and social media campaigns. Holding a Master’s in Graphic and Interior Design and a Bachelor’s in International Trade, she specializes in public awareness campaigns, visual storytelling, and digital tools training. As the Founder of LOCAL.DIGITALL, she is well-positioned to support donor-funded initiatives through impactful project communications and public outreach.",
         leadershipLabel: "LEADERSHIP SPOTLIGHT",
         leadershipTitle1: "Meet Our",
         leadershipTitle2: "Leadership",
@@ -1231,6 +1237,12 @@ ctaSectionButton: "Связаться с нами",
         nationalExpert12Experience:
           "Опыт работы в банковской сфере и микрофинансировании, специализация на управлении талантами, подборе персонала, обучении, HR-стратегии, развитии сотрудников и повышении эффективности организаций.",
 
+
+          nationalExpert13Position:
+  "Старший специалист по ИИ и цифровым коммуникациям",
+
+nationalExpert13Experience:
+  "Имеет более 4 лет опыта в создании видео с использованием ИИ, визуальном брендинге и кампаниях в социальных сетях. Имеет степень магистра в области графического и интерьерного дизайна и степень бакалавра в области международной торговли. Специализируется на кампаниях по повышению общественной осведомлённости, визуальном сторителлинге и обучении работе с цифровыми инструментами. Как основатель LOCAL.DIGITALL, она обладает необходимыми навыками для поддержки инициатив, финансируемых донорами, посредством эффективных коммуникаций по проектам и работы с общественностью.",
         leadershipLabel: "В ЦЕНТРЕ ВНИМАНИЯ — РУКОВОДСТВО",
         leadershipTitle1: "Познакомьтесь с нашим",
         leadershipTitle2: "руководством",
@@ -1916,7 +1928,13 @@ ctaSectionButton: "Тамос бо мо",
           "Коршинос оид ба идоракунии истеъдодҳо ва рушди ташкилотӣ",
         nationalExpert12Experience:
           "Таҷриба дар соҳаҳои бонкдорӣ ва маблағгузории хурд, бо тахассус дар идоракунии истеъдодҳо, ҷалби кормандон, омӯзиш, стратегияи захираҳои инсонӣ, рушди кормандон ва самаранокии ташкилот.",
+  
 
+          nationalExpert13Position:
+  "Мутахассиси калон оид ба зеҳни сунъӣ ва коммуникатсияҳои рақамӣ",
+
+nationalExpert13Experience:
+  "Ӯ зиёда аз 4 сол таҷрибаи корӣ дар таҳияи видеоҳо бо истифода аз зеҳни сунъӣ, брендинги визуалӣ ва маъракаҳои шабакаҳои иҷтимоӣ дорад. Ӯ соҳиби дараҷаи магистр дар соҳаи дизайни графикӣ ва интерьер ва дараҷаи бакалавр дар соҳаи тиҷорати байналмилалӣ мебошад. Самтҳои тахассусии ӯ маъракаҳои баланд бардоштани огоҳии ҷомеа, ҳикоягӯии визуалӣ ва омӯзиши истифодаи воситаҳои рақамиро дар бар мегиранд. Ҳамчун муассиси LOCAL.DIGITALL, ӯ метавонад ташаббусҳои маблағгузоришаванда аз ҷониби донорҳоро тавассути иртиботи муассири лоиҳавӣ ва робита бо ҷомеа дастгирӣ намояд.",
         leadershipLabel: "ШИНОСОӢ БО РОҲБАРИЯТ",
         leadershipTitle1: "Бо роҳбарияти мо",
         leadershipTitle2: "шинос шавед",

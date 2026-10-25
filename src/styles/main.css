@@ -1042,8 +1042,7 @@ justify-content: flex-start;
 .international-team-grid .expert-photo img {
   width: 100%;
   height: 100%;
-
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .international-team-grid .expert-content {
@@ -6071,5 +6070,592 @@ section.team-main.international-team-section {
   html[lang="ru"] .projects-page-hero h1 span {
     max-width: 100%;
     box-sizing: border-box;
+  }
+}
+
+
+
+
+/* EXPERT CARDS — REMOVE EXTRA INTERNAL SPACING */
+
+.team-grid .expert-content {
+  padding: 16px !important;
+}
+
+/* Reduce space below the expert name */
+.team-grid .expert-content h3 {
+  min-height: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 5px !important;
+}
+
+/* Reduce space below the job title */
+.team-grid .expert-role {
+  min-height: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+}
+
+/* Remove extra space around the description */
+.team-grid .expert-description,
+.team-grid .expert-experience {
+  min-height: 0 !important;
+  height: auto !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  line-height: 1.6 !important;
+}
+
+/* EXPERT CARDS — SMALL SPACE ABOVE NAMES */
+
+.team-grid .expert-content h3 {
+  margin-top: 8px !important;
+}
+
+
+/* REDUCE EMPTY SPACE BELOW EXPERT CARD CONTENT */
+.team-grid .expert-card {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.team-grid .expert-content {
+  height: auto !important;
+  min-height: 0 !important;
+  padding-bottom: 6px !important;
+}
+
+.team-grid .expert-experience,
+.team-grid .expert-description {
+  min-height: 0 !important;
+  height: auto !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+
+
+
+/* INTERNATIONAL TEAM: PHOTO LEFT, TEXT RIGHT */
+.team-grid.international-team-grid .expert-card {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+  text-align: left !important;
+  height: auto !important;
+  min-height: 280px;
+  overflow: hidden;
+}
+
+.team-grid.international-team-grid .expert-card > img {
+  width: 220px !important;
+  min-width: 220px !important;
+  max-width: 220px !important;
+  height: 280px !important;
+  min-height: 280px !important;
+  max-height: 280px !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+}
+
+.team-grid.international-team-grid .expert-card .expert-content {
+  flex: 1 !important;
+  min-width: 0 !important;
+  padding: 20px !important;
+  text-align: left !important;
+  align-self: center;
+}
+
+/* INTERNATIONAL TEAM: MOBILE LAYOUT */
+@media (max-width: 768px) {
+  .team-grid.international-team-grid .expert-card {
+    flex-direction: column !important;
+  }
+
+  .team-grid.international-team-grid .expert-card > img {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    height: 280px !important;
+    object-fit: contain !important;
+  }
+}
+
+/* INTERNATIONAL TEAM: FIT PHOTOS TO MAROON BORDERS */
+.team-grid.international-team-grid .expert-card > img {
+  width: 220px !important;
+  min-width: 220px !important;
+  max-width: 220px !important;
+  height: 280px !important;
+  min-height: 280px !important;
+  max-height: 280px !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  border: 3px solid #7b1e2b !important;
+  box-sizing: border-box !important;
+  display: block !important;
+  flex-shrink: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .team-grid.international-team-grid .expert-card > img {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    height: 280px !important;
+    object-fit: cover !important;
+  }
+}
+
+/* INTERNATIONAL TEAM: KEEP FULL PORTRAITS AND TEXT VISIBLE ON MOBILE */
+@media (max-width: 768px) {
+  .team-grid.international-team-grid .expert-card {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  .team-grid.international-team-grid .expert-card > img {
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    height: 280px !important;
+    min-height: 280px !important;
+    max-height: 280px !important;
+    object-fit: contain !important;
+    object-position: center center !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+  }
+
+  .team-grid.international-team-grid .expert-card .expert-content {
+    display: block !important;
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
+    padding: 20px !important;
+    text-align: left !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* INTERNATIONAL TEAM: MOBILE PHOTO FRAME */
+@media (max-width: 768px) {
+  .team-grid.international-team-grid .expert-card > img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+ object-position: center 33% !important;
+   object-fit: contain !important;
+  object-position: center 33% !important;
+    transform: none !important;
+    border: 3px solid #7b1e2b !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* INTERNATIONAL TEAM: ALIGN ALL TITLES AT THE SAME HEIGHT */
+.team-grid.international-team-grid .expert-card .expert-content {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-self: stretch !important;
+  text-align: left !important;
+}
+
+.team-grid.international-team-grid .expert-card .expert-content h3 {
+  margin-top: 0 !important;
+}
+
+/* NATIONAL TEAM: ADD A LITTLE SPACE ABOVE TEXT */
+.team-grid.national-team-grid .expert-card .expert-content {
+  padding-top: 20px !important;
+  box-sizing: border-box !important;
+}
+
+
+
+
+
+/* OUR NETWORK: FIX TAJIK TEXT ALIGNMENT ON MOBILE */
+@media (max-width: 768px) {
+  .team-network-container {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 24px !important;
+  }
+
+  .team-network-heading,
+  .team-network-heading .section-label,
+  .team-network-heading h2,
+  .team-network-content,
+  .team-network-content p {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: left !important;
+    box-sizing: border-box !important;
+  }
+
+  .team-network-heading h2 {
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+  }
+
+  .team-network {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+
+
+/* EXPERTS PAGE: USE MORE TABLET SCREEN WIDTH */
+@media (min-width: 769px) and (max-width: 1400px) {
+  .team-page-hero,
+  .team-main,
+  .team-network {
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+  }
+
+  .team-page-hero-container,
+  .team-main-container,
+  .team-network-container {
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .team-grid {
+    width: 100% !important;
+  }
+}
+
+/* NATIONAL TEAM: SHOW FULL PHOTO ON IPAD MINI */
+@media (max-width: 768px) {
+  .team-grid.national-team-grid .national-expert-photo {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  .team-grid.national-team-grid .national-expert-photo img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    transform: none !important;
+  }
+}
+
+
+
+
+/* =========================================================
+   EXPERTS PAGE — TABLET PARAGRAPH RIGHT SPACING FIX
+   English: Hero paragraph only
+   Russian: Hero, National Team, International Team paragraphs
+   ========================================================= */
+
+@media (min-width: 769px) and (max-width: 1400px) {
+
+  /* FIRST SECTION — HERO PARAGRAPH */
+  .team-page-hero-container > p.team-section-description {
+    width: calc(100% - 24px) !important;
+    max-width: calc(100% - 24px) !important;
+    margin-right: 24px !important;
+    box-sizing: border-box !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  /* NATIONAL AND INTERNATIONAL TEAM PARAGRAPHS */
+  .team-main .team-section-description {
+    max-width: calc(100% - 24px) !important;
+    box-sizing: border-box !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  /* RUSSIAN — ALL THREE SECTION PARAGRAPHS */
+  html[lang="ru"] .team-page-hero-container > p.team-section-description,
+  html[lang="ru"] .team-main .team-section-description {
+    width: calc(100% - 24px) !important;
+    max-width: calc(100% - 24px) !important;
+    margin-right: 24px !important;
+    box-sizing: border-box !important;
+    overflow-wrap: anywhere !important;
+  }
+}
+
+/* NEWS PAGE — MOBILE TEXT RIGHT SPACING */
+@media (max-width: 768px) {
+  .news-empty {
+    grid-template-columns: minmax(0, 1fr) !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .news-empty > div {
+    min-width: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .news-empty .news-category,
+  .news-empty h3,
+  .news-empty > div > p:last-child {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-wrap: break-word;
+  }
+}
+
+/* NEWS PAGE — SDG DESCRIPTION ALIGNMENT ON MOBILE */
+@media (max-width: 768px) {
+  .news-empty > div > p:last-child {
+    text-align: justify !important;
+  }
+}
+
+/* NEWS PAGE — SDG TEXT OVERFLOW FIX FOR TABLETS */
+@media (min-width: 769px) and (max-width: 1400px) {
+  .news-empty {
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 20px;
+    box-sizing: border-box;
+    min-width: 0;
+  }
+
+  .news-empty > div {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    box-sizing: border-box;
+  }
+
+  .news-empty h3,
+  .news-empty > div > p:last-child {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+  }
+
+  .news-empty > div > p:last-child {
+    text-align: justify;
+  }
+}
+
+/* NEWS PAGE — SDG DESCRIPTION FITS INSIDE TABLET CARD */
+@media (min-width: 769px) and (max-width: 1400px) {
+  .news-empty > div > p:last-child {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+    box-sizing: border-box !important;
+    text-align: justify !important;
+  }
+}
+
+.news-heading p {
+  max-width: 1150px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  text-align: justify !important;
+  overflow-wrap: anywhere !important;
+}
+
+
+
+
+
+
+
+
+/* NEWS HEADING — PARAGRAPH RIGHT-SIDE OVERFLOW FIX */
+.news-heading > p:last-child {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  padding: 0 16px 0 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  word-break: normal !important;
+  text-align: justify !important;
+}
+
+/* NEWS MAIN HEADING — ALIGN BOTH LINES FROM THE LEFT */
+@media (max-width: 768px) {
+  section.news-main .news-heading h2 {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-right: 20px !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+    overflow-wrap: anywhere !important;
+    text-align: left !important;
+  }
+
+  section.news-main .news-heading h2 span {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    box-sizing: border-box !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    text-align: left !important;
+  }
+}
+
+/* CONTACT PAGE — HERO PARAGRAPH MOBILE ALIGNMENT */
+@media (max-width: 768px) {
+  .contact-page-hero-container > p:last-child {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding-right: 16px !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+    text-align: justify !important;
+  }
+}
+
+/* PROJECTS CTA — MOBILE RIGHT-SIDE ALIGNMENT FIX */
+@media (max-width: 768px) {
+  .projects-cta-container {
+    width: calc(100% - 30px) !important;
+    max-width: 850px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+    min-width: 0 !important;
+  }
+
+  .projects-cta-container h2,
+  .projects-cta-container > p:not(.section-label) {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+  }
+
+  .projects-cta-container h2 {
+    text-align: center !important;
+  }
+
+  .projects-cta-container > p:not(.section-label) {
+    text-align: justify !important;
+  }
+
+  .projects-cta-container .hero-primary-button {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* SERVICES SDG — MOBILE RIGHT-SIDE OVERFLOW FIX */
+@media (max-width: 768px) {
+  .services-sdg-heading,
+  .services-sdg-heading h2,
+  .services-sdg-heading h2 span,
+  .services-sdg-heading > p:last-child {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .services-sdg-heading h2,
+  .services-sdg-heading h2 span {
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+  }
+
+  .services-sdg-grid {
+    grid-template-columns: 1fr !important;
+    min-width: 0 !important;
+  }
+
+  .services-sdg-grid > div {
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .services-sdg-grid h3,
+  .services-sdg-grid p {
+    max-width: 100% !important;
+    overflow-wrap: anywhere !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* ABOUT CTA — MOBILE HEADING OVERFLOW FIX */
+@media (max-width: 768px) {
+  .about-cta-container {
+    width: calc(100% - 30px) !important;
+    max-width: 850px !important;
+    min-width: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .about-cta-container h2,
+  .about-cta-container h2 span {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+  }
+
+  .about-cta-container > p:not(.section-label) {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .about-cta-container .hero-primary-button {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 }
