@@ -32,6 +32,7 @@ const changeLanguage = (language) => {
 src="/images/logo/nhd-new-logo.png"
   alt="NHD Consultants"
   className="navbar-logo"
+  
 />
         </a>
 

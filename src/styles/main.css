@@ -6682,3 +6682,13 @@ section.team-main.international-team-section {
 .team-grid .expert-card:hover .expert-content .expert-experience {
   color: #ffffff !important;
 }
+
+
+/* INCREASE NHD NAVBAR LOGO SIZE */
+.navbar-logo {
+  width: 75px !important;
+  height: auto !important;
+  max-width: none !important;
+  object-fit: contain;
+  display: block;
+}
