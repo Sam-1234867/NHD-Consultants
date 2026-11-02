@@ -50,6 +50,14 @@ function Footer() {
           <p>{t("footer.companyName")}</p>
           <p>{t("footer.country")}</p>
 
+
+            <img
+    src="/images/logo/nhd-building.png"
+    alt="NHD Consultants building"
+     width="170"
+      height="auto"
+  />
+
           <a href="/contact" className="footer-link">
             {t("footer.contactNhd")}
           </a>

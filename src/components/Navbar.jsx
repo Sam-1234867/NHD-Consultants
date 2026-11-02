@@ -29,7 +29,7 @@ const changeLanguage = (language) => {
         {/* BRAND */}
         <a href="/" className="navbar-brand" onClick={closeMenu}>
          <img
-  src="/images/logo/nhd%20logo.jpg"
+src="/images/logo/nhd-new-logo.png"
   alt="NHD Consultants"
   className="navbar-logo"
 />
